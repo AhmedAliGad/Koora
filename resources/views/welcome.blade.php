@@ -30,13 +30,16 @@
                         <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Login</a>
 
                         @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register   </a>
+                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register </a>
+
+
                         @endif
                     @endauth
                 </div>
             @endif
 
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
+                ddddddd
                 <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
                     <svg viewBox="0 0 651 192" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-auto h-16 text-gray-700 sm:h-20">
                         <g clip-path="url(#clip0)" fill="#EF3B2D">
