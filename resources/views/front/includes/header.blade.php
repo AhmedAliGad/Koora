@@ -1,4 +1,4 @@
- <header id="fixed_nav" class="header fixed_nav py-2">
+ <header id="fixed_nav" class="header fixed_nav py-3">
     <div class="hero-head">
         <div class="container">
             <nav class="navbar">

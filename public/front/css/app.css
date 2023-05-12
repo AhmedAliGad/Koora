@@ -15616,6 +15616,11 @@ a:focus {
   cursor: default;
 }
 
+.title {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
 /*------layouts-----------*/
 /*-------------header---------*/
 .header {
@@ -15630,6 +15635,16 @@ a:focus {
 .header .navbar .navbar-item {
   display: inline-block;
   padding: 1rem 0.75rem 1rem;
+}
+
+/*-----------footer-------*/
+.footer {
+  padding: 3rem 1.5rem;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(47, 46, 44) 36%);
+}
+.footer ul li {
+  margin-bottom: 0.8rem;
 }
 
 /*@import 'layouts/pages';*/
