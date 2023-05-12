@@ -1,0 +1,15 @@
+body{
+	font-size: 15px;
+	background-color: $body-bg;
+	direction: rtl;
+	text-align: right;
+	font-family: 'Cairo', sans-serif;
+}
+a{
+	&:focus{
+		outline: none;
+	}
+}
+.no-pointer{
+	cursor: default;
+}

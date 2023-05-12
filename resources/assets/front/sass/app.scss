@@ -1,8 +1,24 @@
-@tailwind base;
+// Variables
+@import 'variables';
 
-@tailwind components;
-
-@import "includes/plugins";
-@import "includes/custom";
-
-@tailwind utilities;
+// bulma
+@import '~bulma';
+/*--------plugins-------*/
+@import '~hover.css/scss/hover.scss';
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme';
+@import '~animate.css/animate.css';
+@import '~bulma-extensions/bulma-pageloader/src/sass/index.sass';
+/*@import '~bulma-extensions/bulma-checkradio/src/sass/index.sass';*/
+@import '~sweetalert2/dist/sweetalert2.min.css';
+@import '~vue-ctk-date-time-picker/dist/vue-ctk-date-time-picker.css';
+/*-----general------------*/
+@import 'general/general';
+@import 'general/icons.css';
+/*------layouts-----------*/
+@import 'layouts/home';
+/*@import 'layouts/pages';*/
+/*--------Direction-------*/
+/*@import 'general/rtl';
+*//*------------responsive-------*/
+/*@import 'general/responsive_ar';*/

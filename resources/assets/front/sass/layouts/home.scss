@@ -1,0 +1,16 @@
+/*-------------header---------*/
+.header{
+	background-color: $secondary;
+	.navbar{
+		background-color: transparent;
+		.logo{
+			img{
+			max-height: 3.1rem;
+			}
+		}
+		.navbar-item {
+			display: inline-block;
+			padding:1rem 0.75rem 1rem;
+		}
+	}
+}

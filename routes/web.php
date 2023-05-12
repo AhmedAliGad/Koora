@@ -12,8 +12,12 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/', function () {
+    return view('front/welcome');
+})->name('landing');
 
-Route::view('/', 'welcome');
+
+// Route::view('/', 'welcome');
 Route::redirect('/home', '/dashboard');
 Route::view('privacy-policy', 'privacy-policy')->name('privacy-policy');
 

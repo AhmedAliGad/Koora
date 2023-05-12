@@ -1,0 +1,127 @@
+@font-face {
+  font-family: 'heraj';
+  src:  url('/fonts/icons/heraj.eot?53j8uw');
+  src:  url('/fonts/icons/heraj.eot?53j8uw#iefix') format('embedded-opentype'),
+    url('/fonts/icons/heraj.ttf?53j8uw') format('truetype'),
+    url('/fonts/icons/heraj.woff?53j8uw') format('woff'),
+    url('/fonts/icons/heraj.svg?53j8uw#heraj') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+
+[class^="icon_"], [class*=" icon_"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'heraj' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon_car-search:before {
+  content: "\e920";
+}
+.icon_brand:before {
+  content: "\e900";
+}
+.icon_contact:before {
+  content: "\e91f";
+}
+.icon_car:before {
+  content: "\e901";
+}
+.icon_truck:before {
+  content: "\e902";
+}
+.icon_breakdown:before {
+  content: "\e903";
+}
+.icon_tow:before {
+  content: "\e904";
+}
+.icon_breakdown1:before {
+  content: "\e905";
+}
+.icon_car-key:before {
+  content: "\e906";
+}
+.icon_car-lift:before {
+  content: "\e907";
+}
+.icon_maintenance:before {
+  content: "\e908";
+}
+.icon_car-park:before {
+  content: "\e909";
+}
+.icon_sensor:before {
+  content: "\e90a";
+}
+.icon_car1:before {
+  content: "\e90b";
+}
+.icon_car-wash:before {
+  content: "\e90c";
+}
+.icon_car-wash1:before {
+  content: "\e90d";
+}
+.icon_car2:before {
+  content: "\e90e";
+}
+.icon_maintenance1:before {
+  content: "\e90f";
+}
+.icon_electric-car:before {
+  content: "\e910";
+}
+.icon_electric-charge:before {
+  content: "\e911";
+}
+.icon_Flat-tire:before {
+  content: "\e912";
+}
+.icon_Flat-tire1:before {
+  content: "\e913";
+}
+.icon_garage:before {
+  content: "\e914";
+}
+.icon_gps:before {
+  content: "\e915";
+}
+.icon_mechanic:before {
+  content: "\e916";
+}
+.icon_new-car:before {
+  content: "\e917";
+}
+.icon_oil:before {
+  content: "\e918";
+}
+.icon_radiator:before {
+  content: "\e919";
+}
+.icon_remote-control:before {
+  content: "\e91a";
+}
+.icon_search:before {
+  content: "\e91b";
+}
+.icon_tow-truck:before {
+  content: "\e91c";
+}
+.icon_turbo:before {
+  content: "\e91d";
+}
+.icon_tyre:before {
+  content: "\e91e";
+}

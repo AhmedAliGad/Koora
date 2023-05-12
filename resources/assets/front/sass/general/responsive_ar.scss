@@ -1,0 +1,136 @@
+@media screen and (max-width: 1920px){
+	.container.is-fluid{
+		padding-right: 120px;
+		padding-left: 120px;
+	}
+}
+@media screen and (max-width: 1600px){
+	
+}
+@media screen and (max-width: 1471px){
+	
+}
+@media screen and (max-width: 1366px){
+	
+}
+
+@media screen and (max-width: 1280px){
+	
+}
+@media screen and (max-width: 1200px){
+	.products-mob{
+		width:100%!important;
+	}
+}
+
+@media screen and (max-width: 1087px){
+	
+}
+@media screen and (max-width: 1024px){
+	
+}
+@media screen and (max-width: 768px){
+	.container{
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.navbar-menu, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-item.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, .navbar-link.is-active{
+		background-color: transparent;
+		box-shadow: none;
+	}
+	.navbar-start{
+		text-align: center;
+	}
+	.height-362{
+		height: auto!important;
+	}
+	.height-90vh{
+		height: 60vh;
+	}
+	.mt100-minus{
+		margin-top:50px!important;
+	}
+	.height-220{
+		height:auto!important;
+		.details{
+			margin-top:15px;
+			position: unset;
+			.is-5{
+				.has-text-centered{
+					text-align:right!important;
+				}
+			}
+		}
+	}
+	.product-nav{
+		display: none;
+	}
+	.column.is-9.pl60{
+		padding-left: 10px!important;
+	}
+	.ml-170{
+		margin-left: auto!important;
+	}
+	.lg-sub-html{
+		p{
+			margin-top: 48vh;
+		}
+	} 
+}
+@media (max-width: 640px) {
+	
+}
+@media screen and (max-width: 520px){
+	.height-250{
+		height:180px!important;
+	}
+	.product-slider{
+		.slick-slide{
+			img{
+				height:300px;
+			}
+		}
+	} 
+}
+@media (max-width: 480px) {
+	.p30{
+		padding:15px;
+	}
+	.pl250{
+		padding-left: 0px;
+	}
+	.height-100{
+		height:75px!important;
+		.payed{
+			top:26px;
+		}
+	}
+	.card.pt60.pb60.pr30.pl30{
+		padding:20px!important;
+	}
+	.card.pt60.pb60.pr70.pl70{
+		padding:40px!important;
+	}
+
+}
+@media (max-width: 420px){
+	
+}
+@media (max-width: 414px){
+	
+}
+@media (max-width: 375px){
+	.height-130{
+		height: 90px!important;
+	}
+	.card.pt60.pb60.pr70.pl70{
+		padding:20px!important;
+	}
+}
+@media (max-width: 360px){
+	
+}
+@media (max-width: 320px) {
+	
+}
+
