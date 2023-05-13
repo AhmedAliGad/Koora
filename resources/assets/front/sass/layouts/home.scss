@@ -14,11 +14,34 @@
 		}
 	}
 }
+/*---------Media Section-------*/
+.media-section{
+	.card-image{
+		.image{
+			position: relative;
+			padding-top: 85%;
+			img{
+				position: absolute;
+				top: 0;
+				height: 100%;
+				width: 100%;
+			}
+		}
+	}
+	
+	.tab-content{
+		overflow:visible!important;
+		position: relative!important;
+		.show_all{
+			position: absolute;
+			left: -25px;
+			top: -73px;
+		}
+	}
+}
 /*-----------footer-------*/
 .footer{
 	padding: 3rem 1.5rem;
-	background: rgb(0,0,0);
-	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(47,46,44,1) 36%);
 	ul{
 		li{
 			margin-bottom: .8rem;

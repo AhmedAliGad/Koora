@@ -5,7 +5,22 @@
  */
 
  window.Vue = require('vue');
-
+ import Vue from 'vue';
  import'./bulma';
 
  import'./script';
+
+ /*---------General Components--------*/
+ import { Tabs, TabPane } from 'vue-bulma-tabs'
+
+ export {
+ 	
+ }
+ const app = new Vue({
+ 	el: '#app',
+ 	components: {
+ 		Tabs,
+ 		TabPane
+ 	},
+ 
+ });

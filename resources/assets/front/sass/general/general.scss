@@ -17,3 +17,111 @@ a{
 	color: #fff;
 	font-size: 1.2rem;
 }
+.basic-title{
+	border-bottom: 1px solid hsl(0, 3%, 80.2%);
+	line-height: 4rem;
+	position: relative;
+	width: 220px;
+	&::after{
+		position: absolute;
+		top: 98%;
+		right: 0;
+		width: 100px;
+		height: 4px;
+		background-color: #be9750;
+		content: "";
+		left: 0;
+		margin: auto;
+	}
+}
+.has-background-gradiant{
+	background: rgb(0,0,0);
+	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(47,46,44,1) 36%);
+}
+.has-background-gold{
+	background-color: $gold;
+}
+.has-text-gold{
+	color: $gold;
+}
+.has-text-secondary{
+	color: $secondary;
+}
+.section-padding{
+	padding: 1rem 0;
+}
+@media screen and (min-width: 1216px){
+	.container:not(.is-max-desktop) {
+		max-width: 1230px;
+	}
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: 600;
+}
+h3,.h3{
+	font-size: 1.5rem;
+}
+h4,.h4{
+	font-size: 1.3rem;
+}
+.box-shadow{
+	box-shadow:0px 0px 17px rgba(178, 180, 187, 0.42);
+}
+.tabs {
+	margin-top: 3rem;
+	margin-bottom: 0px!important;
+	ul{
+		border-bottom-color:transparent;
+		li{
+			background-color: $light-grey;
+			border-radius: 4px 4px 0 0;
+			margin-left: 10px;
+			a{
+				padding: .7em 3em;
+				font-weight: bold;
+				border-bottom-color: transparent;
+			}
+		}
+		li.is-active{
+			a{
+				border-bottom-color: transparent;
+				background: rgb(105,6,16);
+				background: linear-gradient(90deg, rgba(105,6,16,1) 0%, rgba(218,27,26,1) 52%);
+				color: #FFF!important;
+				border-radius: 4px 4px 0 0;
+			}
+
+		}
+	}
+}
+.vue-bulma-tabs .tab-content{
+	border-radius: 4px;
+	background-color: $light-grey;
+	margin:0px!important;
+	padding: 2rem;
+	margin-top:-1px;
+}
+.shadow-lg {
+	box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+}
+
+.is-tr-1 {
+	top: 1rem;
+	right: 1rem;
+}
+.image-contain{
+	object-fit: contain;
+	width: 100%;
+}
+.image-cover{
+	object-fit: cover;
+	width: 100%;
+}
+
+.is-rounded {
+	border-radius: 0.375rem;
+}
+
+.is-absolute {
+	position: absolute;
+}

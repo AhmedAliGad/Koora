@@ -1,4 +1,11 @@
-<footer class="footer ">
+<!-----------Sponsers-------->
+<section class="section-padding sponsers-section">
+	<div class="container">
+		
+	</div>
+</section>
+<!------Footer----->
+<footer class="footer has-background-gradiant">
 	<div class="container">
 		<div class="columns">
 			<div class="column is-2">
