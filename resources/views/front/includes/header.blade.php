@@ -54,7 +54,7 @@
 <!-------------Slideshow--------->
 <section class="hero is-transparent is-full">
     <div dir="ltr" class="slideshow">
-        <slick-animation  ref="slick"  :options="{slidesToShow:1, slidesToScroll: 1 , swipeToSlide: true, infinite: false, accessibility: true, adaptiveHeight: false, arrows: true, dots: true, dotsClass: 'primary-dots white-bg-dots slick-dots', draggable: true, edgeFriction: 0.30, swipe: true  , autoplay: true }" class="height-80vh">
+        <slick-animation  ref="slick"  :options="{slidesToShow:1, slidesToScroll: 1 , swipeToSlide: true, infinite: false, accessibility: true, adaptiveHeight: false, arrows: true, dots: true, dotsClass: 'primary-dots white-bg-dots slick-dots', draggable: true, edgeFriction: 0.30, swipe: true  , autoplay: false }" class="height-80vh">
             <div class="item height-80vh position-relative" dir="rtl">
                 <figure>
                     <lazy-load
@@ -66,18 +66,39 @@
                     class="image-cover"
                     />
                 </figure>
-                <div class="description display-table full-width height-full">
+                <div class="description display-table w-100 full-height">
                     <div class="display-table-cell vertical-align">
                         <div class="container">
                             <div class="columns is-vcentered is-mobile">
                                 <div class="column is-7-desktop is-7-tablet is-12-mobile hero-caption pr-0">
-                                    <h1 class="is-size-2-desktop is-size-4-tablet has-text-weight-bold has-text-white line-height3" data-animation-in="zoomIn" data-delay-in="0.5">
-                                        testjhjkhk
+                                    <h1 class="is-size-3-desktop is-size-4-tablet has-text-weight-bold has-text-white line-height3" data-animation-in="zoomIn" data-delay-in="0.5">
+                                        النادى الأهلى الرياضى
                                     </h1>
-                                    <p class="has-text-white has-text-justified pl250 is-size-6-desktop is-size-7-mobile has-text-weight-bold mt20" data-animation-in="zoomIn" data-delay-in="0.8">
-                                        hjkgjhgg
-                                    </p>
-
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item height-80vh position-relative" dir="rtl">
+                <figure>
+                    <lazy-load
+                    src="/front/images/spinner.svg"
+                    lazy-src="/front/images/slide2.jpg"
+                    lazy-srcset="/front/images/slide2.jpg"
+                    background-color="transparent"
+                    alt=""
+                    class="image-cover"
+                    />
+                </figure>
+                <div class="description display-table w-100 full-height">
+                    <div class="display-table-cell vertical-align">
+                        <div class="container">
+                            <div class="columns is-vcentered is-mobile">
+                                <div class="column is-7-desktop is-7-tablet is-12-mobile hero-caption pr-0">
+                                    <h1 class="is-size-3-desktop is-size-4-tablet has-text-weight-bold has-text-white line-height3" data-animation-in="zoomIn" data-delay-in="0.5">
+                                        النادى الأهلى الرياضى
+                                    </h1>
                                 </div>
                             </div>
                         </div>
