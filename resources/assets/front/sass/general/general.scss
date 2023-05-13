@@ -19,9 +19,9 @@ a{
 }
 .basic-title{
 	border-bottom: 1px solid hsl(0, 3%, 80.2%);
-	line-height: 4rem;
 	position: relative;
 	width: 220px;
+	padding-bottom: .6rem;
 	&::after{
 		position: absolute;
 		top: 98%;
@@ -55,7 +55,7 @@ a{
 	color: $secondary;
 }
 .section-padding{
-	padding: 1rem 0;
+	padding: 2rem 0;
 }
 @media screen and (min-width: 1216px){
 	.container:not(.is-max-desktop) {
@@ -78,7 +78,7 @@ h4,.h4{
 	box-shadow:0px 0px 10px rgba(178, 180, 187, 0.42);
 }
 .tabs {
-	margin-top: 3rem;
+	margin-top: 2rem;
 	margin-bottom: 0px!important;
 	ul{
 		border-bottom-color:transparent;
@@ -108,8 +108,10 @@ h4,.h4{
 	border-radius: 4px;
 	background-color: $light-grey;
 	margin:0px!important;
-	padding: 2rem;
 	margin-top:-1px;
+	.tab-pane{
+		padding:2rem;
+	}
 }
 .shadow-lg {
 	box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
@@ -156,7 +158,25 @@ h4,.h4{
 }
 .w-100{
 	width: 100%;
-	} 
+} 
 .full-height{
 	height: 100%;
+}
+.has-background-grey-lighter{
+	background-color: $grey-lighter;
+}
+.tab-content, .tab-pane{
+	transition: .4s ease-out;
+}
+.is-overlay{
+	background-color: rgba(0,0,0,.5);
+	text-align: center;
+	transition: .4s ease-in-out;
+	opacity: 0;
+	height: 0px;
+	i{
+		color: #FFF;
+		font-size: 2rem;
+		margin-top: 40%;
+	}
 }

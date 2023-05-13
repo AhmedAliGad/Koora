@@ -16,29 +16,45 @@
 }
 /*---------Media Section-------*/
 .media-section{
-	.card-image{
-		.image{
-			position: relative;
-			padding-top: 85%;
-			img{
-				position: absolute;
-				top: 0;
-				height: 100%;
-				width: 100%;
+	.card{
+		.card-image{
+			.image{
+				position: relative;
+				padding-top: 85%;
+				img{
+					position: absolute;
+					top: 0;
+					height: 100%;
+					width: 100%;
+				}
 			}
 		}
+		.card-content{
+			.content{
+				a{
+					&:hover > h5{
+						color: $gold;
+					}
+				}
+			}
+		}
+		&:hover > .card-image .is-overlay{
+			opacity: 1;
+			height: 100%;
+			transition: .4s ease-in-out;
+		}
 	}
-	
 	.tab-content{
 		overflow:visible!important;
 		position: relative!important;
 		.show_all{
 			position: absolute;
-			left: -25px;
-			top: -73px;
+			left: 0;
+			top: -40px;
 		}
 	}
 }
+
 /*---------sponsers-section------*/
 .sponsers-section, .categories-section{
 	.item{
@@ -57,7 +73,6 @@
 	}
 	.prev-btn, .next-btn{
 		position: absolute;
-		top: 4rem;
 		z-index: 1;
 		border:0px;
 		background-color: $light-grey;
@@ -69,7 +84,12 @@
 		left: -1.4rem;
 	}
 }
-
+.categories-section .prev-btn, .categories-section .next-btn{
+	top: 4rem;
+}
+.sponsers-section .prev-btn, .sponsers-section .next-btn{
+	top: 3.5rem;
+}
 .prev-btn:active, .prev-btn:hover, .prev-btn:focus, .next-btn:active, .next-btn:hover, .next-btn:focus{
 	background-color: $primary;
 	color: #FFF!important;
@@ -109,14 +129,14 @@
 	.slick-dots{
 		bottom: 25px;
 		li{
-			width: 60px;
+			width: 40px;
 			height: 3px;
 			button{
-				width: 60px;
+				width: 40px;
 				height: 3px;
 				background: rgba(255,255,255,.7);
 				&::before{
-					width: 60px;
+					width: 40px;
 					height: 3px;
 					color: transparent;
 				}
@@ -129,6 +149,9 @@
 			}
 		}
 	}
+}
+.slick-dotted.slick-slider{
+	margin-bottom: 0px;
 }
 /*-----------footer-------*/
 .footer{
