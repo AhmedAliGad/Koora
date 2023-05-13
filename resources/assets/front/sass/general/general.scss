@@ -15,7 +15,7 @@ a{
 }
 .title{
 	color: #fff;
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 }
 .basic-title{
 	border-bottom: 1px solid hsl(0, 3%, 80.2%);
@@ -40,6 +40,9 @@ a{
 }
 .has-background-gold{
 	background-color: $gold;
+}
+.has-background-grey-light{
+	background-color: $light-grey!important;
 }
 .has-text-gold{
 	color: $gold;

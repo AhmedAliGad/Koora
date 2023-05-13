@@ -39,6 +39,39 @@
 		}
 	}
 }
+/*---------sponsers-section------*/
+.sponsers-section, .categories-section{
+	.item{
+		a{
+			display: block;
+			width: 100%;
+			height: 100%;
+			border-radius: 4px;
+			box-shadow:0px 0px 17px rgba(178, 180, 187, 0.42);
+			padding: 1rem;
+			img{
+				height: 110px;
+				object-fit: contain;
+				width: 100%;
+			}
+		}
+	}
+	.prev-btn{
+		margin-right: 1rem;
+	}
+	.next-btn{
+		position: absolute;
+		right: 5rem;
+		top: 0;
+	}
+}
+.prev-btn:active, .prev-btn:hover, .prev-btn:focus, .next-btn:active, .next-btn:hover, .next-btn:focus{
+	background: rgb(105,6,16);
+	background: linear-gradient(90deg, rgba(105,6,16,1) 0%, rgba(218,27,26,1) 52%);
+	color: #FFF!important;
+	border-color: transparent!important;
+	border:0px;
+}
 /*-----------footer-------*/
 .footer{
 	padding: 3rem 1.5rem;
