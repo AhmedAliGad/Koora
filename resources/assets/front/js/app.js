@@ -11,9 +11,9 @@
  import'./script';
 
  /*---------General Components--------*/
- // import SlickAnimation from './components/GeneralComponents/slickCarouselAnimation';
- import LazyLoad from './components/GeneralComponents/LazyLoad';
  import Slick from 'vue-slick';
+ import SlickAnimation from './components/GeneralComponents/slickCarouselAnimation';
+ import LazyLoad from './components/GeneralComponents/LazyLoad';
  import { Tabs, TabPane } from 'vue-bulma-tabs'
  import VueLazyload from 'vue-lazyload'
 
@@ -42,7 +42,8 @@
  export {
  	Slick,
  	Sponsers,
- 	Clubs
+ 	Clubs,
+ 	SlickAnimation
  }
  const app = new Vue({
  	el: '#app',
@@ -51,7 +52,8 @@
  		TabPane,
  		Slick,
  		Sponsers,
- 		Clubs
+ 		Clubs,
+ 		SlickAnimation
  	},
 
  });

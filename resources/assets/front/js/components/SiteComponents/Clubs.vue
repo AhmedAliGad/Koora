@@ -18,7 +18,7 @@
   data() {
     return {
       slickOptions: {
-        slidesToShow: 6,
+        slidesToShow: 8,
         draggable: true,
         autoplay: true,
         infinite: false,
@@ -35,7 +35,7 @@
           {
             breakpoint: 1367,
             settings: {
-              slidesToShow: 6,
+              slidesToShow: 8,
             }
           },
           {

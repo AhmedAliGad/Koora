@@ -38,6 +38,10 @@ a{
 	background: rgb(0,0,0);
 	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(47,46,44,1) 36%);
 }
+.has-background-secondary-gradiant{
+	background: rgb(105,6,16);
+	background: linear-gradient(90deg, rgba(105,6,16,1) 0%, rgba(218,27,26,1) 52%);
+}
 .has-background-gold{
 	background-color: $gold;
 }
@@ -68,7 +72,10 @@ h4,.h4{
 	font-size: 1.3rem;
 }
 .box-shadow{
-	box-shadow:0px 0px 17px rgba(178, 180, 187, 0.42);
+	box-shadow:0px 0px 13px rgba(178, 180, 187, 0.42);
+}
+.box-shadow-sm{
+	box-shadow:0px 0px 10px rgba(178, 180, 187, 0.42);
 }
 .tabs {
 	margin-top: 3rem;
@@ -118,7 +125,8 @@ h4,.h4{
 }
 .image-cover{
 	object-fit: cover;
-	width: 100%;
+	width: 100%!important;
+	height: 100%!important;
 }
 
 .is-rounded {
@@ -127,4 +135,10 @@ h4,.h4{
 
 .is-absolute {
 	position: absolute;
+}
+.radius-4{
+	border-radius: 4px;
+}
+.height-80vh{
+	height: 80vh;
 }

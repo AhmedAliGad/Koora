@@ -6,8 +6,8 @@
 <section class="section-padding categories-section">
 	<div class="container">
 		<clubs>
-			<div class="item p-4">
-				<a rel="noreferrer" href="">
+			<div class="item p-2">
+				<a class="box-shadow-sm" rel="noreferrer" href="">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -17,11 +17,11 @@
 						alt="title"
 						/>
 					</figure>
-					<p class="has-text-secondary has-background-grey-light has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 				</a>
+				<p class="has-text-light radius-4 has-background-secondary-gradiant has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 			</div>
-			<div class="item p-4">
-				<a rel="noreferrer" href="">
+			<div class="item p-2">
+				<a class="box-shadow-sm" rel="noreferrer" href="">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -31,11 +31,11 @@
 						alt="title"
 						/>
 					</figure>
-					<p class="has-text-secondary has-background-grey-light has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 				</a>
+				<p class="has-text-light radius-4 has-background-secondary-gradiant has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 			</div>
-			<div class="item p-4">
-				<a rel="noreferrer" href="">
+			<div class="item p-2">
+				<a class="box-shadow-sm" rel="noreferrer" href="">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -45,11 +45,11 @@
 						alt="title"
 						/>
 					</figure>
-					<p class="has-text-secondary has-background-grey-light has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 				</a>
+				<p class="has-text-light radius-4 has-background-secondary-gradiant has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 			</div>
-			<div class="item p-4">
-				<a rel="noreferrer" href="">
+			<div class="item p-2">
+				<a class="box-shadow-sm" rel="noreferrer" href="">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -59,11 +59,11 @@
 						alt="title"
 						/>
 					</figure>
-					<p class="has-text-secondary has-background-grey-light has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 				</a>
+				<p class="has-text-light radius-4 has-background-secondary-gradiant has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 			</div>
-			<div class="item p-4">
-				<a rel="noreferrer" href="">
+			<div class="item p-2">
+				<a class="box-shadow-sm" rel="noreferrer" href="">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -73,11 +73,11 @@
 						alt="title"
 						/>
 					</figure>
-					<p class="has-text-secondary has-background-grey-light has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 				</a>
+				<p class="has-text-light radius-4 has-background-secondary-gradiant has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 			</div>
-			<div class="item p-4">
-				<a rel="noreferrer" href="">
+			<div class="item p-2">
+				<a class="box-shadow-sm" rel="noreferrer" href="">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -87,11 +87,11 @@
 						alt="title"
 						/>
 					</figure>
-					<p class="has-text-secondary has-background-grey-light has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 				</a>
+				<p class="has-text-light radius-4 has-background-secondary-gradiant has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 			</div>
-			<div class="item p-4">
-				<a rel="noreferrer" href="">
+			<div class="item p-2">
+				<a class="box-shadow-sm" rel="noreferrer" href="">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -101,11 +101,11 @@
 						alt="title"
 						/>
 					</figure>
-					<p class="has-text-secondary has-background-grey-light has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 				</a>
+				<p class="has-text-light radius-4 has-background-secondary-gradiant has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 			</div>
-			<div class="item p-4">
-				<a rel="noreferrer" href="">
+			<div class="item p-2">
+				<a class="box-shadow-sm" rel="noreferrer" href="">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -115,11 +115,11 @@
 						alt="title"
 						/>
 					</figure>
-					<p class="has-text-secondary has-background-grey-light has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 				</a>
+				<p class="has-text-light radius-4 has-background-secondary-gradiant has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 			</div>
-			<div class="item p-4">
-				<a rel="noreferrer" href="">
+			<div class="item p-2">
+				<a class="box-shadow-sm" rel="noreferrer" href="">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -129,11 +129,11 @@
 						alt="title"
 						/>
 					</figure>
-					<p class="has-text-secondary has-background-grey-light has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 				</a>
+				<p class="has-text-light radius-4 has-background-secondary-gradiant has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 			</div>
-			<div class="item p-4">
-				<a rel="noreferrer" href="">
+			<div class="item p-2">
+				<a class="box-shadow-sm" rel="noreferrer" href="">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -143,11 +143,11 @@
 						alt="title"
 						/>
 					</figure>
-					<p class="has-text-secondary has-background-grey-light has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 				</a>
+				<p class="has-text-light radius-4 has-background-secondary-gradiant has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 			</div>
-			<div class="item p-4">
-				<a rel="noreferrer" href="">
+			<div class="item p-2">
+				<a class="box-shadow-sm" rel="noreferrer" href="">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -157,11 +157,11 @@
 						alt="title"
 						/>
 					</figure>
-					<p class="has-text-secondary has-background-grey-light has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 				</a>
+				<p class="has-text-light radius-4 has-background-secondary-gradiant has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 			</div>
-			<div class="item p-4">
-				<a rel="noreferrer" href="">
+			<div class="item p-2">
+				<a class="box-shadow-sm" rel="noreferrer" href="">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -171,8 +171,8 @@
 						alt="title"
 						/>
 					</figure>
-					<p class="has-text-secondary has-background-grey-light has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 				</a>
+				<p class="has-text-light radius-4 has-background-secondary-gradiant has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 			</div>
 		</clubs>
 	</div>

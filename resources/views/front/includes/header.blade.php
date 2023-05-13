@@ -9,12 +9,12 @@
                         </figure>
                     </a>
                     <span class="navbar-burger burger" data-target="navbarMenuHeroA">
-                     <span></span>
-                     <span></span>
-                     <span></span>
-                 </span>
-             </div>
-             <div id="navbarMenuHeroA" class="navbar-menu">
+                       <span></span>
+                       <span></span>
+                       <span></span>
+                   </span>
+               </div>
+               <div id="navbarMenuHeroA" class="navbar-menu">
                 <div class="mx-auto">
                     <a href="{{ route('landing') }}" class="navbar-item has-text-white has-text-weight-bold {{-- {{ activateRouteClass('landing') }} --}}">
                         {{-- <div class="icon is-block full-width is-size-2 has-text-centered">
@@ -32,7 +32,7 @@
                             كأس نجوم  QNQB
                         </p>
                     </a>
-                     <a href="{{ route('landing') }}" class="navbar-item has-text-white has-text-weight-bold {{-- {{ activateRouteClass('landing') }} --}}">
+                    <a href="{{ route('landing') }}" class="navbar-item has-text-white has-text-weight-bold {{-- {{ activateRouteClass('landing') }} --}}">
                         {{-- <div class="icon is-block full-width is-size-2 has-text-centered">
                             <i class="fas fa-home"></i>
                         </div> --}}
@@ -40,87 +40,6 @@
                             الإعلام
                         </p>
                     </a>
-                   {{--  @foreach($categories as $category)
-                    <a href="{{ route('category_products', $category->slug) }}" class="navbar-item has-text-primary has-text-weight-bold {{ request()->is('category/'.$category->slug) ? 'is-active' : '' }}">
-                        <div class="icon is-block full-width is-size-2 has-text-centered">
-                            <i class="{{ $category->icon }}"></i>
-                        </div>
-                        <p class="is-block mt35 full-width">
-                            {{ $category->name  }}
-                        </p>
-                    </a>
-                    @endforeach
-                    <a href="{{ route('brands.index') }}" class="navbar-item has-text-primary has-text-weight-bold {{ activateRouteClass('brands.*') }}">
-                        <div class="icon is-block full-width is-size-2 has-text-centered">
-                            <i class="icon_brand"></i>
-                        </div>
-                        <p class="is-block mt35 full-width">
-                            الماركات
-                        </p>
-                    </a>
-                    <a href="{{ route('about') }}" class="navbar-item has-text-primary has-text-weight-bold {{ activateRouteClass('about') }}">
-                        <div class="icon is-block full-width is-size-2 has-text-centered">
-                            <i class="icon_mechanic"></i>
-                        </div>
-                        <p class="is-block mt35 full-width">
-                            من نحن
-                        </p>
-                    </a>
-                    <a href="{{ route('contact') }}" class="navbar-item has-text-primary has-text-weight-bold {{ activateRouteClass('contact') }}">
-                        <div class="icon is-block full-width is-size-2 has-text-centered">
-                            <i class="icon_contact"></i>
-                        </div>
-                        <p class="is-block mt35 full-width">
-                            اتصل بنا
-                        </p>
-                    </a>
-                </div>
-                <div class="navbar-start mr-auto">
-                    @if(auth()->check())
-                    <div class="dropdown">
-                        <a class="dropdown-trigger">
-                            <span class="pr20 pl20 has-text-weight-bold has-text-primary is-size-6" aria-haspopup="true" aria-controls="dropdown-menu">
-                                حسابك
-                                <span class="icon is-small mt10">
-                                    <i class="fas fa-angle-down" aria-hidden="true"></i>
-                                </span>
-                            </span>
-                        </a>
-                        <div class="dropdown-menu white-block" role="menu">
-                            <div class="dropdown-content has-text-centered">
-                                @if(auth()->user()->role == 'admin')
-                                <div class="dropdown-item">
-                                    <a href="{{ route('admin.dashboard') }}" class="has-text-primary hvr-orange">
-                                        لوحة التحكم
-                                    </a>
-                                </div><!--end dropdown-item-->
-                                @else
-                                <div class="dropdown-item">
-                                    <a class="has-text-primary hvr-orange">
-                                        بياناتك
-                                    </a>
-                                </div><!--end dropdown-item-->
-                                <div class="dropdown-item">
-                                    <a class="has-text-primary hvr-orange">
-                                        المفضلة
-                                    </a>
-                                </div><!--end dropdown-item-->
-                                @endif
-                                <div class="dropdown-item">
-                                    <a class="has-text-primary hvr-orange" onclick="document.getElementById('logoutForm').submit()">
-                                        تسجيل الخروج
-                                    </a>
-                                </div><!--end dropdown-item-->
-                                <form style="display: none;" id="logoutForm" action="{{ route('logout') }}" method="post">
-                                    @csrf
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-
-                    @else
-                    <a href="{{ route('login') }}" class="button is-primary pr20 pl20 has-text-weight-bold hvr-radial-out is-size-7">تسجيل الدخول</a>
-                    @endif --}}
                 </div>
             </div>
             <div class="navbar-end">
@@ -131,9 +50,41 @@
 </div>
 </header>
 </section>
+@if(Route::current()->getName() == 'landing')
+<!-------------Slideshow--------->
+<section class="hero is-transparent is-full">
+    <div dir="ltr" class="slideshow">
+        <slick-animation  ref="slick"  :options="{slidesToShow:1, slidesToScroll: 1 , swipeToSlide: true, infinite: false, accessibility: true, adaptiveHeight: false, arrows: true, dots: true, dotsClass: 'primary-dots white-bg-dots slick-dots', draggable: true, edgeFriction: 0.30, swipe: true  , autoplay: true }" class="height-80vh">
+            <div class="item height-80vh position-relative" dir="rtl">
+                <figure>
+                    <lazy-load
+                    src="/front/images/spinner.svg"
+                    lazy-src="/front/images/slide1.jpeg"
+                    lazy-srcset="/front/images/slide1.jpeg"
+                    background-color="transparent"
+                    alt=""
+                    class="image-cover"
+                    />
+                </figure>
+                <div class="description display-table full-width height-full">
+                    <div class="display-table-cell vertical-align">
+                        <div class="container">
+                            <div class="columns is-vcentered is-mobile">
+                                <div class="column is-7-desktop is-7-tablet is-12-mobile hero-caption pr-0">
+                                    <h1 class="is-size-2-desktop is-size-4-tablet has-text-weight-bold has-text-white line-height3" data-animation-in="zoomIn" data-delay-in="0.5">
+                                        testjhjkhk
+                                    </h1>
+                                    <p class="has-text-white has-text-justified pl250 is-size-6-desktop is-size-7-mobile has-text-weight-bold mt20" data-animation-in="zoomIn" data-delay-in="0.8">
+                                        hjkgjhgg
+                                    </p>
 
-<div class="columns is-centered">
-  <div class="column is-5">
-    nmgjg
-</div>
-</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </slick-animation>
+    </div>
+</section>
+@endif
