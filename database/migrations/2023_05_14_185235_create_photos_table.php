@@ -13,13 +13,10 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('photo_galleries', function (Blueprint $table) {
+        Schema::create('photos', function (Blueprint $table) {
             $table->id();
-            $table->string('title');
-            $table->string('slug')->unique();
+            $table->unsignedBigInteger('photo_gallery_id');
             $table->string('image_path');
-            $table->date('populate_date')->nullable();
-            $table->boolean('active')->default(true);
             $table->timestamps();
         });
     }
@@ -31,6 +28,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('photo_galleries');
+        Schema::dropIfExists('photos');
     }
 };

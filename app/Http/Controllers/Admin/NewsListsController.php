@@ -43,10 +43,19 @@ class NewsListsController extends Controller
      */
     public function store(NewsRequest $request)
     {
-        NewsList::create($request->input() + [
-                'slug' => str_slug($request->input('title'). time()),
-                'image' => $request->file('image')->store('news_lists', 'public')
-            ]);
+        $check = NewsList::where('title', $request->input('title'))->first();
+        if ($check) {
+            NewsList::create($request->input() + [
+                    'slug' => str_replace(' ', '-', $request->input('title')). time(),
+                    'image' => $request->file('image')->store('news_lists', 'public')
+                ]);
+        } else {
+            NewsList::create($request->input() + [
+                    'slug' => str_replace(' ', '-', $request->input('title')),
+                    'image' => $request->file('image')->store('news_lists', 'public')
+                ]);
+        }
+
 
         return redirect()->route('admin.news_lists.index')->with('success', 'Added Successfully !');
     }
@@ -87,15 +96,11 @@ class NewsListsController extends Controller
         if ($request->hasFile('image')) {
             Storage::disk('public')->delete($newsList->image);
             $newsList->update($request->input() + [
-                    'slug' => str_slug($request->input('title'). time()),
                     'image' => $request->file('image')->store('news_lists', 'public')
                 ]);
-
             return redirect()->route('admin.news_lists.index')->with('success', 'Updated Successfully');
         } else {
-            $newsList->update($request->input() + [
-                'slug' => str_slug($request->input('title'). time())
-                ]);
+            $newsList->update($request->input());
 
             return redirect()->route('admin.news_lists.index')->with('success', 'Updated Successfully');
         }

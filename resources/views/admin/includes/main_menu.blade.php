@@ -1,6 +1,8 @@
 <collapse class="outer " accordion is-fullwidth>
-    <a href="{{ route('admin.dashboard') }}" class="card link-item-no-collapse "><i
-            class="fas fa-home"></i><span>Dashboard</span></a>
+    <a href="{{ route('landing') }}" target="_blank" class="card link-item-no-collapse "><i
+            class="fas fa-home"></i><span>Home</span></a>
+    <a href="{{ route('admin.dashboard') }}" class="card link-item-no-collapse "><i class="fa fa-sitemap"></i>
+        <span>Dashboard</span></a>
     <collapse-item title="Teams" icon="fa fa-users">
         <a class="link-item" href="{{ route('admin.teams.create') }}">Add Team</a>
         <a class="link-item" href="{{ route('admin.teams.index') }}">Teams List</a>
@@ -20,6 +22,10 @@
     <collapse-item title="News" icon="fa fa-newspaper">
         <a class="link-item" href="{{ route('admin.news_lists.create') }}">Add Post</a>
         <a class="link-item" href="{{ route('admin.news_lists.index') }}">News List</a>
+    </collapse-item>
+    <collapse-item title="Photo Galleries" icon="fa fa-camera">
+        <a class="link-item" href="{{ route('admin.photo_galleries.create') }}">Add Photo Gallery</a>
+        <a class="link-item" href="{{ route('admin.photo_galleries.index') }}">photo Galleries List</a>
     </collapse-item>
     <collapse-item title="Manage App Settings" icon="fa fa-cogs">
         <a class="link-item" href="{{ route('admin.cities.index') }}">Cities List</a>
