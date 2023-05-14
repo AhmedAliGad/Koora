@@ -22,6 +22,16 @@
                                     الرئيسية
                                 </a>
                             </li>
+                            <li class="nav-item">
+                                <a href="{{ route('landing') }}" class="navbar-item has-text-white has-text-weight-bold">
+                                    الاخبار
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="{{ route('landing') }}" class="navbar-item has-text-white has-text-weight-bold">
+                                    معرض الصور
+                                </a>
+                            </li>
                             <li class="nav-item dropdown_menu drodown is-mobile">
                                 <a class="navbar-item dropdown_head has-text-white has-text-weight-bold" href="">
                                     الإعلام
@@ -31,19 +41,13 @@
                                     <li class="nav-item">
                                         <a class="navbar-item" href="">
                                             <i class="has-text-gold fa-solid fa-caret-right ml-2"></i>
-                                            الأخبار
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="navbar-item" href="">
-                                            <i class="has-text-gold fa-solid fa-caret-right ml-2"></i>
-                                            معرض  الصور
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="navbar-item" href="">
-                                            <i class="has-text-gold fa-solid fa-caret-right ml-2"></i>
                                             المركز الإعلامى
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="navbar-item" href="">
+                                            <i class="has-text-gold fa-solid fa-caret-right ml-2"></i>
+                                            المجموعة الاعلامية
                                         </a>
                                     </li>
                                 </ul>
@@ -54,22 +58,22 @@
                 <div class="navbar-end">
                     <ul class="socials">
                         <li>
-                            <a class="hvr-rectangle-out" href="#">
+                            <a class="hvr-rectangle-out" href="https://www.facebook.com/EPL.EG1/" target="_blank">
                                 <i class="fa-brands fa-facebook-f"></i>
                             </a>
                         </li>
                         <li>
-                            <a class="hvr-rectangle-out" href="#">
+                            <a class="hvr-rectangle-out" href="https://twitter.com/epl_eg" target="_blank">
                                 <i class="fa-brands fa-twitter"></i>
                             </a>
                         </li>
                         <li>
-                            <a class="hvr-rectangle-out" href="#">
+                            <a class="hvr-rectangle-out" href="#" target="_blank">
                                 <i class="fa-brands fa-youtube"></i>
                             </a>
                         </li>
                         <li>
-                            <a class="hvr-rectangle-out" href="#">
+                            <a class="hvr-rectangle-out" href="https://instagram.com/epl.eg" target="_blank">
                                 <i class="fa-brands fa-instagram"></i>
                             </a>
                         </li>
