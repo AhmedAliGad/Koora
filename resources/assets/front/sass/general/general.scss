@@ -260,3 +260,7 @@ h4,.h4{
 table td:not([align]), table th:not([align]){
 	vertical-align: middle;
 }
+.hvr-rectangle-out::before{
+	background-color: $gold;
+	border-radius: 50%;
+}

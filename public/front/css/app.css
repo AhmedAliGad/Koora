@@ -26173,6 +26173,11 @@ table td:not([align]), table th:not([align]) {
   vertical-align: middle;
 }
 
+.hvr-rectangle-out::before {
+  background-color: #be9750;
+  border-radius: 50%;
+}
+
 /*------layouts-----------*/
 /*-------------header---------*/
 .header {
@@ -26187,6 +26192,30 @@ table td:not([align]), table th:not([align]) {
 .header .navbar .navbar-item {
   display: inline-block;
   padding: 1rem 0.75rem 1rem;
+}
+.header .socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .socials li {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  margin: 0 5px;
+  overflow: hidden;
+}
+.header .socials li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #FFF;
+  color: #c91a12;
+  text-align: center;
+}
+.header .socials li a:hover {
+  color: #FFF;
 }
 
 /*---------Media Section-------*/
@@ -26237,7 +26266,7 @@ table td:not([align]), table th:not([align]) {
   	right: 0;
   	left: 0;
   	background-color: rgba(34, 28, 28, 0.8);
-  }*/
+  	}*/
 }
 .order-section .table-container {
   height: 615px;

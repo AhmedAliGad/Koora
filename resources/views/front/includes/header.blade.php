@@ -43,7 +43,28 @@
                 </div>
             </div>
             <div class="navbar-end">
-                sssssssss
+                <ul class="socials">
+                    <li>
+                        <a class="hvr-rectangle-out" href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="hvr-rectangle-out" href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="hvr-rectangle-out" href="#">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="hvr-rectangle-out" href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </nav>
     </div>
