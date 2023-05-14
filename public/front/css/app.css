@@ -25878,6 +25878,27 @@ readers do not read off random characters that represent icons */
 }
 /*@import '~bulma-extensions/bulma-checkradio/src/sass/index.sass';*/
 /*-----general------------*/
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #FFF;
+  border-radius: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #CCC;
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #CCC;
+}
+
 body {
   font-size: 15px;
   background-color: #FFF;
@@ -26092,6 +26113,66 @@ h4, .h4 {
   margin-top: 40%;
 }
 
+.position-relative {
+  position: relative;
+  z-index: 1;
+}
+
+.has-text-light {
+  color: #FFF !important;
+}
+
+.table {
+  border-radius: 4px 0 4px 4px;
+  overflow: hidden;
+  color: #2f2c2e;
+}
+.table thead {
+  background-color: #EAE3E3;
+}
+.table thead th {
+  color: #c91a12;
+}
+.table tbody td label {
+  border: 1px solid #ECECEC;
+  border-radius: 4px;
+  color: #c91a12;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  background-color: #FFF;
+  align-items: center;
+  display: flex;
+}
+.table tbody td.order-team a {
+  display: flex;
+  align-items: center;
+}
+.table tbody td.order-team a figure {
+  border: 1px solid #ECECEC;
+  border-radius: 4px;
+  padding: 2px;
+  background: #fff;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.table th:not([align]) {
+  text-align: right;
+}
+
+.table.is-striped tbody tr:not(.is-selected):nth-child(2n) {
+  background-color: hsl(0, 8.3%, 95.3%);
+}
+
+table td:not([align]), table th:not([align]) {
+  vertical-align: middle;
+}
+
 /*------layouts-----------*/
 /*-------------header---------*/
 .header {
@@ -26135,6 +26216,94 @@ h4, .h4 {
   position: absolute;
   left: 0;
   top: -40px;
+}
+
+/*-------------table section--*/
+.order-section {
+  background-image: url("/front/images/slide1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.order-section .table-container {
+  height: 615px;
+  background: #FFF;
+  border-radius: 4px 0px 4px 4px;
+  overflow-y: auto;
+}
+.order-section::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(34, 28, 28, 0.8);
+}
+.order-section .order-title {
+  display: inline-block;
+  width: auto;
+  padding: 0.6rem 2rem;
+  border-radius: 100px 6px 0 0px;
+}
+.order-section .upcomming-card {
+  background-color: #FFF;
+  border-radius: 4px 0 4px 4px;
+  height: 615px;
+  overflow-y: auto;
+}
+.order-section .upcomming-card .card {
+  box-shadow: none;
+  border: 1px solid #E6E6E6;
+  border-top: 2px solid #c91a12;
+}
+.order-section .upcomming-card .card h4 {
+  font-size: 1.1rem;
+}
+.order-section .upcomming-card .card h4 span {
+  border-right: 2px solid #c91a12;
+  margin-right: 10px;
+  padding-right: 10px;
+  color: hsl(0, 0%, 29%);
+  font-weight: normal;
+}
+.order-section .upcomming-card .card small {
+  font-weight: normal;
+}
+.order-section .upcomming-card .card .match {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.order-section .upcomming-card .card .match a {
+  margin: 0 5px;
+}
+.order-section .upcomming-card .card .match figure {
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #E6E6E6;
+  padding: 10px;
+  overflow: hidden;
+}
+.order-section .upcomming-card .card .match span {
+  background: #000000;
+  color: #FFFFFF;
+  border-radius: 50%;
+  display: flex;
+  width: 30px;
+  align-items: center;
+  height: 30px;
+  justify-content: center;
 }
 
 /*---------sponsers-section------*/

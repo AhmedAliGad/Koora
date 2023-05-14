@@ -1,3 +1,23 @@
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background-color: #FFF;
+	border-radius: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #CCC; 
+	border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #CCC; 
+}
 body{
 	font-size: 15px;
 	background-color: $body-bg;
@@ -179,4 +199,64 @@ h4,.h4{
 		font-size: 2rem;
 		margin-top: 40%;
 	}
+}
+.position-relative{
+	position: relative;
+	z-index: 1;
+}
+.has-text-light{
+	color: #FFF!important;
+}
+.table{
+	border-radius: 4px 0 4px 4px;
+	overflow: hidden;
+	color: $primary;
+	thead{
+		background-color: #EAE3E3;
+		th{
+			color: $secondary;
+		}
+	}
+	tbody{
+		td{
+			label{
+				border: 1px solid #ECECEC;
+				border-radius: 4px;
+				color: $secondary;
+				justify-content: center;
+				width: 42px;
+				height: 42px;
+				background-color: #FFF;
+				align-items:center;
+				display: flex;
+			}
+		}
+		td.order-team{
+			a{
+				display: flex;
+				align-items:center;
+				figure{
+					border: 1px solid #ECECEC;
+					border-radius: 4px;
+					padding: 2px;
+					background: #fff;
+					width: 40px;
+					height: 40px;
+					text-align: center;
+					margin-left: 10px;
+					display: flex;
+					justify-content: center;
+				}
+			}
+		}
+	}
+}
+.table th:not([align]){
+	text-align: right;
+}
+.table.is-striped tbody tr:not(.is-selected):nth-child(2n){
+	background-color: hsl(0, 8.3%, 95.3%);
+}
+table td:not([align]), table th:not([align]){
+	vertical-align: middle;
 }
