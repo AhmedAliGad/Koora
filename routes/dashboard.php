@@ -3,11 +3,27 @@
 use Illuminate\Support\Facades\Route;
 
 /* Dashboard Routes */
-
+Route::group(['prefix' => 'laravel-filemanager', 'middleware' => ['auth']], function () {
+    \UniSharp\LaravelFilemanager\Lfm::routes();
+});
 Route::post('/store_token', 'HomeController@storeToken')->name('store_token')->middleware('auth');
 
 Route::group(['namespace' => 'Admin', 'prefix' => 'dashboard', 'as' => 'admin.', 'middleware' => ['dashboard']], function () {
-    // Agora
+
+    // Sliders
+    Route::resource('sliders', 'SlidersController');
+    // Partners
+    Route::resource('partners', 'PartnersController');
+    // News
+    Route::resource('news_lists', 'NewsListsController');
+    // Teams
+    Route::resource('teams', 'TeamsController');
+    // UpComing Matches
+    Route::resource('upcoming_matches', 'UpcomingMatchesController');
+    // Contacts
+    Route::resource('contact_messages', 'ContactMessagesController', ['only' => ['index', 'show', 'destroy']]);
+
+    // Agoran
     Route::get('/agora-chat', 'AgoraVideoController@index');
     Route::post('/agora/token', 'AgoraVideoController@token');
     Route::post('/agora/call-user', 'AgoraVideoController@callUser');
@@ -36,8 +52,7 @@ Route::group(['namespace' => 'Admin', 'prefix' => 'dashboard', 'as' => 'admin.',
     Route::get('users/{user}/user_calls', 'ReportsController@userCalls')->name('user_calls');
     Route::get('waiting_time', 'ReportsController@waitingTimes')->name('waiting_time');
     Route::post('waiting_time_export', 'ReportsController@waitingTimesExport')->name('waiting_time_export');
-    // Contacts
-    Route::resource('contacts', 'ContactsController', ['only' => ['index', 'show', 'destroy']]);
+
     /* ====== About =======*/
     Route::name('abouts.edit')->get('abouts/edit', 'AboutsController@edit');
     Route::name('abouts.update')->patch('abouts/edit', 'AboutsController@update');

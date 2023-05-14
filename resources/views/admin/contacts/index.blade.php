@@ -1,6 +1,6 @@
 @extends('admin.layouts.app')
 
-@section('page.title', 'قائمة الرسائل')
+@section('page.title', 'Contact Messages')
 
 @section('content')
 
@@ -10,7 +10,7 @@
                 <span class="icon is-small">
                   <i class="fa fa-envelope"></i>
                 </span>
-                <span>رسائل التواصل</span>
+                <span>Contact Messages</span>
             </div>
         </div>
         <div class="card-content">
@@ -18,9 +18,9 @@
                 <table class="table is-fullwidth">
                     <thead>
                     <tr>
-                        <th>اسم المرسل</th>
-                        <th> البريد الإلكتروني</th>
-                        <th>الاجراءات</th>
+                        <th>Name</th>
+                        <th>E-mail</th>
+                        <th>Actions</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -30,8 +30,8 @@
                             <td><a href="mailto:{{ $contact->email }}">{{ $contact->email }}</a></td>
                             <td>
                                 <div class="buttons has-addons">
-                                    <a class="button is-info" href="{{ route('admin.contacts.show', $contact->id) }}"> عرض </a>
-                                    <span class="modal-open button is-danger" traget-modal=".delete-modal" data_id="{{ $contact->id }}" data_name="{{ $contact->full_name }}" data-url="{{ route('admin.contacts.destroy', $contact->id) }}">مسح</span>
+                                    <a class="button is-info" href="{{ route('admin.contact_messages.show', $contact->id) }}"> Show </a>
+                                    <span class="modal-open button is-danger" traget-modal=".delete-modal" data_id="{{ $contact->id }}" data_name="{{ $contact->name }}" data-url="{{ route('admin.contact_messages.destroy', $contact->id) }}">Delete</span>
                                 </div>
                             </td>
                         </tr>

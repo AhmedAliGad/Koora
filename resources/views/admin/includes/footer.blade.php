@@ -1,7 +1,7 @@
 <footer class="footer">
     <div class="content has-text-centered">
         <p>
-            <strong>All Rights Reserved ©    Co. {{date('Y')}} |</strong> <a target="_blank" href="https://www.fndevcs.com/index.html">Developed By FNDEV </a>
+            <strong>All Rights Reserved ©    Co. {{date('Y')}}
         </p>
     </div>
 </footer>
