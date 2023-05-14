@@ -16,6 +16,10 @@ Route::get('/', function () {
     return view('front/welcome');
 })->name('landing');
 
+/*--------pages-------*/
+Route::get('/profile', function () {
+    return view('front/pages/profile');
+})->name('profile');
 
 // Route::view('/', 'welcome');
 Route::redirect('/home', '/dashboard');

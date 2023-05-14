@@ -26280,12 +26280,13 @@ table td:not([align]), table th:not([align]) {
   opacity: 1;
   transition: 0.4s ease-in-out;
 }
-.header .socials {
+
+.socials {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.header .socials li {
+.socials li {
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -26293,7 +26294,7 @@ table td:not([align]), table th:not([align]) {
   margin: 0 5px;
   overflow: hidden;
 }
-.header .socials li a {
+.socials li a {
   display: block;
   width: 100%;
   height: 100%;
@@ -26301,7 +26302,7 @@ table td:not([align]), table th:not([align]) {
   color: #c91a12;
   text-align: center;
 }
-.header .socials li a:hover {
+.socials li a:hover {
   color: #FFF;
 }
 
@@ -26529,7 +26530,24 @@ a.has-text-white:hover, a.has-text-white:focus {
   margin-bottom: 0.8rem;
 }
 
-/*@import 'layouts/pages';*/
+.inner-header {
+  position: relative;
+  background-image: url("/front/images/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.inner-header::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(47, 46, 44, 0.9) 36%);
+}
+.inner-header .club-section figure img {
+  height: 8rem;
+}
+
 /*--------Direction-------*/
 /*@import 'general/rtl';
 */ /*------------responsive-------*/

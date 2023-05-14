@@ -17,11 +17,11 @@ window._ = require('lodash');
 //     live: false
 // });
 // window.wow.init();
-// // AOS
-// import 'aos/dist/aos.css';
-// import 'aos/dist/aos.js';
-// window.aos = require('aos');
-// aos.init();
+// AOS
+import 'aos/dist/aos.css';
+import 'aos/dist/aos.js';
+window.aos = require('aos');
+aos.init();
 
 //light gallery
 // require(['lightgallery'], function() {

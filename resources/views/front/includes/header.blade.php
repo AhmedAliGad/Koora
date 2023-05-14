@@ -1,4 +1,4 @@
- <header id="fixed_nav" class="header fixed_nav py-3">
+<header id="fixed_nav" class="header fixed_nav py-3">
     <div class="hero-head">
         <div class="container">
             <nav class="navbar">
@@ -9,79 +9,76 @@
                         </figure>
                     </a>
                     <span class="navbar-burger burger" data-target="navbarMenuHeroA">
-                     <span></span>
-                     <span></span>
-                     <span></span>
-                 </span>
-             </div>
-             <div id="navbarMenuHeroA" class="navbar-menu">
-                <div class="mx-auto">
-                 <ul>
-                    <li class="nav-item">
-                        <a href="{{ route('landing') }}" class="navbar-item has-text-white has-text-weight-bold {{-- {{ activateRouteClass('landing') }} --}}">
-                            الرئيسية
-                        </a>
-                    </li>
-                    <li class="nav-item dropdown_menu drodown is-mobile">
-                      <a class="navbar-item dropdown_head has-text-white has-text-weight-bold" href="">
-                        الإعلام
-                        <i class="fas fa-chevron-down mr-2"></i>
-                    </a>
-                    <ul class="dropdown_body">
-                        <li class="nav-item">
-                          <a class="navbar-item" href="">
-                            <i class="has-text-gold fa-solid fa-caret-right ml-2"></i>
-                            الأخبار
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="navbar-item" href="">
-                        <i class="has-text-gold fa-solid fa-caret-right ml-2"></i>
-                        معرض  الصور
-                    </a>
-                </li>
-                <li class="nav-item">
-                  <a class="navbar-item" href="">
-                    <i class="has-text-gold fa-solid fa-caret-right ml-2"></i>
-                    المركز الإعلامى
-                </a>
-            </li>
-
-
-        </ul>
-    </li>
-</ul>
-</div>
-</div>
-<div class="navbar-end">
-    <ul class="socials">
-        <li>
-            <a class="hvr-rectangle-out" href="#">
-                <i class="fa-brands fa-facebook-f"></i>
-            </a>
-        </li>
-        <li>
-            <a class="hvr-rectangle-out" href="#">
-                <i class="fa-brands fa-twitter"></i>
-            </a>
-        </li>
-        <li>
-            <a class="hvr-rectangle-out" href="#">
-                <i class="fa-brands fa-youtube"></i>
-            </a>
-        </li>
-        <li>
-            <a class="hvr-rectangle-out" href="#">
-                <i class="fa-brands fa-instagram"></i>
-            </a>
-        </li>
-    </ul>
-</div>
-</nav>
-</div>
-</div>
+                         <span></span>
+                         <span></span>
+                         <span></span>
+                    </span>
+                </div>
+                <div id="navbarMenuHeroA" class="navbar-menu">
+                    <div class="mx-auto">
+                        <ul>
+                            <li class="nav-item">
+                                <a href="{{ route('landing') }}" class="navbar-item has-text-white has-text-weight-bold">
+                                    الرئيسية
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown_menu drodown is-mobile">
+                                <a class="navbar-item dropdown_head has-text-white has-text-weight-bold" href="">
+                                    الإعلام
+                                    <i class="fas fa-chevron-down mr-2"></i>
+                                </a>
+                                <ul class="dropdown_body">
+                                    <li class="nav-item">
+                                        <a class="navbar-item" href="">
+                                            <i class="has-text-gold fa-solid fa-caret-right ml-2"></i>
+                                            الأخبار
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="navbar-item" href="">
+                                            <i class="has-text-gold fa-solid fa-caret-right ml-2"></i>
+                                            معرض  الصور
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="navbar-item" href="">
+                                            <i class="has-text-gold fa-solid fa-caret-right ml-2"></i>
+                                            المركز الإعلامى
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="navbar-end">
+                    <ul class="socials">
+                        <li>
+                            <a class="hvr-rectangle-out" href="#">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="hvr-rectangle-out" href="#">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="hvr-rectangle-out" href="#">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="hvr-rectangle-out" href="#">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
 </header>
-</section>
 @if(Route::current()->getName() == 'landing')
 <!-------------Slideshow--------->
 <section class="hero is-transparent is-full">
