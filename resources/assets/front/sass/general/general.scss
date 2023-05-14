@@ -264,3 +264,9 @@ table td:not([align]), table th:not([align]){
 	background-color: $gold;
 	border-radius: 50%;
 }
+.d-block{
+	display: block!important;
+}
+.d-inline-block{
+	display: inline-block;
+}

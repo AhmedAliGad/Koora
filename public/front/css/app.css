@@ -26178,6 +26178,14 @@ table td:not([align]), table th:not([align]) {
   border-radius: 50%;
 }
 
+.d-block {
+  display: block !important;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
 /*------layouts-----------*/
 /*----dropdown-----------*/
 .navbar .dropdown_menu {
@@ -26280,12 +26288,12 @@ table td:not([align]), table th:not([align]) {
   opacity: 1;
   transition: 0.4s ease-in-out;
 }
-
-.socials {
+.header .socials {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .socials li {
   width: 40px;
   height: 40px;
@@ -26542,10 +26550,30 @@ a.has-text-white:hover, a.has-text-white:focus {
   height: 100%;
   width: 100%;
   background: rgb(0, 0, 0);
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(47, 46, 44, 0.9) 36%);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(47, 46, 44, 0.95) 36%);
 }
 .inner-header .club-section figure img {
   height: 8rem;
+}
+.inner-header .club-section .club-link {
+  padding: 0.3rem 2rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #2f2c2e;
+  border-radius: 20px;
+  font-weight: 600;
+}
+.inner-header .club-section .club-link:hover {
+  background-color: #fff;
+}
+.inner-header .club-section .club-contact {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 4px;
+}
+.inner-header .club-section .club-contact a {
+  padding: 0.3rem 1rem;
+  font-weight: 600;
+  align-items: center;
 }
 
 /*--------Direction-------*/

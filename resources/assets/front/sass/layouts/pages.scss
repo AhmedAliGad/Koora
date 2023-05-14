@@ -9,7 +9,7 @@
 		height: 100%;
 		width: 100%;
 		background: rgb(0,0,0);
-		background: linear-gradient(90deg, rgba(0,0,0,.9) 0%, rgba(47,46,44,.9) 36%);
+		background: linear-gradient(90deg, rgba(0,0,0,.9) 0%, rgba(47,46,44,.95) 36%);
 	}
 	.club-section{
 		figure{
@@ -17,5 +17,25 @@
 				height: 8rem;
 			}
 		}
-	}	
+		.club-link{
+			padding:.3rem 2rem;
+			background-color: rgba(255,255,255,.9);
+			color: $primary;
+			border-radius: 20px;
+			font-weight: 600;
+			&:hover{
+				background-color:#fff;
+			}
+		}
+		.club-contact{
+			width: 100%;
+			background-color: rgba(255,255,255,.9);
+			border-radius: 4px;
+			a{
+				padding: .3rem 1rem;
+				font-weight: 600;
+				align-items: center;
+			}
+		}
+	}
 }
