@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Models\NewsList;
 use App\Models\User;
 use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
@@ -30,6 +31,10 @@ class RouteServiceProvider extends ServiceProvider
     {
         Route::bind('admin', function ($admin) {
             return User::where('id', $admin)->firstOrFail();
+        });
+
+        Route::bind('news', function ($post) {
+            return NewsList::Where('slug', $post)->first();
         });
 
         $this->configureRateLimiting();

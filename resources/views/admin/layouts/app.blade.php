@@ -9,10 +9,10 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="locale" content="en">
     <!-- Title -->
-    <title>Novo Care | @yield('page.title')</title>
+    <title>EPL | @yield('page.title')</title>
     <!-- SEO Tags -->
     <meta name="description" content="O2H Application Dashboard">
-    <meta name="author" content="Novo Care">
+    <meta name="author" content="EPL">
     <!-- Type Tags -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <!-- Styles -->
@@ -30,7 +30,7 @@
 <body>
 <div class="wrapper" id="app">
     <!--========Admin Loader============-->
-    <div class="pageloader is-active"><span class="title">Novo Care</span></div>
+    <div class="pageloader is-active"><span class="title">EPL</span></div>
     <!--========Admin Login layout============-->
     @if (Route::current()->getName() === 'login_form')
         <main class="login-page">

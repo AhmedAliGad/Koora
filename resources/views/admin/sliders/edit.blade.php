@@ -1,7 +1,7 @@
 <!-- Layout Extend -->
 @extends('admin.layouts.app')
 <!-- SEO Section -->
-@section('page.title', 'تعديل الصورة')
+@section('page.title', 'Edit Slider')
 <!-- Start Content Section -->
 @section('content')
   <!-- Start Card -->
@@ -12,7 +12,7 @@
         <span class="icon is-small">
           <i class="fa fa-image"></i>
         </span>
-        <span>قائمة الصور</span>
+        <span>Sliders List</span>
       </a>
     </div><!-- End Card Header -->
     <!-- Start Form -->

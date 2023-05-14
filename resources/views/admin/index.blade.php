@@ -80,7 +80,7 @@
                 </div>
                 <div class="content">
                     <div class="card-title is-tile is-styled has-text-right">
-                        <div class="card-stat accent has-text-right is-size-4 has-text-weight-bold">{{ \App\Models\WorkingHour::count() }}</div>
+                        <div class="card-stat accent has-text-right is-size-4 has-text-weight-bold">{{ 0 }}</div>
                     </div>
                     <div class="mt-2 more">
                         <a class="accent" href="{{ route('admin.working_hours.index') }}">more</a>
