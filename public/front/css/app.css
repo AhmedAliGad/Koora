@@ -26350,30 +26350,31 @@ a.has-text-white:hover, a.has-text-white:focus {
 
 /*-------------table section--*/
 .order-section {
-  /*background-image: url('/front/images/slide1.jpeg');
+  background-image: url("/front/images/img2.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;*/
-  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(47, 46, 44) 36%);
+  background-attachment: fixed;
   height: 100%;
   width: 100%;
   position: relative;
-  /*&::after{
-  	position: absolute;
-  	content: '';
-  	width: 100%;
-  	height: 100%;
-  	top: 0;
-  	right: 0;
-  	left: 0;
-  	background-color: rgba(34, 28, 28, 0.8);
-  	}*/
 }
 .order-section .table-container {
-  height: 615px;
+  height: 630px;
   background: #FFF;
-  border-radius: 4px 0px 4px 4px;
+  border-radius: 10px 0px 10px 10px;
   overflow-y: auto;
+  border: 2px solid #c91a12;
+}
+.order-section::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 0%, rgba(47, 46, 44, 0.7) 36%);
 }
 .order-section .order-title {
   display: inline-block;
@@ -26382,9 +26383,10 @@ a.has-text-white:hover, a.has-text-white:focus {
   border-radius: 100px 6px 0 0px;
 }
 .order-section .upcomming-card {
+  border: 2px solid #c91a12;
   background-color: #FFF;
-  border-radius: 4px 0 4px 4px;
-  height: 615px;
+  border-radius: 10px 0 10px 10px;
+  height: 630px;
   overflow-y: auto;
 }
 .order-section .upcomming-card .card {
@@ -26550,7 +26552,7 @@ a.has-text-white:hover, a.has-text-white:focus {
   height: 100%;
   width: 100%;
   background: rgb(0, 0, 0);
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(47, 46, 44, 0.95) 36%);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(47, 46, 44, 0.9) 36%);
 }
 .inner-header .club-section figure img {
   height: 8rem;
