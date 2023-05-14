@@ -14,6 +14,7 @@ Route::group(['namespace' => 'Admin', 'prefix' => 'dashboard', 'as' => 'admin.',
     Route::resource('sliders', 'SlidersController');
     // Photo Gallery
     Route::resource('photo_galleries', 'PhotoGalleriesController');
+    Route::resource('photo_galleries.photos', 'PhotosController')->only(['store', 'destroy']);
     // Partners
     Route::resource('partners', 'PartnersController');
     // News

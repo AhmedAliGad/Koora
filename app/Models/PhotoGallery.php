@@ -23,4 +23,9 @@ class PhotoGallery extends Model
     {
         return asset('storage/' . $this->image_path);
     }
+
+    public function photos(): \Illuminate\Database\Eloquent\Relations\HasMany
+    {
+        return $this->hasMany(Photo::class, 'photo_gallery_id');
+    }
 }

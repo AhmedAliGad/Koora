@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Admin\PhotoGalleryRequest;
+use App\Models\Photo;
 use App\Models\PhotoGallery;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
@@ -65,7 +66,9 @@ class PhotoGalleriesController extends Controller
      */
     public function show(PhotoGallery $photoGallery)
     {
-        //
+        $photos = Photo::where('photo_gallery_id', $photoGallery->id)->get();
+
+        return view('admin.photo_galleries.show', compact('photoGallery', 'photos'));
     }
 
     /**
