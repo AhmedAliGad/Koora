@@ -1,3 +1,68 @@
+/*----dropdown-----------*/
+.navbar .dropdown_menu {
+	position: relative;
+	z-index: 999;
+}
+
+.navbar .dropdown_body::after {
+	position: absolute;
+	content: "\f0d8";
+	font-weight: 900;
+	font-family: "Font Awesome 6 Free";
+	top: -27px;
+	left: 0;
+	font-size: 34px;
+	color: #FFF;
+	opacity: 1;
+	right: 30px;
+	margin: auto;
+}
+.navbar .dropdown_menu:hover .dropdown_body {
+	opacity: 1;
+	top: 100%;
+	visibility: visible;
+}
+
+.navbar .dropdown_menu .dropdown_body {
+	position: absolute;
+	top: 150%;
+	left: 0;
+	right: 0;
+	margin:auto;
+	min-width: 230px;
+	background-color: #FFF;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	padding: 5px 0;
+	box-shadow: 0 2px 12px #2e2a7a26;
+	border-radius: 4px;
+}
+
+.navbar .dropdown_menu .dropdown_body li {
+	position: relative;
+	display: block;
+	width: 100%;
+	transition: .4s ease-in-out;
+}
+
+.navbar .dropdown_menu .dropdown_body li a {
+	padding: 10px 20px!important;
+	width: 100%;
+	position: relative;
+	color:$secondary!important;
+	transition: .4s ease-in-out;
+}
+
+.navbar .dropdown_menu .dropdown_body li a:hover {
+	background-color: #f3f5f4;
+	color: #1a2030;
+	padding-right: 30px;
+	font-weight: bold;
+	transition: .4s ease-in-out;
+}
+
 /*-------------header---------*/
 .header{
 	background-color: $secondary;
@@ -8,9 +73,33 @@
 				max-height: 3.1rem;
 			}
 		}
-		.navbar-item {
+		.nav-item{
 			display: inline-block;
-			padding:1rem 0.75rem 1rem;
+			position: relative;
+			.navbar-item {
+				padding:1rem 0.75rem 1rem;
+				transition: .4s ease-in-out;
+				&::after{
+					position: absolute;
+					content: "";
+					top: 100%;
+					width: 0px;
+					height: 2px;
+					background-color: #f7d597;
+					right: 0;
+					left:0;
+					margin:auto;
+					opacity: 0;
+					transition: .4s ease-in-out;
+				}
+				&:hover{
+					&::after{
+						width: 100%;
+						opacity: 1;
+						transition: .4s ease-in-out;
+					}
+				}
+			}
 		}
 	}
 	.socials{
@@ -37,6 +126,10 @@
 			}
 		}
 	}
+}
+a.has-text-white:hover, a.has-text-white:focus{
+	color: #eee !important;
+	background-color: transparent!important;
 }
 /*---------Media Section-------*/
 .media-section{
