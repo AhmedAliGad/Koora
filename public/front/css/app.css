@@ -26002,7 +26002,7 @@ h4, .h4 {
 }
 .tabs ul li {
   background-color: #f2f0f0;
-  border-radius: 4px 4px 0 0;
+  border-radius: 15px 15px 0 0;
   margin-left: 10px;
 }
 .tabs ul li a {
@@ -26015,11 +26015,11 @@ h4, .h4 {
   background: rgb(105, 6, 16);
   background: linear-gradient(90deg, rgb(105, 6, 16) 0%, rgb(218, 27, 26) 52%);
   color: #FFF !important;
-  border-radius: 4px 4px 0 0;
+  border-radius: 15px 15px 0 0;
 }
 
 .vue-bulma-tabs .tab-content {
-  border-radius: 4px;
+  border-radius: 15px 0 15px 15px;
   background-color: #f2f0f0;
   margin: 0px !important;
   margin-top: -1px;
@@ -26058,8 +26058,8 @@ h4, .h4 {
   position: absolute;
 }
 
-.radius-4 {
-  border-radius: 4px;
+.radius-15 {
+  border-radius: 15px;
 }
 
 .height-80vh {
@@ -26123,7 +26123,7 @@ h4, .h4 {
 }
 
 .table {
-  border-radius: 4px 0 4px 4px;
+  border-radius: 15px 0 15px 15px;
   overflow: hidden;
   color: #2f2c2e;
 }
@@ -26186,6 +26186,28 @@ table td:not([align]), table th:not([align]) {
   display: inline-block;
 }
 
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.overflow-x {
+  overflow-x: hidden;
+}
+
+.slide_down_up {
+  animation: slide_down_up 1.7s ease-in-out infinite alternate both;
+}
+
+/* ------- */
+@keyframes slide_down_up {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(30%);
+  }
+}
 /*------layouts-----------*/
 /*----dropdown-----------*/
 .navbar .dropdown_menu {
@@ -26222,11 +26244,10 @@ table td:not([align]), table th:not([align]) {
   min-width: 230px;
   background-color: #FFF;
   opacity: 0;
-  visibility: hidden;
   transition: all 0.5s ease;
   padding: 5px 0;
   box-shadow: 0 2px 12px rgba(46, 42, 122, 0.1490196078);
-  border-radius: 4px;
+  border-radius: 15px;
 }
 
 .navbar .dropdown_menu .dropdown_body li {
@@ -26234,6 +26255,7 @@ table td:not([align]), table th:not([align]) {
   display: block;
   width: 100%;
   transition: 0.4s ease-in-out;
+  padding: 0 5px;
 }
 
 .navbar .dropdown_menu .dropdown_body li a {
@@ -26282,6 +26304,7 @@ table td:not([align]), table th:not([align]) {
   margin: auto;
   opacity: 0;
   transition: 0.4s ease-in-out;
+  border-radius: 15px;
 }
 .header .navbar .nav-item .navbar-item:hover::after {
   width: 100%;
@@ -26361,7 +26384,7 @@ a.has-text-white:hover, a.has-text-white:focus {
 .order-section .table-container {
   height: 630px;
   background: #FFF;
-  border-radius: 10px 0px 10px 10px;
+  border-radius: 20px 0px 20px 20px;
   overflow-y: auto;
   border: 2px solid #c91a12;
 }
@@ -26379,13 +26402,14 @@ a.has-text-white:hover, a.has-text-white:focus {
 .order-section .order-title {
   display: inline-block;
   width: auto;
-  padding: 0.6rem 2rem;
+  padding: 0.8rem 2rem 1.5rem;
   border-radius: 100px 6px 0 0px;
+  margin-bottom: -15px;
 }
 .order-section .upcomming-card {
   border: 2px solid #c91a12;
   background-color: #FFF;
-  border-radius: 10px 0 10px 10px;
+  border-radius: 20px 0 20px 20px;
   height: 630px;
   overflow-y: auto;
 }
@@ -26444,7 +26468,7 @@ a.has-text-white:hover, a.has-text-white:focus {
   display: block;
   width: 100%;
   height: 100%;
-  border-radius: 4px;
+  border-radius: 15px;
   padding: 0.5rem;
 }
 .sponsers-section .item a img, .categories-section .item a img {

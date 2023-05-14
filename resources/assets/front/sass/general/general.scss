@@ -104,7 +104,7 @@ h4,.h4{
 		border-bottom-color:transparent;
 		li{
 			background-color: $light-grey;
-			border-radius: 4px 4px 0 0;
+			border-radius: 15px 15px 0 0;
 			margin-left: 10px;
 			a{
 				padding: .7em 3em;
@@ -118,14 +118,14 @@ h4,.h4{
 				background: rgb(105,6,16);
 				background: linear-gradient(90deg, rgba(105,6,16,1) 0%, rgba(218,27,26,1) 52%);
 				color: #FFF!important;
-				border-radius: 4px 4px 0 0;
+				border-radius: 15px 15px 0 0;
 			}
 
 		}
 	}
 }
 .vue-bulma-tabs .tab-content{
-	border-radius: 4px;
+	border-radius: 15px 0 15px 15px;
 	background-color: $light-grey;
 	margin:0px!important;
 	margin-top:-1px;
@@ -158,8 +158,8 @@ h4,.h4{
 .is-absolute {
 	position: absolute;
 }
-.radius-4{
-	border-radius: 4px;
+.radius-15{
+	border-radius: 15px;
 }
 .height-80vh{
 	height: 80vh;
@@ -208,7 +208,7 @@ h4,.h4{
 	color: #FFF!important;
 }
 .table{
-	border-radius: 4px 0 4px 4px;
+	border-radius: 15px 0 15px 15px;
 	overflow: hidden;
 	color: $primary;
 	thead{
@@ -270,3 +270,37 @@ table td:not([align]), table th:not([align]){
 .d-inline-block{
 	display: inline-block;
 }
+.card{
+	border-radius: 15px;
+	overflow:hidden;
+}
+.overflow-x{
+	overflow-x: hidden;
+}
+.slide_down_up {
+ 	-webkit-animation: slide_down_up 1.7s ease-in-out infinite alternate both;
+ 	animation: slide_down_up 1.7s ease-in-out infinite alternate both;
+ }
+
+ /* ------- */
+ @-webkit-keyframes slide_down_up {
+ 	0% {
+ 		-webkit-transform: translateY(0);
+ 		transform: translateY(0);
+ 	}
+ 	100% {
+ 		-webkit-transform: translateY(30%);
+ 		transform: translateY(30%);
+ 	}
+ }
+
+ @keyframes slide_down_up {
+ 	0% {
+ 		-webkit-transform: translateY(0);
+ 		transform: translateY(0);
+ 	}
+ 	100% {
+ 		-webkit-transform: translateY(30%);
+ 		transform: translateY(30%);
+ 	}
+ }

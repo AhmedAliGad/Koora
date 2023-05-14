@@ -1,7 +1,7 @@
 <!-----------Sponsers-------->
-<section class="section-padding sponsers-section">
+<section class="section-padding sponsers-section has-text-centered">
 	<div class="container">
-		<h3 class="basic-title mb-5 has-text-centered has-text-primary mx-auto float-none d-inline-block">
+		<h3 data-aos="zoom-in" data-aos-delay="300" class="basic-title mb-5 has-text-centered has-text-primary mx-auto float-none d-inline-block">
 			شركاءالعمل
 		</h3>
 		<sponsers>
