@@ -54,7 +54,7 @@
 <!-------------Slideshow--------->
 <section class="hero is-transparent is-full">
     <div dir="ltr" class="slideshow">
-        <slick-animation  ref="slick"  :options="{slidesToShow:1, slidesToScroll: 1 , swipeToSlide: true, infinite: false, accessibility: true, adaptiveHeight: false, arrows: true, dots: true, dotsClass: 'primary-dots white-bg-dots slick-dots', draggable: true, edgeFriction: 0.30, swipe: true  , autoplay: false }" class="height-80vh">
+        <slick-animation  ref="slick"  :options="{slidesToShow:1, slidesToScroll: 1 , swipeToSlide: true, infinite: false, accessibility: true, adaptiveHeight: false, arrows: true, dots: true, dotsClass: 'primary-dots white-bg-dots slick-dots', draggable: true, edgeFriction: 0.30, swipe: true  , autoplay: true }" class="height-80vh">
             <div class="item height-80vh position-relative" dir="rtl">
                 <figure>
                     <lazy-load
