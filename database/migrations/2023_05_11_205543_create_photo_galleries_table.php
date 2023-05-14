@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('title');
             $table->string('slug')->unique();
-            $table->string('image');
+            $table->string('image_path');
             $table->date('populate_date')->nullable();
             $table->boolean('active')->default(true);
             $table->timestamps();

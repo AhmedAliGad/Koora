@@ -12,6 +12,8 @@ Route::group(['namespace' => 'Admin', 'prefix' => 'dashboard', 'as' => 'admin.',
 
     // Sliders
     Route::resource('sliders', 'SlidersController');
+    // Photo Gallery
+    Route::resource('photo_galleries', 'PhotoGalleriesController');
     // Partners
     Route::resource('partners', 'PartnersController');
     // News
@@ -23,10 +25,6 @@ Route::group(['namespace' => 'Admin', 'prefix' => 'dashboard', 'as' => 'admin.',
     // Contacts
     Route::resource('contact_messages', 'ContactMessagesController', ['only' => ['index', 'show', 'destroy']]);
 
-    // Agoran
-    Route::get('/agora-chat', 'AgoraVideoController@index');
-    Route::post('/agora/token', 'AgoraVideoController@token');
-    Route::post('/agora/call-user', 'AgoraVideoController@callUser');
     // Landing
     Route::name('dashboard')->get('/', 'HomeController@index');
     // Admins
@@ -42,16 +40,6 @@ Route::group(['namespace' => 'Admin', 'prefix' => 'dashboard', 'as' => 'admin.',
     Route::get('cities_list', 'TasksController@cities')->name('cities_list');
     Route::get('areas_list', 'TasksController@areas')->name('areas_list');
     // Reports
-    // Calls
-    Route::get('calls_report', 'ReportsController@callsReport')->name('calls_report');
-    Route::get('calls_chart', 'ReportsController@callsChart')->name('calls_chart');
-    Route::post('calls_export', 'ReportsController@callsExport')->name('calls_export');
-    Route::get('current_status', 'ReportsController@currentStatus')->name('current_status');
-    Route::get('agents_report', 'ReportsController@agentsReport')->name('agents_report');
-    Route::get('users_report', 'ReportsController@usersReport')->name('users_report');
-    Route::get('users/{user}/user_calls', 'ReportsController@userCalls')->name('user_calls');
-    Route::get('waiting_time', 'ReportsController@waitingTimes')->name('waiting_time');
-    Route::post('waiting_time_export', 'ReportsController@waitingTimesExport')->name('waiting_time_export');
 
     /* ====== About =======*/
     Route::name('abouts.edit')->get('abouts/edit', 'AboutsController@edit');
