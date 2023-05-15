@@ -17,7 +17,7 @@
 						alt="title"
 						/>
 					</figure>
-					<p class="has-text-secondary has-background-grey-light has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
+					<p class="has-text-secondary has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 				</a>
 			</div>
 			<div class="item p-2">

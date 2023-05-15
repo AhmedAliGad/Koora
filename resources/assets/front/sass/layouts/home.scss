@@ -136,6 +136,21 @@ a.has-text-white:hover, a.has-text-white:focus{
 }
 /*---------Media Section-------*/
 .media-section{
+	position: relative;
+	&::after{
+		position: absolute;
+		content: "";
+		top: 50px;
+		right: -59px;
+		background-image: url("/front/images/ball.svg");
+		background-repeat: no-repeat;
+		width: 120px;
+		height: 141px;
+		z-index: 100000;
+		background-size: contain;
+		opacity: .1;
+		animation: slide_up_down 3s ease-in-out infinite alternate both;
+	}
 	.card{
 		.card-image{
 			.image{
@@ -266,109 +281,126 @@ a.has-text-white:hover, a.has-text-white:focus{
 	}
 }
 /*---------sponsers-section------*/
-.sponsers-section, .categories-section{
-	.item{
-		a{
-			display: block;
-			width: 100%;
-			height: 100%;
-			border-radius: 15px;
-			padding: .5rem;
-			img{
-				height: 110px;
-				object-fit: contain;
+.categories-section{
+	position: relative;
+	&::after{
+		position: absolute;
+		top: 0px;
+		left: -35px;
+		content: '';
+		width: 100px;
+		height: 100px;
+		background-size: contain;
+		background-image: url('/front/images/champion.png');
+		opacity: .1;
+		transform: rotate(16deg);
+		/*animation: slide_up_down 2s ease-in-out infinite alternate both;*/
+
+	}
+}
+	.sponsers-section, .categories-section{
+		.item{
+			a{
+				display: block;
 				width: 100%;
+				height: 100%;
+				border-radius: 15px;
+				padding: .5rem;
+				img{
+					height: 110px;
+					object-fit: contain;
+					width: 100%;
+				}
 			}
 		}
-	}
-	.prev-btn, .next-btn{
-		position: absolute;
-		z-index: 1;
-		border:0px;
-		background-color: $light-grey;
-	}
-	.prev-btn{
-		right: -1.4rem;
-	}
-	.next-btn{
-		left: -1.4rem;
-	}
-}
-.categories-section .prev-btn, .categories-section .next-btn{
-	top: 4rem;
-}
-.sponsers-section .prev-btn, .sponsers-section .next-btn{
-	top: 3.5rem;
-}
-.prev-btn:active, .prev-btn:hover, .prev-btn:focus, .next-btn:active, .next-btn:hover, .next-btn:focus{
-	background-color: $primary;
-	color: #FFF!important;
-	border-color: transparent!important;
-	border:0px;
-}
-/*--------------Slideshoe section---*/
-.slideshow{
-	.slick-slide{
-		figure{
-			height: 100%;
-			width: 100%;
+		.prev-btn, .next-btn{
 			position: absolute;
-			top: 0;
-			right: 0;
-			left: 0;
-			bottom: 0;
-			z-index: -1;
+			z-index: 1;
+			border:0px;
+			background-color: $light-grey;
 		}
-		.item{
-			&::after{
+		.prev-btn{
+			right: -1.4rem;
+		}
+		.next-btn{
+			left: -1.4rem;
+		}
+	}
+	.categories-section .prev-btn, .categories-section .next-btn{
+		top: 4rem;
+	}
+	.sponsers-section .prev-btn, .sponsers-section .next-btn{
+		top: 3.5rem;
+	}
+	.prev-btn:active, .prev-btn:hover, .prev-btn:focus, .next-btn:active, .next-btn:hover, .next-btn:focus{
+		background-color: $primary;
+		color: #FFF!important;
+		border-color: transparent!important;
+		border:0px;
+	}
+	/*--------------Slideshoe section---*/
+	.slideshow{
+		.slick-slide{
+			figure{
+				height: 100%;
+				width: 100%;
 				position: absolute;
-				content: '';
 				top: 0;
 				right: 0;
 				left: 0;
-				width: 100%;
-				height: 100%;
-				background-color: rgba(0,0,0,.3);
+				bottom: 0;
+				z-index: -1;
 			}
-			.description{
-				position: relative;
-				z-index: 1;
+			.item{
+				&::after{
+					position: absolute;
+					content: '';
+					top: 0;
+					right: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+					background-color: rgba(0,0,0,.3);
+				}
+				.description{
+					position: relative;
+					z-index: 1;
+				}
 			}
 		}
-	}
-	.slick-dots{
-		bottom: 25px;
-		li{
-			width: 40px;
-			height: 3px;
-			button{
+		.slick-dots{
+			bottom: 25px;
+			li{
 				width: 40px;
 				height: 3px;
-				background: rgba(255,255,255,.7);
-				&::before{
+				button{
 					width: 40px;
 					height: 3px;
-					color: transparent;
+					background: rgba(255,255,255,.7);
+					&::before{
+						width: 40px;
+						height: 3px;
+						color: transparent;
+					}
+					padding:3px;
 				}
-				padding:3px;
 			}
-		}
-		li.slick-active{
-			button{
-				background: rgb(190, 149, 4);
+			li.slick-active{
+				button{
+					background: rgb(190, 149, 4);
+				}
 			}
 		}
 	}
-}
-.slick-dotted.slick-slider{
-	margin-bottom: 0px;
-}
-/*-----------footer-------*/
-.footer{
-	padding: 3rem 1.5rem;
-	ul{
-		li{
-			margin-bottom: .8rem;
+	.slick-dotted.slick-slider{
+		margin-bottom: 0px;
+	}
+	/*-----------footer-------*/
+	.footer{
+		padding: 3rem 1.5rem;
+		ul{
+			li{
+				margin-bottom: .8rem;
+			}
 		}
 	}
-}

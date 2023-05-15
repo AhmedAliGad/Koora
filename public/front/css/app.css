@@ -26199,6 +26199,37 @@ table td:not([align]), table th:not([align]) {
   animation: slide_down_up 1.7s ease-in-out infinite alternate both;
 }
 
+.slide_left_right {
+  animation: slide_left_right 1.7s ease-in-out infinite alternate both;
+}
+
+/* ------- */
+@keyframes slide_left_right {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-20px);
+  }
+}
+/**
+ * ----------------------------------------
+ * animation slide_up_down
+ * ----------------------------------------
+ */
+.slide_up_down {
+  animation: slide_up_down 1.7s ease-in-out infinite alternate both;
+}
+
+/* ------- */
+@keyframes slide_up_down {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
 /* ------- */
 @keyframes slide_down_up {
   0% {
@@ -26343,6 +26374,23 @@ a.has-text-white:hover, a.has-text-white:focus {
 }
 
 /*---------Media Section-------*/
+.media-section {
+  position: relative;
+}
+.media-section::after {
+  position: absolute;
+  content: "";
+  top: 50px;
+  right: -59px;
+  background-image: url("/front/images/ball.svg");
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 141px;
+  z-index: 100000;
+  background-size: contain;
+  opacity: 0.1;
+  animation: slide_up_down 3s ease-in-out infinite alternate both;
+}
 .media-section .card .card-image .image {
   position: relative;
   padding-top: 85%;
@@ -26464,6 +26512,23 @@ a.has-text-white:hover, a.has-text-white:focus {
 }
 
 /*---------sponsers-section------*/
+.categories-section {
+  position: relative;
+}
+.categories-section::after {
+  position: absolute;
+  top: 0px;
+  left: -35px;
+  content: "";
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+  background-image: url("/front/images/champion.png");
+  opacity: 0.1;
+  transform: rotate(16deg);
+  /*animation: slide_up_down 2s ease-in-out infinite alternate both;*/
+}
+
 .sponsers-section .item a, .categories-section .item a {
   display: block;
   width: 100%;
@@ -26566,40 +26631,55 @@ a.has-text-white:hover, a.has-text-white:focus {
 
 .inner-header {
   position: relative;
-  background-image: url("/front/images/hero-bg.png");
+  background-image: url("/front/images/order-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 .inner-header::after {
   position: absolute;
   content: "";
   height: 100%;
   width: 100%;
-  background: rgb(0, 0, 0);
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(47, 46, 44, 0.9) 36%);
+  background: rgba(196, 187, 187, 0.6);
 }
 .inner-header .club-section figure img {
   height: 8rem;
 }
 .inner-header .club-section .club-link {
   padding: 0.3rem 2rem;
-  background-color: rgba(255, 255, 255, 0.9);
-  color: #2f2c2e;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #FFF;
   border-radius: 20px;
   font-weight: 600;
 }
 .inner-header .club-section .club-link:hover {
   background-color: #fff;
+  color: #c91a12;
 }
 .inner-header .club-section .club-contact {
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.9);
-  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 .inner-header .club-section .club-contact a {
   padding: 0.3rem 1rem;
   font-weight: 600;
   align-items: center;
+}
+
+.media-section .club-img img {
+  height: 300px;
+  width: 100%;
+}
+.media-section .name-img {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  padding: 5px !important;
+  background-color: #FFF;
+}
+.media-section .name-img img {
+  height: 100%;
 }
 
 /*--------Direction-------*/
