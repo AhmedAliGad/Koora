@@ -60,22 +60,22 @@
                         <ul class="socials">
                             <li>
                                 <a class="hvr-rectangle-out" href="https://www.facebook.com/EPL.EG1/" target="_blank">
-                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-fade fa-facebook-f"></i>
                                 </a>
                             </li>
                             <li>
                                 <a class="hvr-rectangle-out" href="https://twitter.com/epl_eg" target="_blank">
-                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-fade fa-twitter"></i>
                                 </a>
                             </li>
                             <li>
                                 <a class="hvr-rectangle-out" href="#" target="_blank">
-                                    <i class="fa-brands fa-youtube"></i>
+                                    <i class="fa-brands fa-fade fa-youtube"></i>
                                 </a>
                             </li>
                             <li>
                                 <a class="hvr-rectangle-out" href="https://instagram.com/epl.eg" target="_blank">
-                                    <i class="fa-brands fa-instagram"></i>
+                                    <i class="fa-brands fa-fade fa-instagram"></i>
                                 </a>
                             </li>
                         </ul>

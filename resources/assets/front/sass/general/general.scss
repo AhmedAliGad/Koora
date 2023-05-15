@@ -68,6 +68,9 @@ a{
 .has-background-grey-light{
 	background-color: $light-grey!important;
 }
+.has-background-grey-light2{
+	background-color: $grey-light2;
+}
 .has-text-gold{
 	color: $gold;
 }
@@ -211,6 +214,7 @@ h4,.h4{
 	border-radius: 15px 0 15px 15px;
 	overflow: hidden;
 	color: $primary;
+	width: 100%;
 	thead{
 		background-color: #EAE3E3;
 		th{
@@ -278,36 +282,36 @@ table td:not([align]), table th:not([align]){
 	overflow-x: hidden;
 }
 .slide_down_up {
- 	-webkit-animation: slide_down_up 1.7s ease-in-out infinite alternate both;
- 	animation: slide_down_up 1.7s ease-in-out infinite alternate both;
- }
- .slide_left_right {
- 	-webkit-animation: slide_left_right 1.7s ease-in-out infinite alternate both;
- 	animation: slide_left_right 1.7s ease-in-out infinite alternate both;
- }
+	-webkit-animation: slide_down_up 1.7s ease-in-out infinite alternate both;
+	animation: slide_down_up 1.7s ease-in-out infinite alternate both;
+}
+.slide_left_right {
+	-webkit-animation: slide_left_right 1.7s ease-in-out infinite alternate both;
+	animation: slide_left_right 1.7s ease-in-out infinite alternate both;
+}
 
- /* ------- */
- @-webkit-keyframes slide_left_right {
- 	0% {
- 		-webkit-transform: translateX(0);
- 		transform: translateX(0);
- 	}
- 	100% {
- 		-webkit-transform: translateX(-20px);
- 		transform: translateX(-20px);
- 	}
- }
+/* ------- */
+@-webkit-keyframes slide_left_right {
+	0% {
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
+	100% {
+		-webkit-transform: translateX(-20px);
+		transform: translateX(-20px);
+	}
+}
 
- @keyframes slide_left_right {
- 	0% {
- 		-webkit-transform: translateX(0);
- 		transform: translateX(0);
- 	}
- 	100% {
- 		-webkit-transform: translateX(-20px);
- 		transform: translateX(-20px);
- 	}
- }
+@keyframes slide_left_right {
+	0% {
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
+	100% {
+		-webkit-transform: translateX(-20px);
+		transform: translateX(-20px);
+	}
+}
 /**
  * ----------------------------------------
  * animation slide_up_down
@@ -375,4 +379,77 @@ table td:not([align]), table th:not([align]){
  .mt-78{
  	margin-top: 78px;
  }
- 
+ .table-container{
+ 	background: #FFF;
+ 	border-radius: 15px;
+ 	overflow-y: auto;
+ 	border:2px solid $secondary;
+ }
+
+ .order-title{
+ 	display: inline-block;
+ 	width: auto;
+ 	padding: 0.8rem 1.5rem 1.5rem 2.5rem;
+ 	border-radius: 100px 6px 0 0px;
+ 	margin-bottom: -15px;
+ } 
+ .height-450{
+ 	height: 450px!important;
+ } 
+ .height-630{
+ 	height: 630px!important;
+ } 
+ .upcomming-card{
+		border:2px solid $secondary;
+		background-color: #FFF;
+		overflow-y: auto;
+		.card{
+			box-shadow: none;
+			border: 1px solid #E6E6E6;
+			border-top: 2px solid $secondary;
+			h4{
+				font-size: 1.1rem;
+				span{
+					border-right: 2px solid $secondary;
+					margin-right: 10px;
+					padding-right: 10px;
+					color: $grey-dark;
+					font-weight: normal;
+				}
+			}
+			small{
+				font-weight: normal;
+			}
+			.match{
+				align-items:center;
+				display: flex;
+				justify-content: center;
+				text-align: center;
+				margin-top: 1.5rem;
+				a{
+					margin:0 5px;
+				}
+				figure{
+					width: 86px;
+					height: 86px;
+					border-radius: 50%;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					background: #E6E6E6;
+					padding: 10px;
+					overflow: hidden;
+				}
+				span{
+					background: #000000;
+					color: #FFFFFF;
+					border-radius: 50%;
+					display: flex;
+					width: 30px;
+					align-items: center;
+					height: 30px;
+					justify-content: center;
+				}
+			}
+		}
+	}

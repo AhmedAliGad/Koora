@@ -204,6 +204,7 @@ a.has-text-white:hover, a.has-text-white:focus{
 		}
 	}
 }
+
 /*-------------table section--*/
 .order-section{
 	background-image: url('/front/images/img2.png');
@@ -213,36 +214,20 @@ a.has-text-white:hover, a.has-text-white:focus{
 	height: 100%;
 	width: 100%;
 	position: relative;
-	.table-container{
-		height: 630px;
-		background: #FFF;
-		border-radius: 20px 0px 20px 20px;
-		overflow-y: auto;
-		border:2px solid $secondary;
-	}
 	&::after{
-		position: absolute;
-		content: '';
-		width: 100%;
-		height: 100%;
-		top: 0;
-		right: 0;
-		left: 0;
-		background: rgb(0,0,0);
-		background: linear-gradient(90deg, rgba(0,0,0,.7) 0%, rgba(47,46,44,.7) 36%);
-	}
-	.order-title{
-		display: inline-block;
-		width: auto;
-		padding: .8rem 2rem 1.5rem;
-		border-radius: 100px 6px 0 0px;
-		margin-bottom: -15px;
-	}  
+ 	position: absolute;
+ 	content: '';
+ 	width: 100%;
+ 	height: 100%;
+ 	top: 0;
+ 	right: 0;
+ 	left: 0;
+ 	background: rgb(0,0,0);
+ 	background: linear-gradient(90deg, rgba(0,0,0,.7) 0%, rgba(47,46,44,.7) 36%);
+ }
 	.upcomming-card{
 		border:2px solid $secondary;
 		background-color: #FFF;
-		border-radius: 20px 0 20px 20px;
-		height: 630px;
 		overflow-y: auto;
 		.card{
 			box-shadow: none;
@@ -423,6 +408,42 @@ a.has-text-white:hover, a.has-text-white:focus{
 }
 .slick-dotted.slick-slider{
 	margin-bottom: 0px;
+}
+/*------tour section---------*/
+.tour-section{
+	position: relative;
+	&::after{
+		position: absolute;
+		top: -5px;
+		left: 30px;
+		content: '';
+		width: 110px;
+		height: 110px;
+		background-image: url('/front/images/medal.png');
+		background-repeat: no-repeat;
+		z-index: 1;
+		background-size: contain;
+		animation: slide_left_right 2s ease-in-out infinite alternate both;
+	}
+	.card{
+		border-bottom:2px solid $secondary;
+		border-top:0px;
+		figure{
+			position: relative;
+			padding-top: 70%;
+			display: block;
+			img{
+				position: absolute;
+				top: 0;
+				right:0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+	}
+
 }
 /*-----------footer-------*/
 .footer{

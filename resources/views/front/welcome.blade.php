@@ -675,8 +675,8 @@
 						<h4>الترتيب العام</h4>
 					</div>
 					<div class="overflow-x radius-15 position-relative">
-						<div class="table-container">
-							<table class="table is-striped" style="width:100%">
+						<div class="table-container height-630">
+							<table class="table is-striped">
 								<thead>
 									<tr>
 										<th>المركز</th>
@@ -693,7 +693,13 @@
 										<td class="order-team">
 											<a href="#">
 												<figure>
-													<img src="/front/images/2.png">
+													<lazy-load
+													src="/front/images/spinner.svg"
+													lazy-src="/front/images/1.png"
+													lazy-srcset="/front/images/1.png"
+													background-color="transparent"
+													alt="title"
+													/>
 												</figure>
 												<span class="has-text-secondary"> الدحيل </span>
 											</a>
@@ -708,7 +714,13 @@
 										<td class="order-team">
 											<a href="#">
 												<figure>
-													<img src="/front/images/1.png">
+													<lazy-load
+													src="/front/images/spinner.svg"
+													lazy-src="/front/images/1.png"
+													lazy-srcset="/front/images/1.png"
+													background-color="transparent"
+													alt="title"
+													/>
 												</figure>
 												<span class="has-text-secondary"> العربى </span>
 											</a>
@@ -723,7 +735,13 @@
 										<td class="order-team">
 											<a href="#">
 												<figure>
-													<img src="/front/images/3.png">
+													<lazy-load
+													src="/front/images/spinner.svg"
+													lazy-src="/front/images/3.png"
+													lazy-srcset="/front/images/3.png"
+													background-color="transparent"
+													alt="title"
+													/>
 												</figure>
 												<span class="has-text-secondary"> السد </span>
 											</a>
@@ -738,7 +756,13 @@
 										<td class="order-team">
 											<a href="#">
 												<figure>
-													<img src="/front/images/4.png">
+													<lazy-load
+													src="/front/images/spinner.svg"
+													lazy-src="/front/images/4.png"
+													lazy-srcset="/front/images/4.png"
+													background-color="transparent"
+													alt="title"
+													/>
 												</figure>
 												<span class="has-text-secondary"> الدحيل </span>
 											</a>
@@ -753,7 +777,13 @@
 										<td class="order-team">
 											<a href="#">
 												<figure>
-													<img src="/front/images/2.png">
+													<lazy-load
+													src="/front/images/spinner.svg"
+													lazy-src="/front/images/1.png"
+													lazy-srcset="/front/images/1.png"
+													background-color="transparent"
+													alt="title"
+													/>
 												</figure>
 												<span class="has-text-secondary"> الدحيل </span>
 											</a>
@@ -768,7 +798,13 @@
 										<td class="order-team">
 											<a href="#">
 												<figure>
-													<img src="/front/images/1.png">
+													<lazy-load
+													src="/front/images/spinner.svg"
+													lazy-src="/front/images/1.png"
+													lazy-srcset="/front/images/1.png"
+													background-color="transparent"
+													alt="title"
+													/>
 												</figure>
 												<span class="has-text-secondary"> العربى </span>
 											</a>
@@ -783,7 +819,13 @@
 										<td class="order-team">
 											<a href="#">
 												<figure>
-													<img src="/front/images/3.png">
+													<lazy-load
+													src="/front/images/spinner.svg"
+													lazy-src="/front/images/3.png"
+													lazy-srcset="/front/images/3.png"
+													background-color="transparent"
+													alt="title"
+													/>
 												</figure>
 												<span class="has-text-secondary"> السد </span>
 											</a>
@@ -798,7 +840,13 @@
 										<td class="order-team">
 											<a href="#">
 												<figure>
-													<img src="/front/images/4.png">
+													<lazy-load
+													src="/front/images/spinner.svg"
+													lazy-src="/front/images/4.png"
+													lazy-srcset="/front/images/4.png"
+													background-color="transparent"
+													alt="title"
+													/>
 												</figure>
 												<span class="has-text-secondary"> الدحيل </span>
 											</a>
@@ -813,7 +861,13 @@
 										<td class="order-team">
 											<a href="#">
 												<figure>
-													<img src="/front/images/2.png">
+													<lazy-load
+													src="/front/images/spinner.svg"
+													lazy-src="/front/images/1.png"
+													lazy-srcset="/front/images/1.png"
+													background-color="transparent"
+													alt="title"
+													/>
 												</figure>
 												<span class="has-text-secondary"> الدحيل </span>
 											</a>
@@ -828,7 +882,13 @@
 										<td class="order-team">
 											<a href="#">
 												<figure>
-													<img src="/front/images/1.png">
+													<lazy-load
+													src="/front/images/spinner.svg"
+													lazy-src="/front/images/1.png"
+													lazy-srcset="/front/images/1.png"
+													background-color="transparent"
+													alt="title"
+													/>
 												</figure>
 												<span class="has-text-secondary"> العربى </span>
 											</a>
@@ -843,7 +903,13 @@
 										<td class="order-team">
 											<a href="#">
 												<figure>
-													<img src="/front/images/3.png">
+													<lazy-load
+													src="/front/images/spinner.svg"
+													lazy-src="/front/images/3.png"
+													lazy-srcset="/front/images/3.png"
+													background-color="transparent"
+													alt="title"
+													/>
 												</figure>
 												<span class="has-text-secondary"> السد </span>
 											</a>
@@ -858,7 +924,13 @@
 										<td class="order-team">
 											<a href="#">
 												<figure>
-													<img src="/front/images/4.png">
+													<lazy-load
+													src="/front/images/spinner.svg"
+													lazy-src="/front/images/4.png"
+													lazy-srcset="/front/images/4.png"
+													background-color="transparent"
+													alt="title"
+													/>
 												</figure>
 												<span class="has-text-secondary"> الدحيل </span>
 											</a>
@@ -873,7 +945,13 @@
 										<td class="order-team">
 											<a href="#">
 												<figure>
-													<img src="/front/images/2.png">
+													<lazy-load
+													src="/front/images/spinner.svg"
+													lazy-src="/front/images/2.png"
+													lazy-srcset="/front/images/2.png"
+													background-color="transparent"
+													alt="title"
+													/>
 												</figure>
 												<span class="has-text-secondary"> الدحيل </span>
 											</a>
@@ -891,10 +969,10 @@
 						<h4>المباريات القادمة</h4>
 					</div>
 					<div class="overflow-x radius-15 position-relative">
-						<div class="upcomming-card p-4">
+						<div class="upcomming-card radius-15 height-630 p-4">
 							<div class="columns is-multiline">
 								<div class="column is-4">
-									<div class="card px-2 py-5">
+									<div class="card px-2 py-5" data-aos="zoom-in" data-aos-delay="300">
 										<h4>
 											<strong><i class="has-text-secondary fa-regular fa-calendar-days is-size-6 ml-1"></i> 12 مارس 2023  </strong>
 											<span><i class="has-text-secondary fa-regular fa-clock is-size-6 ml-1"></i>6:00</span>
@@ -905,7 +983,13 @@
 										<div class="match">
 											<a href="#">
 												<figure>
-													<img alt="" src="/front/images/1.png">
+													<lazy-load
+													src="/front/images/spinner.svg"
+													lazy-src="/front/images/1.png"
+													lazy-srcset="/front/images/1.png"
+													background-color="transparent"
+													alt="title"
+													/>
 												</figure>
 												<p class="has-text-primary mt-2">الشمال</p>
 											</a>
@@ -913,7 +997,13 @@
 											<span>VS</span>
 											<a href="#">
 												<figure>
-													<img alt="" src="/front/images/2.png">
+													<lazy-load
+													src="/front/images/spinner.svg"
+													lazy-src="/front/images/2.png"
+													lazy-srcset="/front/images/2.png"
+													background-color="transparent"
+													alt="title"
+													/>
 												</figure>
 												<p class="has-text-primary mt-2">الخور</p>
 											</a>
@@ -922,7 +1012,7 @@
 									</div>
 								</div>
 								<div class="column is-4">
-									<div class="card px-2 py-5">
+									<div class="card px-2 py-5" data-aos="zoom-in" data-aos-delay="300">
 										<h4>
 											<strong><i class="has-text-secondary fa-regular fa-calendar-days is-size-6 ml-1"></i> 12 مارس 2023  </strong>
 											<span><i class="has-text-secondary fa-regular fa-clock is-size-6 ml-1"></i>6:00</span>
@@ -933,7 +1023,13 @@
 										<div class="match">
 											<a href="#">
 												<figure>
-													<img alt="" src="/front/images/1.png">
+													<lazy-load
+													src="/front/images/spinner.svg"
+													lazy-src="/front/images/1.png"
+													lazy-srcset="/front/images/1.png"
+													background-color="transparent"
+													alt="title"
+													/>
 												</figure>
 												<p class="has-text-primary mt-2">الشمال</p>
 											</a>
@@ -941,7 +1037,13 @@
 											<span>VS</span>
 											<a href="#">
 												<figure>
-													<img alt="" src="/front/images/2.png">
+													<lazy-load
+													src="/front/images/spinner.svg"
+													lazy-src="/front/images/2.png"
+													lazy-srcset="/front/images/2.png"
+													background-color="transparent"
+													alt="title"
+													/>
 												</figure>
 												<p class="has-text-primary mt-2">الخور</p>
 											</a>
@@ -950,7 +1052,7 @@
 									</div>
 								</div>
 								<div class="column is-4">
-									<div class="card px-2 py-5">
+									<div class="card px-2 py-5" data-aos="zoom-in" data-aos-delay="300">
 										<h4>
 											<strong><i class="has-text-secondary fa-regular fa-calendar-days is-size-6 ml-1"></i> 12 مارس 2023  </strong>
 											<span><i class="has-text-secondary fa-regular fa-clock is-size-6 ml-1"></i>6:00</span>
@@ -961,7 +1063,13 @@
 										<div class="match">
 											<a href="#">
 												<figure>
-													<img alt="" src="/front/images/1.png">
+													<lazy-load
+													src="/front/images/spinner.svg"
+													lazy-src="/front/images/1.png"
+													lazy-srcset="/front/images/1.png"
+													background-color="transparent"
+													alt="title"
+													/>
 												</figure>
 												<p class="has-text-primary mt-2">الشمال</p>
 											</a>
@@ -969,7 +1077,13 @@
 											<span>VS</span>
 											<a href="#">
 												<figure>
-													<img alt="" src="/front/images/2.png">
+													<lazy-load
+													src="/front/images/spinner.svg"
+													lazy-src="/front/images/2.png"
+													lazy-srcset="/front/images/2.png"
+													background-color="transparent"
+													alt="title"
+													/>
 												</figure>
 												<p class="has-text-primary mt-2">الخور</p>
 											</a>
@@ -978,7 +1092,7 @@
 									</div>
 								</div>
 								<div class="column is-4">
-									<div class="card px-2 py-5">
+									<div class="card px-2 py-5" data-aos="zoom-in" data-aos-delay="300">
 										<h4>
 											<strong><i class="has-text-secondary fa-regular fa-calendar-days is-size-6 ml-1"></i> 12 مارس 2023  </strong>
 											<span><i class="has-text-secondary fa-regular fa-clock is-size-6 ml-1"></i>6:00</span>
@@ -989,7 +1103,13 @@
 										<div class="match">
 											<a href="#">
 												<figure>
-													<img alt="" src="/front/images/1.png">
+													<lazy-load
+													src="/front/images/spinner.svg"
+													lazy-src="/front/images/1.png"
+													lazy-srcset="/front/images/1.png"
+													background-color="transparent"
+													alt="title"
+													/>
 												</figure>
 												<p class="has-text-primary mt-2">الشمال</p>
 											</a>
@@ -997,7 +1117,13 @@
 											<span>VS</span>
 											<a href="#">
 												<figure>
-													<img alt="" src="/front/images/2.png">
+													<lazy-load
+													src="/front/images/spinner.svg"
+													lazy-src="/front/images/2.png"
+													lazy-srcset="/front/images/2.png"
+													background-color="transparent"
+													alt="title"
+													/>
 												</figure>
 												<p class="has-text-primary mt-2">الخور</p>
 											</a>
@@ -1006,7 +1132,7 @@
 									</div>
 								</div>
 								<div class="column is-4">
-									<div class="card px-2 py-5">
+									<div class="card px-2 py-5" data-aos="zoom-in" data-aos-delay="300">
 										<h4>
 											<strong><i class="has-text-secondary fa-regular fa-calendar-days is-size-6 ml-1"></i> 12 مارس 2023  </strong>
 											<span><i class="has-text-secondary fa-regular fa-clock is-size-6 ml-1"></i>6:00</span>
@@ -1017,7 +1143,13 @@
 										<div class="match">
 											<a href="#">
 												<figure>
-													<img alt="" src="/front/images/1.png">
+													<lazy-load
+													src="/front/images/spinner.svg"
+													lazy-src="/front/images/1.png"
+													lazy-srcset="/front/images/1.png"
+													background-color="transparent"
+													alt="title"
+													/>
 												</figure>
 												<p class="has-text-primary mt-2">الشمال</p>
 											</a>
@@ -1025,7 +1157,13 @@
 											<span>VS</span>
 											<a href="#">
 												<figure>
-													<img alt="" src="/front/images/2.png">
+													<lazy-load
+													src="/front/images/spinner.svg"
+													lazy-src="/front/images/2.png"
+													lazy-srcset="/front/images/2.png"
+													background-color="transparent"
+													alt="title"
+													/>
 												</figure>
 												<p class="has-text-primary mt-2">الخور</p>
 											</a>
@@ -1034,7 +1172,7 @@
 									</div>
 								</div>
 								<div class="column is-4">
-									<div class="card px-2 py-5">
+									<div class="card px-2 py-5" data-aos="zoom-in" data-aos-delay="300">
 										<h4>
 											<strong><i class="has-text-secondary fa-regular fa-calendar-days is-size-6 ml-1"></i> 12 مارس 2023  </strong>
 											<span><i class="has-text-secondary fa-regular fa-clock is-size-6 ml-1"></i>6:00</span>
@@ -1045,7 +1183,13 @@
 										<div class="match">
 											<a href="#">
 												<figure>
-													<img alt="" src="/front/images/1.png">
+													<lazy-load
+													src="/front/images/spinner.svg"
+													lazy-src="/front/images/1.png"
+													lazy-srcset="/front/images/1.png"
+													background-color="transparent"
+													alt="title"
+													/>
 												</figure>
 												<p class="has-text-primary mt-2">الشمال</p>
 											</a>
@@ -1053,7 +1197,13 @@
 											<span>VS</span>
 											<a href="#">
 												<figure>
-													<img alt="" src="/front/images/2.png">
+													<lazy-load
+													src="/front/images/spinner.svg"
+													lazy-src="/front/images/2.png"
+													lazy-srcset="/front/images/2.png"
+													background-color="transparent"
+													alt="title"
+													/>
 												</figure>
 												<p class="has-text-primary mt-2">الخور</p>
 											</a>
@@ -1063,6 +1213,265 @@
 								</div>
 							</div>
 						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!----Tour player---->
+<section class="section-padding tour-section has-background-grey-light2">
+	<div class="container">
+		<div class="columns">
+			<div class="column is-4">
+				<div data-aos="slide-up" data-aos-delay="300" class="order-title has-background-gold has-text-light">
+					<h4>لاعب الجولة</h4>
+				</div>
+				<div class="overflow-x radius-15 position-relative">
+					<div class="upcomming-card p-4 height-450 radius-15">
+						<div class="card" data-aos="zoom-in" data-aos-delay="300">
+							<figure>
+								<lazy-load
+								src="/front/images/spinner.svg"
+								lazy-src="/front/images/2.jpg"
+								lazy-srcset="/front/images/2.jpg"
+								background-color="transparent"
+								alt="title"
+								/>
+							</figure>
+						</div>
+						<div class="py-5 px-3">
+							<p class="mb-3">
+								<i class="is-size-4 fa-solid fa-person fa-flip ml-2 has-text-gold"></i>
+								<span class="has-text-secondary has-text-weight-bold">
+									إسم اللاعب:
+								</span>
+								<span class="has-text-primary has-text-weight-bold">الرئيس: السيد/ عبد الله يوسف الملا</span>
+							</p>
+							<p class="mb-3">
+								<i class="is-size-4 fa-brands fa-playstation fa-bounce ml-2 has-text-gold"></i>
+								<span class="has-text-secondary has-text-weight-bold">
+									النادى:
+								</span>
+								<span class="has-text-primary has-text-weight-bold">الرئيس: السيد/ عبد الله يوسف الملا</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="column is-8">
+				<div data-aos="slide-up" data-aos-delay="300" class="order-title has-background-gold has-text-light">
+					<h4>ترتيب الهدافين</h4>
+				</div>
+				<div class="overflow-x radius-15 position-relative">
+					<div class="table-container height-450">
+						<table class="table is-striped" style="width:100%">
+							<thead>
+								<tr>
+									<th>الترتيب</th>
+									<th>الإسم</th>
+									<th>النادى</th>
+									<th>عدد الأهداف</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>
+										<label>1</label>
+									</td>
+									<td class="order-team">
+										<a href="#">
+											<figure>
+												<img src="/front/images/2.png">
+											</figure>
+											<span class="has-text-secondary"> الدحيل </span>
+										</a>
+									</td>
+									<td>45</td>
+									<td>61</td>
+								</tr>
+								<tr>
+									<td>
+										<label>2</label>
+									</td>
+									<td class="order-team">
+										<a href="#">
+											<figure>
+												<img src="/front/images/1.png">
+											</figure>
+											<span class="has-text-secondary"> العربى </span>
+										</a>
+									</td>
+									<td>45</td>
+									<td>61</td>
+								</tr>
+								<tr>
+									<td>
+										<label>3</label>
+									</td>
+									<td class="order-team">
+										<a href="#">
+											<figure>
+												<img src="/front/images/3.png">
+											</figure>
+											<span class="has-text-secondary"> السد </span>
+										</a>
+									</td>
+									<td>45</td>
+									<td>61</td>
+								</tr>
+								<tr>
+									<td>
+										<label>4</label>
+									</td>
+									<td class="order-team">
+										<a href="#">
+											<figure>
+												<img src="/front/images/4.png">
+											</figure>
+											<span class="has-text-secondary"> الدحيل </span>
+										</a>
+									</td>
+									<td>45</td>
+									<td>61</td>
+								</tr>
+								<tr>
+									<td>
+										<label>1</label>
+									</td>
+									<td class="order-team">
+										<a href="#">
+											<figure>
+												<img src="/front/images/2.png">
+											</figure>
+											<span class="has-text-secondary"> الدحيل </span>
+										</a>
+									</td>
+									<td>45</td>
+									<td>61</td>
+								</tr>
+								<tr>
+									<td>
+										<label>2</label>
+									</td>
+									<td class="order-team">
+										<a href="#">
+											<figure>
+												<img src="/front/images/1.png">
+											</figure>
+											<span class="has-text-secondary"> العربى </span>
+										</a>
+									</td>
+									<td>45</td>
+									<td>61</td>
+								</tr>
+								<tr>
+									<td>
+										<label>3</label>
+									</td>
+									<td class="order-team">
+										<a href="#">
+											<figure>
+												<img src="/front/images/3.png">
+											</figure>
+											<span class="has-text-secondary"> السد </span>
+										</a>
+									</td>
+									<td>45</td>
+									<td>61</td>
+								</tr>
+								<tr>
+									<td>
+										<label>4</label>
+									</td>
+									<td class="order-team">
+										<a href="#">
+											<figure>
+												<img src="/front/images/4.png">
+											</figure>
+											<span class="has-text-secondary"> الدحيل </span>
+										</a>
+									</td>
+									<td>45</td>
+									<td>61</td>
+								</tr>
+								<tr>
+									<td>
+										<label>1</label>
+									</td>
+									<td class="order-team">
+										<a href="#">
+											<figure>
+												<img src="/front/images/2.png">
+											</figure>
+											<span class="has-text-secondary"> الدحيل </span>
+										</a>
+									</td>
+									<td>45</td>
+									<td>61</td>
+								</tr>
+								<tr>
+									<td>
+										<label>2</label>
+									</td>
+									<td class="order-team">
+										<a href="#">
+											<figure>
+												<img src="/front/images/1.png">
+											</figure>
+											<span class="has-text-secondary"> العربى </span>
+										</a>
+									</td>
+									<td>45</td>
+									<td>61</td>
+								</tr>
+								<tr>
+									<td>
+										<label>3</label>
+									</td>
+									<td class="order-team">
+										<a href="#">
+											<figure>
+												<img src="/front/images/3.png">
+											</figure>
+											<span class="has-text-secondary"> السد </span>
+										</a>
+									</td>
+									<td>45</td>
+									<td>61</td>
+								</tr>
+								<tr>
+									<td>
+										<label>4</label>
+									</td>
+									<td class="order-team">
+										<a href="#">
+											<figure>
+												<img src="/front/images/4.png">
+											</figure>
+											<span class="has-text-secondary"> الدحيل </span>
+										</a>
+									</td>
+									<td>45</td>
+									<td>61</td>
+								</tr>
+								<tr>
+									<td>
+										<label>1</label>
+									</td>
+									<td class="order-team">
+										<a href="#">
+											<figure>
+												<img src="/front/images/2.png">
+											</figure>
+											<span class="has-text-secondary"> الدحيل </span>
+										</a>
+									</td>
+									<td>45</td>
+									<td>61</td>
+								</tr>
+							</tbody>
+						</table>
 					</div>
 				</div>
 			</div>

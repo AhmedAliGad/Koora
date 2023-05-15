@@ -25956,6 +25956,10 @@ a:focus {
   background-color: #f2f0f0 !important;
 }
 
+.has-background-grey-light2 {
+  background-color: #eeecec;
+}
+
 .has-text-gold {
   color: #be9750;
 }
@@ -26126,6 +26130,7 @@ h4, .h4 {
   border-radius: 15px 0 15px 15px;
   overflow: hidden;
   color: #2f2c2e;
+  width: 100%;
 }
 .table thead {
   background-color: #EAE3E3;
@@ -26252,6 +26257,84 @@ table td:not([align]), table th:not([align]) {
 
 .mt-78 {
   margin-top: 78px;
+}
+
+.table-container {
+  background: #FFF;
+  border-radius: 15px;
+  overflow-y: auto;
+  border: 2px solid #c91a12;
+}
+
+.order-title {
+  display: inline-block;
+  width: auto;
+  padding: 0.8rem 1.5rem 1.5rem 2.5rem;
+  border-radius: 100px 6px 0 0px;
+  margin-bottom: -15px;
+}
+
+.height-450 {
+  height: 450px !important;
+}
+
+.height-630 {
+  height: 630px !important;
+}
+
+.upcomming-card {
+  border: 2px solid #c91a12;
+  background-color: #FFF;
+  overflow-y: auto;
+}
+.upcomming-card .card {
+  box-shadow: none;
+  border: 1px solid #E6E6E6;
+  border-top: 2px solid #c91a12;
+}
+.upcomming-card .card h4 {
+  font-size: 1.1rem;
+}
+.upcomming-card .card h4 span {
+  border-right: 2px solid #c91a12;
+  margin-right: 10px;
+  padding-right: 10px;
+  color: hsl(0, 0%, 29%);
+  font-weight: normal;
+}
+.upcomming-card .card small {
+  font-weight: normal;
+}
+.upcomming-card .card .match {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.upcomming-card .card .match a {
+  margin: 0 5px;
+}
+.upcomming-card .card .match figure {
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #E6E6E6;
+  padding: 10px;
+  overflow: hidden;
+}
+.upcomming-card .card .match span {
+  background: #000000;
+  color: #FFFFFF;
+  border-radius: 50%;
+  display: flex;
+  width: 30px;
+  align-items: center;
+  height: 30px;
+  justify-content: center;
 }
 
 /*------layouts-----------*/
@@ -26462,13 +26545,6 @@ a.has-text-white:hover, a.has-text-white:focus {
   width: 100%;
   position: relative;
 }
-.order-section .table-container {
-  height: 630px;
-  background: #FFF;
-  border-radius: 20px 0px 20px 20px;
-  overflow-y: auto;
-  border: 2px solid #c91a12;
-}
 .order-section::after {
   position: absolute;
   content: "";
@@ -26480,18 +26556,9 @@ a.has-text-white:hover, a.has-text-white:focus {
   background: rgb(0, 0, 0);
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 0%, rgba(47, 46, 44, 0.7) 36%);
 }
-.order-section .order-title {
-  display: inline-block;
-  width: auto;
-  padding: 0.8rem 2rem 1.5rem;
-  border-radius: 100px 6px 0 0px;
-  margin-bottom: -15px;
-}
 .order-section .upcomming-card {
   border: 2px solid #c91a12;
   background-color: #FFF;
-  border-radius: 20px 0 20px 20px;
-  height: 630px;
   overflow-y: auto;
 }
 .order-section .upcomming-card .card {
@@ -26664,6 +26731,43 @@ a.has-text-white:hover, a.has-text-white:focus {
 
 .slick-dotted.slick-slider {
   margin-bottom: 0px;
+}
+
+/*------tour section---------*/
+.tour-section {
+  position: relative;
+}
+.tour-section::after {
+  position: absolute;
+  top: -5px;
+  left: 30px;
+  content: "";
+  width: 110px;
+  height: 110px;
+  background-image: url("/front/images/medal.png");
+  background-repeat: no-repeat;
+  z-index: 1;
+  background-size: contain;
+  animation: slide_left_right 2s ease-in-out infinite alternate both;
+}
+.tour-section .card {
+  border-bottom: 2px solid #c91a12;
+  border-top: 0px;
+}
+.tour-section .card figure {
+  position: relative;
+  padding-top: 70%;
+  display: block;
+}
+.tour-section .card figure img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /*-----------footer-------*/

@@ -28,22 +28,22 @@
 						<ul class="socials mb-5 justify-content-start has-text-right d-block mt-3" data-aos="zoom-in" data-aos-delay="300">
 							<li class="d-inline-block">
 								<a class="hvr-rectangle-out" href="#">
-									<i class="fa-brands fa-facebook-f"></i>
+									<i class="fa-fade fa-brands fa-facebook-f"></i>
 								</a>
 							</li>
 							<li class="d-inline-block">
 								<a class="hvr-rectangle-out" href="#">
-									<i class="fa-brands fa-twitter"></i>
+									<i class="fa-fade fa-brands fa-twitter"></i>
 								</a>
 							</li>
 							<li class="d-inline-block">
 								<a class="hvr-rectangle-out" href="#">
-									<i class="fa-brands fa-youtube"></i>
+									<i class="fa-fade fa-brands fa-youtube"></i>
 								</a>
 							</li>
 							<li class="d-inline-block">
 								<a class="hvr-rectangle-out" href="#">
-									<i class="fa-brands fa-instagram"></i>
+									<i class="fa-fade fa-brands fa-instagram"></i>
 								</a>
 							</li>
 						</ul>
@@ -57,25 +57,25 @@
 							<div class="columns is-multiline">
 								<div class="column is-6">
 									<a href="#" class="has-text-light" data-aos="zoom-in" data-aos-delay="300">
-										<i class="has-text-gold fa-brands fa-whatsapp ml-1"></i>
+										<i class="fa-shake has-text-gold fa-brands fa-whatsapp ml-1"></i>
 										<span>010898738</span>
 									</a>
 								</div>
 								<div class="column is-6">
 									<a href="#" class="has-text-light" data-aos="zoom-in" data-aos-delay="300">
-										<i class="has-text-gold fa-solid fa-phone-volume ml-1"></i>
+										<i class="fa-shake has-text-gold fa-solid fa-phone-volume ml-1"></i>
 										<span>0986765</span>
 									</a>
 								</div>
 								<div class="column is-6">
 									<a href="#" class="has-text-light" data-aos="zoom-in" data-aos-delay="300">
-										<i class="has-text-gold fa-solid fa-location-dot ml-1"></i>
+										<i class="fa-shake has-text-gold fa-solid fa-location-dot ml-1"></i>
 										<span>استاد القاهرة - نادى  الأهلى الرياضى</span>
 									</a>
 								</div>
 								<div class="column is-6">
 									<a href="#" class="has-text-light" data-aos="zoom-in" data-aos-delay="300">
-										<i class="has-text-gold fa-solid fa-envelope-open-text ml-1"></i>
+										<i class="fa-shake has-text-gold fa-solid fa-envelope-open-text ml-1"></i>
 										<span>test@gmail.com</span>
 									</a>
 								</div>
@@ -345,15 +345,15 @@
 					<div class="column is-9 has-text-right">
 						<div class="p-4">
 							<p class="mb-3">
-								<i class="fa-regular fa-flag ml-2 has-text-gold"></i>
+								<i class="fa-beat fa-regular fa-flag ml-2 has-text-gold"></i>
 								<span class="has-text-primary has-text-weight-bold">سنة التأسيس: 1950</span>
 							</p>
 							<p class="mb-3">
-								<i class="fa-regular fa-user ml-2 has-text-gold"></i>
+								<i class="fa-beat fa-regular fa-user ml-2 has-text-gold"></i>
 								<span class="has-text-primary has-text-weight-bold">الرئيس: السيد/ عبد الله يوسف الملا</span>
 							</p>
 							<p class="mb-3">
-								<i class="fa-solid fa-monument ml-2 has-text-gold"></i>
+								<i class="fa-beat fa-solid fa-monument ml-2 has-text-gold"></i>
 								<span class="has-text-primary has-text-weight-bold">اللقب: العميد</span>
 							</p>
 							<div class="columns is-multiline mt-3">
