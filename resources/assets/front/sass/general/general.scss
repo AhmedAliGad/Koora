@@ -362,3 +362,13 @@ table td:not([align]), table th:not([align]){
  		transform: translateY(30%);
  	}
  }
+ .news-loader{
+ 	margin:auto;
+ 	width: 70px;
+ 	height: 70px;
+ 	display: block;
+ 	img{
+ 		width: 100%;
+ 		height: 100%;
+ 	}
+ }

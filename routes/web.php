@@ -21,6 +21,10 @@ Route::get('/profile', function () {
     return view('front/pages/profile');
 })->name('profile');
 
+Route::get('/blog', function () {
+    return view('front/blog/index');
+})->name('blog');
+
 // Route::view('/', 'welcome');
 Route::redirect('/home', '/dashboard');
 Route::view('privacy-policy', 'privacy-policy')->name('privacy-policy');

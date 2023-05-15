@@ -23,7 +23,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="{{ route('landing') }}" class="navbar-item has-text-white has-text-weight-bold">
+                                <a href="{{ route('blog') }}" class="navbar-item has-text-white has-text-weight-bold">
                                     الاخبار
                                 </a>
                             </li>

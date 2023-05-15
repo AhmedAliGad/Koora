@@ -38,12 +38,14 @@
  /*-----------Site Components---------*/
  import Clubs from './components/SiteComponents/Clubs';
  import Sponsers from './components/SiteComponents/Sponsers';
+ import News from './components/SiteComponents/News';
 
  export {
  	Slick,
  	Sponsers,
  	Clubs,
- 	SlickAnimation
+ 	SlickAnimation,
+ 	News
  }
  const app = new Vue({
  	el: '#app',
@@ -53,7 +55,8 @@
  		Slick,
  		Sponsers,
  		Clubs,
- 		SlickAnimation
+ 		SlickAnimation,
+ 		News
  	},
 
  });
