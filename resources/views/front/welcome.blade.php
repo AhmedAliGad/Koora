@@ -7,7 +7,7 @@
 	<div class="container">
 		<clubs>
 			<div class="item">
-				<a class="hvr-grow box-shadow-sm" rel="noreferrer" href="">
+				<a class="hvr-grow box-shadow-sm" rel="noreferrer" href="{{ route('profile') }}">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -21,7 +21,7 @@
 				</a>
 			</div>
 			<div class="item">
-				<a class="hvr-grow box-shadow-sm" rel="noreferrer" href="">
+				<a class="hvr-grow box-shadow-sm" rel="noreferrer" href="{{ route('profile') }}">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -35,7 +35,7 @@
 				</a>
 			</div>
 			<div class="item">
-				<a class="hvr-grow box-shadow-sm" rel="noreferrer" href="">
+				<a class="hvr-grow box-shadow-sm" rel="noreferrer" href="{{ route('profile') }}">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -49,7 +49,7 @@
 				</a>
 			</div>
 			<div class="item">
-				<a class="hvr-grow box-shadow-sm" rel="noreferrer" href="">
+				<a class="hvr-grow box-shadow-sm" rel="noreferrer" href="{{ route('profile') }}">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -63,7 +63,7 @@
 				</a>
 			</div>
 			<div class="item">
-				<a class="hvr-grow box-shadow-sm" rel="noreferrer" href="">
+				<a class="hvr-grow box-shadow-sm" rel="noreferrer" href="{{ route('profile') }}">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -77,7 +77,7 @@
 				</a>
 			</div>
 			<div class="item">
-				<a class="hvr-grow box-shadow-sm" rel="noreferrer" href="">
+				<a class="hvr-grow box-shadow-sm" rel="noreferrer" href="{{ route('profile') }}">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -91,7 +91,7 @@
 				</a>
 			</div>
 			<div class="item">
-				<a class="hvr-grow box-shadow-sm" rel="noreferrer" href="">
+				<a class="hvr-grow box-shadow-sm" rel="noreferrer" href="{{ route('profile') }}">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -105,7 +105,7 @@
 				</a>
 			</div>
 			<div class="item">
-				<a class="hvr-grow box-shadow-sm" rel="noreferrer" href="">
+				<a class="hvr-grow box-shadow-sm" rel="noreferrer" href="{{ route('profile') }}">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -119,7 +119,7 @@
 				</a>
 			</div>
 			<div class="item">
-				<a class="hvr-grow box-shadow-sm" rel="noreferrer" href="">
+				<a class="hvr-grow box-shadow-sm" rel="noreferrer" href="{{ route('profile') }}">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -133,7 +133,7 @@
 				</a>
 			</div>
 			<div class="item">
-				<a class="hvr-grow box-shadow-sm" rel="noreferrer" href="">
+				<a class="hvr-grow box-shadow-sm" rel="noreferrer" href="{{ route('profile') }}">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -147,7 +147,7 @@
 				</a>
 			</div>
 			<div class="item">
-				<a class="hvr-grow box-shadow-sm" rel="noreferrer" href="">
+				<a class="hvr-grow box-shadow-sm" rel="noreferrer" href="{{ route('profile') }}">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -160,8 +160,9 @@
 					<p class="has-text-secondary has-background-grey-light has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 				</a>
 			</div>
-			<div class="item">
-				<a class="hvr-grow box-shadow-sm" rel="noreferrer" href="">
+
+                    <div class="item">
+                        <a class="hvr-grow box-shadow-sm" rel="noreferrer" href="{{ route('profile') }}">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -207,7 +208,6 @@
 										class="image-cover"
 										/>
 									</figure>
-									<span class="is-size-6 p-2 px-3 has-background-primary has-text-white is-absolute is-tr-1 is-rounded">الأسبوع 22</span>
 								</a>
 							</div>
 							<div class="card-content">
@@ -235,7 +235,6 @@
 										class="image-cover"
 										/>
 									</figure>
-									<span class="is-size-6 p-2 px-3 has-background-primary has-text-white is-absolute is-tr-1 is-rounded">الأسبوع 22</span>
 								</a>
 							</div>
 							<div class="card-content">
@@ -263,7 +262,6 @@
 										class="image-cover"
 										/>
 									</figure>
-									<span class="is-size-6 p-2 px-3 has-background-primary has-text-white is-absolute is-tr-1 is-rounded">الأسبوع 22</span>
 								</a>
 							</div>
 							<div class="card-content">
@@ -291,63 +289,6 @@
 										class="image-cover"
 										/>
 									</figure>
-									<span class="is-size-6 p-2 px-3 has-background-primary has-text-white is-absolute is-tr-1 is-rounded">الأسبوع 22</span>
-								</a>
-							</div>
-							<div class="card-content">
-								<div class="content has-text-grey-light">
-									<a href="#">
-										<h5>Dummy Text</h5>
-									</a>
-									<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
-									<a href="#" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="column is-3">
-						<div class="card shadow-lg">
-							<div class="card-image">
-								<a href="#">
-									<figure class="image">
-										<lazy-load
-										src="/front/images/spinner.svg"
-										lazy-src="/front/images/1.jpg"
-										lazy-srcset="/front/images/1.jpg"
-										background-color="transparent"
-										alt="title"
-										class="image-cover"
-										/>										
-									</figure>
-									<span class="is-size-6 p-2 px-3 has-background-primary has-text-white is-absolute is-tr-1 is-rounded">الأسبوع 22</span>						
-								</a>
-							</div>
-							<div class="card-content">
-								<div class="content has-text-grey-light">
-									<a href="#">
-										<h5>Dummy Text</h5>
-									</a>
-									<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
-									<a href="#" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="column is-3">
-						<div class="card shadow-lg">
-							<div class="card-image">
-								<a href="#">
-									<figure class="image">
-										<lazy-load
-										src="/front/images/spinner.svg"
-										lazy-src="/front/images/2.jpg"
-										lazy-srcset="/front/images/2.jpg"
-										background-color="transparent"
-										alt="title"
-										class="image-cover"
-										/>
-									</figure>
-									<span class="is-size-6 p-2 px-3 has-background-primary has-text-white is-absolute is-tr-1 is-rounded">الأسبوع 22</span>
 								</a>
 							</div>
 							<div class="card-content">
@@ -375,7 +316,7 @@
 										class="image-cover"
 										/>
 									</figure>
-									<span class="is-size-6 p-2 px-3 has-background-primary has-text-white is-absolute is-tr-1 is-rounded">الأسبوع 22</span>
+
 								</a>
 							</div>
 							<div class="card-content">
@@ -403,7 +344,60 @@
 										class="image-cover"
 										/>
 									</figure>
-									<span class="is-size-6 p-2 px-3 has-background-primary has-text-white is-absolute is-tr-1 is-rounded">الأسبوع 22</span>
+								</a>
+							</div>
+							<div class="card-content">
+								<div class="content has-text-grey-light">
+									<a href="#">
+										<h5>Dummy Text</h5>
+									</a>
+									<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
+									<a href="#" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column is-3">
+						<div class="card shadow-lg">
+							<div class="card-image">
+								<a href="#">
+									<figure class="image">
+										<lazy-load
+										src="/front/images/spinner.svg"
+										lazy-src="/front/images/1.jpg"
+										lazy-srcset="/front/images/1.jpg"
+										background-color="transparent"
+										alt="title"
+										class="image-cover"
+										/>
+									</figure>
+								</a>
+							</div>
+							<div class="card-content">
+								<div class="content has-text-grey-light">
+									<a href="#">
+										<h5>Dummy Text</h5>
+									</a>
+									<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
+									<a href="#" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column is-3">
+						<div class="card shadow-lg">
+							<div class="card-image">
+								<a href="#">
+									<figure class="image">
+										<lazy-load
+										src="/front/images/spinner.svg"
+										lazy-src="/front/images/2.jpg"
+										lazy-srcset="/front/images/2.jpg"
+										background-color="transparent"
+										alt="title"
+										class="image-cover"
+										/>
+									</figure>
 								</a>
 							</div>
 							<div class="card-content">
@@ -443,7 +437,6 @@
 										/>
 									</figure>
 									<div class="is-overlay">
-										<span class="is-size-6 p-2 px-3 has-background-primary has-text-white is-absolute is-tr-1 is-rounded">الأسبوع 22</span>
 										<i class="fa-regular fa-eye text-light"></i>
 									</div>
 								</a>
@@ -472,7 +465,6 @@
 										/>
 									</figure>
 									<div class="is-overlay">
-										<span class="is-size-6 p-2 px-3 has-background-primary has-text-white is-absolute is-tr-1 is-rounded">الأسبوع 22</span>
 										<i class="fa-regular fa-eye text-light"></i>
 									</div>
 								</a>
@@ -501,7 +493,6 @@
 										/>
 									</figure>
 									<div class="is-overlay">
-										<span class="is-size-6 p-2 px-3 has-background-primary has-text-white is-absolute is-tr-1 is-rounded">الأسبوع 22</span>
 										<i class="fa-regular fa-eye text-light"></i>
 									</div>
 								</a>
@@ -530,7 +521,6 @@
 										/>
 									</figure>
 									<div class="is-overlay">
-										<span class="is-size-6 p-2 px-3 has-background-primary has-text-white is-absolute is-tr-1 is-rounded">الأسبوع 22</span>
 										<i class="fa-regular fa-eye text-light"></i>
 									</div>
 								</a>
@@ -559,7 +549,6 @@
 										/>
 									</figure>
 									<div class="is-overlay">
-										<span class="is-size-6 p-2 px-3 has-background-primary has-text-white is-absolute is-tr-1 is-rounded">الأسبوع 22</span>
 										<i class="fa-regular fa-eye text-light"></i>
 									</div>
 								</a>
@@ -588,7 +577,6 @@
 										/>
 									</figure>
 									<div class="is-overlay">
-										<span class="is-size-6 p-2 px-3 has-background-primary has-text-white is-absolute is-tr-1 is-rounded">الأسبوع 22</span>
 										<i class="fa-regular fa-eye text-light"></i>
 									</div>
 								</a>
@@ -617,7 +605,6 @@
 										/>
 									</figure>
 									<div class="is-overlay">
-										<span class="is-size-6 p-2 px-3 has-background-primary has-text-white is-absolute is-tr-1 is-rounded">الأسبوع 22</span>
 										<i class="fa-regular fa-eye text-light"></i>
 									</div>
 								</a>
@@ -646,7 +633,6 @@
 										/>
 									</figure>
 									<div class="is-overlay">
-										<span class="is-size-6 p-2 px-3 has-background-primary has-text-white is-absolute is-tr-1 is-rounded">الأسبوع 22</span>
 										<i class="fa-regular fa-eye text-light"></i>
 									</div>
 								</a>
@@ -691,7 +677,7 @@
 											<label>1</label>
 										</td>
 										<td class="order-team">
-											<a href="#">
+											<a href="{{ route('profile') }}">
 												<figure>
 													<lazy-load
 													src="/front/images/spinner.svg"
@@ -712,7 +698,7 @@
 											<label>2</label>
 										</td>
 										<td class="order-team">
-											<a href="#">
+											<a href="{{ route('profile') }}">
 												<figure>
 													<lazy-load
 													src="/front/images/spinner.svg"
@@ -733,7 +719,7 @@
 											<label>3</label>
 										</td>
 										<td class="order-team">
-											<a href="#">
+											<a href="{{ route('profile') }}">
 												<figure>
 													<lazy-load
 													src="/front/images/spinner.svg"
@@ -754,7 +740,7 @@
 											<label>4</label>
 										</td>
 										<td class="order-team">
-											<a href="#">
+											<a href="{{ route('profile') }}">
 												<figure>
 													<lazy-load
 													src="/front/images/spinner.svg"
@@ -775,7 +761,7 @@
 											<label>1</label>
 										</td>
 										<td class="order-team">
-											<a href="#">
+											<a href="{{ route('profile') }}">
 												<figure>
 													<lazy-load
 													src="/front/images/spinner.svg"
@@ -796,7 +782,7 @@
 											<label>2</label>
 										</td>
 										<td class="order-team">
-											<a href="#">
+											<a href="{{ route('profile') }}">
 												<figure>
 													<lazy-load
 													src="/front/images/spinner.svg"
@@ -817,7 +803,7 @@
 											<label>3</label>
 										</td>
 										<td class="order-team">
-											<a href="#">
+											<a href="{{ route('profile') }}">
 												<figure>
 													<lazy-load
 													src="/front/images/spinner.svg"
@@ -838,7 +824,7 @@
 											<label>4</label>
 										</td>
 										<td class="order-team">
-											<a href="#">
+											<a href="{{ route('profile') }}">
 												<figure>
 													<lazy-load
 													src="/front/images/spinner.svg"
@@ -859,7 +845,7 @@
 											<label>1</label>
 										</td>
 										<td class="order-team">
-											<a href="#">
+											<a href="{{ route('profile') }}">
 												<figure>
 													<lazy-load
 													src="/front/images/spinner.svg"
@@ -880,7 +866,7 @@
 											<label>2</label>
 										</td>
 										<td class="order-team">
-											<a href="#">
+											<a href="{{ route('profile') }}">
 												<figure>
 													<lazy-load
 													src="/front/images/spinner.svg"
@@ -901,7 +887,7 @@
 											<label>3</label>
 										</td>
 										<td class="order-team">
-											<a href="#">
+											<a href="{{ route('profile') }}">
 												<figure>
 													<lazy-load
 													src="/front/images/spinner.svg"
@@ -922,7 +908,7 @@
 											<label>4</label>
 										</td>
 										<td class="order-team">
-											<a href="#">
+											<a href="{{ route('profile') }}">
 												<figure>
 													<lazy-load
 													src="/front/images/spinner.svg"
@@ -943,7 +929,7 @@
 											<label>1</label>
 										</td>
 										<td class="order-team">
-											<a href="#">
+											<a href="{{ route('profile') }}">
 												<figure>
 													<lazy-load
 													src="/front/images/spinner.svg"
@@ -981,7 +967,7 @@
 											</p>
 										</h4>
 										<div class="match">
-											<a href="#">
+											<a href="{{ route('profile') }}">
 												<figure>
 													<lazy-load
 													src="/front/images/spinner.svg"
@@ -995,7 +981,7 @@
 											</a>
 
 											<span>VS</span>
-											<a href="#">
+											<a href="{{ route('profile') }}">
 												<figure>
 													<lazy-load
 													src="/front/images/spinner.svg"
@@ -1008,7 +994,6 @@
 												<p class="has-text-primary mt-2">الخور</p>
 											</a>
 										</div>
-										<h5 class="has-text-centered has-text-secondary mt-3">المباراة الفاصلة</h5>
 									</div>
 								</div>
 								<div class="column is-4">
@@ -1021,7 +1006,7 @@
 											</p>
 										</h4>
 										<div class="match">
-											<a href="#">
+											<a href="{{ route('profile') }}">
 												<figure>
 													<lazy-load
 													src="/front/images/spinner.svg"
@@ -1035,7 +1020,7 @@
 											</a>
 
 											<span>VS</span>
-											<a href="#">
+											<a href="{{ route('profile') }}">
 												<figure>
 													<lazy-load
 													src="/front/images/spinner.svg"
@@ -1048,7 +1033,6 @@
 												<p class="has-text-primary mt-2">الخور</p>
 											</a>
 										</div>
-										<h5 class="has-text-centered has-text-secondary mt-3">المباراة الفاصلة</h5>
 									</div>
 								</div>
 								<div class="column is-4">
@@ -1061,7 +1045,7 @@
 											</p>
 										</h4>
 										<div class="match">
-											<a href="#">
+											<a href="{{ route('profile') }}">
 												<figure>
 													<lazy-load
 													src="/front/images/spinner.svg"
@@ -1075,7 +1059,7 @@
 											</a>
 
 											<span>VS</span>
-											<a href="#">
+											<a href="{{ route('profile') }}">
 												<figure>
 													<lazy-load
 													src="/front/images/spinner.svg"
@@ -1088,7 +1072,6 @@
 												<p class="has-text-primary mt-2">الخور</p>
 											</a>
 										</div>
-										<h5 class="has-text-centered has-text-secondary mt-3">المباراة الفاصلة</h5>
 									</div>
 								</div>
 								<div class="column is-4">
@@ -1101,7 +1084,7 @@
 											</p>
 										</h4>
 										<div class="match">
-											<a href="#">
+											<a href="{{ route('profile') }}">
 												<figure>
 													<lazy-load
 													src="/front/images/spinner.svg"
@@ -1115,7 +1098,7 @@
 											</a>
 
 											<span>VS</span>
-											<a href="#">
+											<a href="{{ route('profile') }}">
 												<figure>
 													<lazy-load
 													src="/front/images/spinner.svg"
@@ -1128,7 +1111,6 @@
 												<p class="has-text-primary mt-2">الخور</p>
 											</a>
 										</div>
-										<h5 class="has-text-centered has-text-secondary mt-3">المباراة الفاصلة</h5>
 									</div>
 								</div>
 								<div class="column is-4">
@@ -1141,7 +1123,7 @@
 											</p>
 										</h4>
 										<div class="match">
-											<a href="#">
+											<a href="{{ route('profile') }}">
 												<figure>
 													<lazy-load
 													src="/front/images/spinner.svg"
@@ -1155,7 +1137,7 @@
 											</a>
 
 											<span>VS</span>
-											<a href="#">
+											<a href="{{ route('profile') }}">
 												<figure>
 													<lazy-load
 													src="/front/images/spinner.svg"
@@ -1168,7 +1150,6 @@
 												<p class="has-text-primary mt-2">الخور</p>
 											</a>
 										</div>
-										<h5 class="has-text-centered has-text-secondary mt-3">المباراة الفاصلة</h5>
 									</div>
 								</div>
 								<div class="column is-4">
@@ -1181,7 +1162,7 @@
 											</p>
 										</h4>
 										<div class="match">
-											<a href="#">
+											<a href="{{ route('profile') }}">
 												<figure>
 													<lazy-load
 													src="/front/images/spinner.svg"
@@ -1195,7 +1176,7 @@
 											</a>
 
 											<span>VS</span>
-											<a href="#">
+											<a href="{{ route('profile') }}">
 												<figure>
 													<lazy-load
 													src="/front/images/spinner.svg"
@@ -1208,7 +1189,6 @@
 												<p class="has-text-primary mt-2">الخور</p>
 											</a>
 										</div>
-										<h5 class="has-text-centered has-text-secondary mt-3">المباراة الفاصلة</h5>
 									</div>
 								</div>
 							</div>

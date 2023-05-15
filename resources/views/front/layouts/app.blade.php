@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>{{ config('settings.site_name') }}  | @yield('page.title')</title>
+    <title>رابطة الأندية  | @yield('page.title')</title>
     {{-- Meta description tag --}}
     @yield('head.metaTags')
     @yield('head.ogTags')
