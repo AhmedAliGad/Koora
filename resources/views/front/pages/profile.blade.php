@@ -115,7 +115,6 @@
 										class="image-cover"
 										/>
 									</figure>
-									<span class="is-size-6 p-2 px-3 has-background-primary has-text-white is-absolute is-tr-1 is-rounded">الأسبوع 22</span>
 								</a>
 							</div>
 							<div class="card-content">
@@ -143,7 +142,6 @@
 										class="image-cover"
 										/>
 									</figure>
-									<span class="is-size-6 p-2 px-3 has-background-primary has-text-white is-absolute is-tr-1 is-rounded">الأسبوع 22</span>
 								</a>
 							</div>
 							<div class="card-content">
@@ -171,7 +169,6 @@
 										class="image-cover"
 										/>
 									</figure>
-									<span class="is-size-6 p-2 px-3 has-background-primary has-text-white is-absolute is-tr-1 is-rounded">الأسبوع 22</span>
 								</a>
 							</div>
 							<div class="card-content">
@@ -199,63 +196,6 @@
 										class="image-cover"
 										/>
 									</figure>
-									<span class="is-size-6 p-2 px-3 has-background-primary has-text-white is-absolute is-tr-1 is-rounded">الأسبوع 22</span>
-								</a>
-							</div>
-							<div class="card-content">
-								<div class="content has-text-grey-light">
-									<a href="#">
-										<h5>Dummy Text</h5>
-									</a>
-									<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
-									<a href="#" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="column is-3">
-						<div class="card shadow-lg">
-							<div class="card-image">
-								<a href="#">
-									<figure class="image">
-										<lazy-load
-										src="/front/images/spinner.svg"
-										lazy-src="/front/images/1.jpg"
-										lazy-srcset="/front/images/1.jpg"
-										background-color="transparent"
-										alt="title"
-										class="image-cover"
-										/>										
-									</figure>
-									<span class="is-size-6 p-2 px-3 has-background-primary has-text-white is-absolute is-tr-1 is-rounded">الأسبوع 22</span>						
-								</a>
-							</div>
-							<div class="card-content">
-								<div class="content has-text-grey-light">
-									<a href="#">
-										<h5>Dummy Text</h5>
-									</a>
-									<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
-									<a href="#" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="column is-3">
-						<div class="card shadow-lg">
-							<div class="card-image">
-								<a href="#">
-									<figure class="image">
-										<lazy-load
-										src="/front/images/spinner.svg"
-										lazy-src="/front/images/2.jpg"
-										lazy-srcset="/front/images/2.jpg"
-										background-color="transparent"
-										alt="title"
-										class="image-cover"
-										/>
-									</figure>
-									<span class="is-size-6 p-2 px-3 has-background-primary has-text-white is-absolute is-tr-1 is-rounded">الأسبوع 22</span>
 								</a>
 							</div>
 							<div class="card-content">
@@ -283,7 +223,6 @@
 										class="image-cover"
 										/>
 									</figure>
-									<span class="is-size-6 p-2 px-3 has-background-primary has-text-white is-absolute is-tr-1 is-rounded">الأسبوع 22</span>
 								</a>
 							</div>
 							<div class="card-content">
@@ -311,7 +250,60 @@
 										class="image-cover"
 										/>
 									</figure>
-									<span class="is-size-6 p-2 px-3 has-background-primary has-text-white is-absolute is-tr-1 is-rounded">الأسبوع 22</span>
+								</a>
+							</div>
+							<div class="card-content">
+								<div class="content has-text-grey-light">
+									<a href="#">
+										<h5>Dummy Text</h5>
+									</a>
+									<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
+									<a href="#" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column is-3">
+						<div class="card shadow-lg">
+							<div class="card-image">
+								<a href="#">
+									<figure class="image">
+										<lazy-load
+										src="/front/images/spinner.svg"
+										lazy-src="/front/images/1.jpg"
+										lazy-srcset="/front/images/1.jpg"
+										background-color="transparent"
+										alt="title"
+										class="image-cover"
+										/>
+									</figure>
+								</a>
+							</div>
+							<div class="card-content">
+								<div class="content has-text-grey-light">
+									<a href="#">
+										<h5>Dummy Text</h5>
+									</a>
+									<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
+									<a href="#" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column is-3">
+						<div class="card shadow-lg">
+							<div class="card-image">
+								<a href="#">
+									<figure class="image">
+										<lazy-load
+										src="/front/images/spinner.svg"
+										lazy-src="/front/images/2.jpg"
+										lazy-srcset="/front/images/2.jpg"
+										background-color="transparent"
+										alt="title"
+										class="image-cover"
+										/>
+									</figure>
 								</a>
 							</div>
 							<div class="card-content">
@@ -349,28 +341,12 @@
 								<span class="has-text-primary has-text-weight-bold">سنة التأسيس: 1950</span>
 							</p>
 							<p class="mb-3">
-								<i class="fa-regular fa-user ml-2 has-text-gold"></i>
-								<span class="has-text-primary has-text-weight-bold">الرئيس: السيد/ عبد الله يوسف الملا</span>
-							</p>
-							<p class="mb-3">
 								<i class="fa-solid fa-monument ml-2 has-text-gold"></i>
 								<span class="has-text-primary has-text-weight-bold">اللقب: العميد</span>
 							</p>
 							<div class="columns is-multiline mt-3">
-								<div class="column is-1">
-									<figure class="image name-img shadow-lg has-text-centered p-4">
-										<lazy-load
-										src="/front/images/spinner.svg"
-										lazy-src="/front/images/2.png"
-										lazy-srcset="/front/images/2.png"
-										background-color="transparent"
-										alt="title"
-										class="image-contain"
-										/>
-									</figure>
-								</div>
 								<div class="column is-11">
-									<h4 class="has-text-secondary mt-2">الألقاب</h4>
+									<h4 class="has-text-secondary mt-2">التاريخ</h4>
 								</div>
 							</div>
 							<div class="mt-4 has-text-primary has-text-justified">
@@ -379,7 +355,7 @@
 							</div>
 						</div>
 					</div>
-					
+
 				</div>
 			</tab-pane>
 		</tabs>
