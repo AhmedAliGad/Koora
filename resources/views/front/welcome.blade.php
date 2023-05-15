@@ -161,8 +161,8 @@
 				</a>
 			</div>
 
-                    <div class="item">
-                        <a class="hvr-grow box-shadow-sm" rel="noreferrer" href="{{ route('profile') }}">
+			<div class="item">
+				<a class="hvr-grow box-shadow-sm" rel="noreferrer" href="{{ route('profile') }}">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -1249,7 +1249,7 @@
 							<thead>
 								<tr>
 									<th>الترتيب</th>
-									<th>الإسم</th>
+									<th>إسم اللاعب</th>
 									<th>النادى</th>
 									<th>عدد الأهداف</th>
 								</tr>
@@ -1260,196 +1260,76 @@
 										<label>1</label>
 									</td>
 									<td class="order-team">
-										<a href="#">
-											<figure>
-												<img src="/front/images/2.png">
-											</figure>
-											<span class="has-text-secondary"> الدحيل </span>
-										</a>
+										حمدى فتحى
 									</td>
-									<td>45</td>
-									<td>61</td>
+									<td>النادى الأهلى</td>
+									<td>10</td>
 								</tr>
 								<tr>
 									<td>
 										<label>2</label>
 									</td>
 									<td class="order-team">
-										<a href="#">
-											<figure>
-												<img src="/front/images/1.png">
-											</figure>
-											<span class="has-text-secondary"> العربى </span>
-										</a>
+										حمدى فتحى
 									</td>
-									<td>45</td>
-									<td>61</td>
+									<td>النادى الأهلى</td>
+									<td>10</td>
 								</tr>
-								<tr>
-									<td>
-										<label>3</label>
-									</td>
-									<td class="order-team">
-										<a href="#">
-											<figure>
-												<img src="/front/images/3.png">
-											</figure>
-											<span class="has-text-secondary"> السد </span>
-										</a>
-									</td>
-									<td>45</td>
-									<td>61</td>
-								</tr>
-								<tr>
-									<td>
-										<label>4</label>
-									</td>
-									<td class="order-team">
-										<a href="#">
-											<figure>
-												<img src="/front/images/4.png">
-											</figure>
-											<span class="has-text-secondary"> الدحيل </span>
-										</a>
-									</td>
-									<td>45</td>
-									<td>61</td>
-								</tr>
-								<tr>
-									<td>
-										<label>1</label>
-									</td>
-									<td class="order-team">
-										<a href="#">
-											<figure>
-												<img src="/front/images/2.png">
-											</figure>
-											<span class="has-text-secondary"> الدحيل </span>
-										</a>
-									</td>
-									<td>45</td>
-									<td>61</td>
-								</tr>
+
 								<tr>
 									<td>
 										<label>2</label>
 									</td>
 									<td class="order-team">
-										<a href="#">
-											<figure>
-												<img src="/front/images/1.png">
-											</figure>
-											<span class="has-text-secondary"> العربى </span>
-										</a>
+										محمود عبد اللمنعم
 									</td>
-									<td>45</td>
-									<td>61</td>
+									<td>النادى الأهلى</td>
+									<td>13</td>
 								</tr>
+
 								<tr>
 									<td>
 										<label>3</label>
 									</td>
 									<td class="order-team">
-										<a href="#">
-											<figure>
-												<img src="/front/images/3.png">
-											</figure>
-											<span class="has-text-secondary"> السد </span>
-										</a>
+										حمدى فتحى
 									</td>
-									<td>45</td>
-									<td>61</td>
+									<td>النادى الأهلى</td>
+									<td>10</td>
 								</tr>
+
 								<tr>
 									<td>
 										<label>4</label>
 									</td>
 									<td class="order-team">
-										<a href="#">
-											<figure>
-												<img src="/front/images/4.png">
-											</figure>
-											<span class="has-text-secondary"> الدحيل </span>
-										</a>
+										حمدى فتحى
 									</td>
-									<td>45</td>
-									<td>61</td>
+									<td>النادى الأهلى</td>
+									<td>20</td>
+								</tr>
+
+								<tr>
+									<td>
+										<label>5</label>
+									</td>
+									<td class="order-team">
+										حمدى فتحى
+									</td>
+									<td>النادى الأهلى</td>
+									<td>10</td>
 								</tr>
 								<tr>
 									<td>
-										<label>1</label>
+										<label>6</label>
 									</td>
 									<td class="order-team">
-										<a href="#">
-											<figure>
-												<img src="/front/images/2.png">
-											</figure>
-											<span class="has-text-secondary"> الدحيل </span>
-										</a>
+										حمدى فتحى
 									</td>
-									<td>45</td>
-									<td>61</td>
+									<td>النادى الأهلى</td>
+									<td>10</td>
 								</tr>
-								<tr>
-									<td>
-										<label>2</label>
-									</td>
-									<td class="order-team">
-										<a href="#">
-											<figure>
-												<img src="/front/images/1.png">
-											</figure>
-											<span class="has-text-secondary"> العربى </span>
-										</a>
-									</td>
-									<td>45</td>
-									<td>61</td>
-								</tr>
-								<tr>
-									<td>
-										<label>3</label>
-									</td>
-									<td class="order-team">
-										<a href="#">
-											<figure>
-												<img src="/front/images/3.png">
-											</figure>
-											<span class="has-text-secondary"> السد </span>
-										</a>
-									</td>
-									<td>45</td>
-									<td>61</td>
-								</tr>
-								<tr>
-									<td>
-										<label>4</label>
-									</td>
-									<td class="order-team">
-										<a href="#">
-											<figure>
-												<img src="/front/images/4.png">
-											</figure>
-											<span class="has-text-secondary"> الدحيل </span>
-										</a>
-									</td>
-									<td>45</td>
-									<td>61</td>
-								</tr>
-								<tr>
-									<td>
-										<label>1</label>
-									</td>
-									<td class="order-team">
-										<a href="#">
-											<figure>
-												<img src="/front/images/2.png">
-											</figure>
-											<span class="has-text-secondary"> الدحيل </span>
-										</a>
-									</td>
-									<td>45</td>
-									<td>61</td>
-								</tr>
+
 							</tbody>
 						</table>
 					</div>
