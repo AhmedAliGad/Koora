@@ -6,7 +6,7 @@
 <!--content-->
 @section('content')
 <!-----inner header---->
-<section class="hero inner-header">
+<section class="hero inner-header mt-78">
 	<div class="section-padding position-relative club-section">
 		<div class="container">
 			<h1 class="pr-2 mt-6 is-size-3 has-text-secondary has-text-centered" data-aos="zoom-in" data-aos-delay="300">الأخبار</h1>

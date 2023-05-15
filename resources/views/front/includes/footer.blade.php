@@ -5,8 +5,8 @@
 			شركاءالعمل
 		</h3>
 		<sponsers>
-			<div class="item p-3">
-				<a class="box-shadow" rel="noreferrer" href="">
+			<div class="item">
+				<a class="hvr-grow box-shadow" rel="noreferrer" href="">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -18,8 +18,8 @@
 					</figure>
 				</a>
 			</div>
-			<div class="item p-3">
-				<a class="box-shadow" rel="noreferrer" href="">
+			<div class="item">
+				<a class="hvr-grow box-shadow" rel="noreferrer" href="">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -31,8 +31,8 @@
 					</figure>
 				</a>
 			</div>
-			<div class="item p-3">
-				<a class="box-shadow" rel="noreferrer" href="">
+			<div class="item">
+				<a class="hvr-grow box-shadow" rel="noreferrer" href="">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -44,8 +44,8 @@
 					</figure>
 				</a>
 			</div>
-			<div class="item p-3">
-				<a class="box-shadow" rel="noreferrer" href="">
+			<div class="item">
+				<a class="hvr-grow box-shadow" rel="noreferrer" href="">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -57,8 +57,8 @@
 					</figure>
 				</a>
 			</div>
-			<div class="item p-3">
-				<a class="box-shadow" rel="noreferrer" href="">
+			<div class="item">
+				<a class="hvr-grow box-shadow" rel="noreferrer" href="">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -70,8 +70,8 @@
 					</figure>
 				</a>
 			</div>
-			<div class="item p-3">
-				<a class="box-shadow" rel="noreferrer" href="">
+			<div class="item">
+				<a class="hvr-grow box-shadow" rel="noreferrer" href="">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -83,8 +83,8 @@
 					</figure>
 				</a>
 			</div>
-			<div class="item p-3">
-				<a class="box-shadow" rel="noreferrer" href="">
+			<div class="item">
+				<a class="hvr-grow box-shadow" rel="noreferrer" href="">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -96,8 +96,8 @@
 					</figure>
 				</a>
 			</div>
-			<div class="item p-3">
-				<a class="box-shadow" rel="noreferrer" href="">
+			<div class="item">
+				<a class="hvr-grow box-shadow" rel="noreferrer" href="">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -109,8 +109,8 @@
 					</figure>
 				</a>
 			</div>
-			<div class="item p-3">
-				<a class="box-shadow" rel="noreferrer" href="">
+			<div class="item">
+				<a class="hvr-grow box-shadow" rel="noreferrer" href="">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -122,8 +122,8 @@
 					</figure>
 				</a>
 			</div>
-			<div class="item p-3">
-				<a class="box-shadow" rel="noreferrer" href="">
+			<div class="item">
+				<a class="hvr-grow box-shadow" rel="noreferrer" href="">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -135,8 +135,8 @@
 					</figure>
 				</a>
 			</div>
-			<div class="item p-3">
-				<a class="box-shadow" rel="noreferrer" href="">
+			<div class="item">
+				<a class="hvr-grow box-shadow" rel="noreferrer" href="">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -148,8 +148,8 @@
 					</figure>
 				</a>
 			</div>
-			<div class="item p-3">
-				<a class="box-shadow" rel="noreferrer" href="">
+			<div class="item">
+				<a class="hvr-grow box-shadow" rel="noreferrer" href="">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"

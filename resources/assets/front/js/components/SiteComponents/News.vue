@@ -253,10 +253,6 @@
 				default: () => []
 			},
 			url: String,
-			sitelocale:{
-				type:String,
-				required: true
-			}
 		},
 		computed: {
 			busy() {

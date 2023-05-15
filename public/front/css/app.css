@@ -26250,6 +26250,10 @@ table td:not([align]), table th:not([align]) {
   height: 100%;
 }
 
+.mt-78 {
+  margin-top: 78px;
+}
+
 /*------layouts-----------*/
 /*----dropdown-----------*/
 .navbar .dropdown_menu {
@@ -26286,7 +26290,7 @@ table td:not([align]), table th:not([align]) {
   min-width: 230px;
   background-color: #FFF;
   opacity: 0;
-  transition: all 0.5s ease;
+  transition: 0.4s ease-in-out;
   padding: 5px 0;
   box-shadow: 0 2px 12px rgba(46, 42, 122, 0.1490196078);
   border-radius: 15px;
@@ -26319,6 +26323,13 @@ table td:not([align]), table th:not([align]) {
 /*-------------header---------*/
 .header {
   background-color: #c91a12;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: 0.3s ease-in-out;
+  position: fixed;
+  z-index: 10;
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.6);
 }
 .header .navbar {
   background-color: transparent;
@@ -26397,10 +26408,17 @@ a.has-text-white:hover, a.has-text-white:focus {
   background-repeat: no-repeat;
   width: 120px;
   height: 141px;
-  z-index: 100000;
+  z-index: 100;
   background-size: contain;
   opacity: 0.1;
   animation: slide_up_down 3s ease-in-out infinite alternate both;
+}
+.media-section .card:hover > .card-image a .image img {
+  transform: scale(1.1) rotate(-5deg);
+  transition: 0.4s ease-in-out;
+}
+.media-section .card .card-image {
+  overflow: hidden;
 }
 .media-section .card .card-image .image {
   position: relative;
@@ -26411,9 +26429,13 @@ a.has-text-white:hover, a.has-text-white:focus {
   top: 0;
   height: 100%;
   width: 100%;
+  transition: 0.4s ease-in-out;
 }
 .media-section .card .card-content .content a:hover > h5 {
   color: #be9750;
+}
+.media-section .card .card-content .content a i {
+  animation: slide_left_right 2s ease-in-out infinite alternate both;
 }
 .media-section .card:hover > .card-image .is-overlay {
   opacity: 1;
@@ -26540,6 +26562,9 @@ a.has-text-white:hover, a.has-text-white:focus {
   /*animation: slide_up_down 2s ease-in-out infinite alternate both;*/
 }
 
+.sponsers-section .slick-slide, .categories-section .slick-slide {
+  padding: 15px 10px;
+}
 .sponsers-section .item a, .categories-section .item a {
   display: block;
   width: 100%;
@@ -26552,6 +26577,15 @@ a.has-text-white:hover, a.has-text-white:focus {
   -o-object-fit: contain;
      object-fit: contain;
   width: 100%;
+}
+.sponsers-section .item a p, .categories-section .item a p {
+  transition: 0.4s ease-in-out;
+}
+.sponsers-section .item a:hover p, .categories-section .item a:hover p {
+  background: rgb(105, 6, 16);
+  background: linear-gradient(90deg, rgb(105, 6, 16) 0%, rgb(218, 27, 26) 52%);
+  color: #FFF;
+  transition: 0.4s ease-in-out;
 }
 .sponsers-section .prev-btn, .sponsers-section .next-btn, .categories-section .prev-btn, .categories-section .next-btn {
   position: absolute;

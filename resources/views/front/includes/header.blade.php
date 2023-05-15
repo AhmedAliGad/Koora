@@ -1,91 +1,93 @@
-<header id="fixed_nav" class="header fixed_nav py-3">
-    <div class="hero-head">
-        <div class="container">
-            <nav class="navbar">
-                <div class="navbar-brand">
-                    <a href="{{ route('landing') }}">
-                        <figure class="image image-contain logo">
-                            <img src="/front/images/logo.png" alt="Logo">
-                        </figure>
-                    </a>
-                    <span class="navbar-burger burger" data-target="navbarMenuHeroA">
-                         <span></span>
-                         <span></span>
-                         <span></span>
-                    </span>
-                </div>
-                <div id="navbarMenuHeroA" class="navbar-menu">
-                    <div class="mx-auto">
-                        <ul>
-                            <li class="nav-item">
-                                <a href="{{ route('landing') }}" class="navbar-item has-text-white has-text-weight-bold">
-                                    الرئيسية
+<div class="header">
+    <header id="fixed_nav" class="fixed_nav py-3">
+        <div class="hero-head">
+            <div class="container">
+                <nav class="navbar">
+                    <div class="navbar-brand">
+                        <a href="{{ route('landing') }}">
+                            <figure class="image image-contain logo">
+                                <img src="/front/images/logo.png" alt="Logo">
+                            </figure>
+                        </a>
+                        <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+                             <span></span>
+                             <span></span>
+                             <span></span>
+                        </span>
+                    </div>
+                    <div id="navbarMenuHeroA" class="navbar-menu">
+                        <div class="mx-auto">
+                            <ul>
+                                <li class="nav-item">
+                                    <a href="{{ route('landing') }}" class="navbar-item has-text-white has-text-weight-bold">
+                                        الرئيسية
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="{{ route('blog') }}" class="navbar-item has-text-white has-text-weight-bold">
+                                        الاخبار
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="{{ route('landing') }}" class="navbar-item has-text-white has-text-weight-bold">
+                                        معرض الصور
+                                    </a>
+                                </li>
+                                <li class="nav-item dropdown_menu drodown is-mobile">
+                                    <a class="navbar-item dropdown_head has-text-white has-text-weight-bold" href="">
+                                        الإعلام
+                                        <i class="fas fa-chevron-down mr-2"></i>
+                                    </a>
+                                    <ul class="dropdown_body">
+                                        <li class="nav-item">
+                                            <a class="navbar-item" href="">
+                                                <i class="has-text-gold fa-solid fa-caret-right ml-2"></i>
+                                                المركز الإعلامى
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="navbar-item" href="">
+                                                <i class="has-text-gold fa-solid fa-caret-right ml-2"></i>
+                                                المجموعة الاعلامية
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="navbar-end">
+                        <ul class="socials">
+                            <li>
+                                <a class="hvr-rectangle-out" href="https://www.facebook.com/EPL.EG1/" target="_blank">
+                                    <i class="fa-brands fa-facebook-f"></i>
                                 </a>
                             </li>
-                            <li class="nav-item">
-                                <a href="{{ route('blog') }}" class="navbar-item has-text-white has-text-weight-bold">
-                                    الاخبار
+                            <li>
+                                <a class="hvr-rectangle-out" href="https://twitter.com/epl_eg" target="_blank">
+                                    <i class="fa-brands fa-twitter"></i>
                                 </a>
                             </li>
-                            <li class="nav-item">
-                                <a href="{{ route('landing') }}" class="navbar-item has-text-white has-text-weight-bold">
-                                    معرض الصور
+                            <li>
+                                <a class="hvr-rectangle-out" href="#" target="_blank">
+                                    <i class="fa-brands fa-youtube"></i>
                                 </a>
                             </li>
-                            <li class="nav-item dropdown_menu drodown is-mobile">
-                                <a class="navbar-item dropdown_head has-text-white has-text-weight-bold" href="">
-                                    الإعلام
-                                    <i class="fas fa-chevron-down mr-2"></i>
+                            <li>
+                                <a class="hvr-rectangle-out" href="https://instagram.com/epl.eg" target="_blank">
+                                    <i class="fa-brands fa-instagram"></i>
                                 </a>
-                                <ul class="dropdown_body">
-                                    <li class="nav-item">
-                                        <a class="navbar-item" href="">
-                                            <i class="has-text-gold fa-solid fa-caret-right ml-2"></i>
-                                            المركز الإعلامى
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="navbar-item" href="">
-                                            <i class="has-text-gold fa-solid fa-caret-right ml-2"></i>
-                                            المجموعة الاعلامية
-                                        </a>
-                                    </li>
-                                </ul>
                             </li>
                         </ul>
                     </div>
-                </div>
-                <div class="navbar-end">
-                    <ul class="socials">
-                        <li>
-                            <a class="hvr-rectangle-out" href="https://www.facebook.com/EPL.EG1/" target="_blank">
-                                <i class="fa-brands fa-facebook-f"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="hvr-rectangle-out" href="https://twitter.com/epl_eg" target="_blank">
-                                <i class="fa-brands fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="hvr-rectangle-out" href="#" target="_blank">
-                                <i class="fa-brands fa-youtube"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="hvr-rectangle-out" href="https://instagram.com/epl.eg" target="_blank">
-                                <i class="fa-brands fa-instagram"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+                </nav>
+            </div>
         </div>
-    </div>
-</header>
+    </header>
+</div>
 @if(Route::current()->getName() == 'landing')
 <!-------------Slideshow--------->
-<section class="hero is-transparent is-full">
+<section class="hero is-transparent is-full mt-78">
     <div dir="ltr" class="slideshow">
         <slick-animation  ref="slick"  :options="{slidesToShow:1, slidesToScroll: 1 , swipeToSlide: true, infinite: false, accessibility: true, adaptiveHeight: false, arrows: true, dots: true, dotsClass: 'primary-dots white-bg-dots slick-dots', draggable: true, edgeFriction: 0.30, swipe: true  , autoplay: true }" class="height-80vh">
             <div class="item height-80vh position-relative" dir="rtl">

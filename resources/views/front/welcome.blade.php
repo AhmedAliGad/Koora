@@ -6,8 +6,8 @@
 <section class="section-padding categories-section mt-4">
 	<div class="container">
 		<clubs>
-			<div class="item p-2">
-				<a class="box-shadow-sm" rel="noreferrer" href="">
+			<div class="item">
+				<a class="hvr-grow box-shadow-sm" rel="noreferrer" href="">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -20,8 +20,8 @@
 					<p class="has-text-secondary has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 				</a>
 			</div>
-			<div class="item p-2">
-				<a class="box-shadow-sm" rel="noreferrer" href="">
+			<div class="item">
+				<a class="hvr-grow box-shadow-sm" rel="noreferrer" href="">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -34,8 +34,8 @@
 					<p class="has-text-secondary has-background-grey-light has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 				</a>
 			</div>
-			<div class="item p-2">
-				<a class="box-shadow-sm" rel="noreferrer" href="">
+			<div class="item">
+				<a class="hvr-grow box-shadow-sm" rel="noreferrer" href="">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -48,8 +48,8 @@
 					<p class="has-text-secondary has-background-grey-light has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 				</a>
 			</div>
-			<div class="item p-2">
-				<a class="box-shadow-sm" rel="noreferrer" href="">
+			<div class="item">
+				<a class="hvr-grow box-shadow-sm" rel="noreferrer" href="">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -62,8 +62,8 @@
 					<p class="has-text-secondary has-background-grey-light has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 				</a>
 			</div>
-			<div class="item p-2">
-				<a class="box-shadow-sm" rel="noreferrer" href="">
+			<div class="item">
+				<a class="hvr-grow box-shadow-sm" rel="noreferrer" href="">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -76,8 +76,8 @@
 					<p class="has-text-secondary has-background-grey-light has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 				</a>
 			</div>
-			<div class="item p-2">
-				<a class="box-shadow-sm" rel="noreferrer" href="">
+			<div class="item">
+				<a class="hvr-grow box-shadow-sm" rel="noreferrer" href="">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -90,8 +90,8 @@
 					<p class="has-text-secondary has-background-grey-light has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 				</a>
 			</div>
-			<div class="item p-2">
-				<a class="box-shadow-sm" rel="noreferrer" href="">
+			<div class="item">
+				<a class="hvr-grow box-shadow-sm" rel="noreferrer" href="">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -104,8 +104,8 @@
 					<p class="has-text-secondary has-background-grey-light has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 				</a>
 			</div>
-			<div class="item p-2">
-				<a class="box-shadow-sm" rel="noreferrer" href="">
+			<div class="item">
+				<a class="hvr-grow box-shadow-sm" rel="noreferrer" href="">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -118,8 +118,8 @@
 					<p class="has-text-secondary has-background-grey-light has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 				</a>
 			</div>
-			<div class="item p-2">
-				<a class="box-shadow-sm" rel="noreferrer" href="">
+			<div class="item">
+				<a class="hvr-grow box-shadow-sm" rel="noreferrer" href="">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -132,8 +132,8 @@
 					<p class="has-text-secondary has-background-grey-light has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 				</a>
 			</div>
-			<div class="item p-2">
-				<a class="box-shadow-sm" rel="noreferrer" href="">
+			<div class="item">
+				<a class="hvr-grow box-shadow-sm" rel="noreferrer" href="">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -146,8 +146,8 @@
 					<p class="has-text-secondary has-background-grey-light has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 				</a>
 			</div>
-			<div class="item p-2">
-				<a class="box-shadow-sm" rel="noreferrer" href="">
+			<div class="item">
+				<a class="hvr-grow box-shadow-sm" rel="noreferrer" href="">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
@@ -160,8 +160,8 @@
 					<p class="has-text-secondary has-background-grey-light has-text-centered has-text-weight-bold mt-2 p-2">الأهلى</p>
 				</a>
 			</div>
-			<div class="item p-2">
-				<a class="box-shadow-sm" rel="noreferrer" href="">
+			<div class="item">
+				<a class="hvr-grow box-shadow-sm" rel="noreferrer" href="">
 					<figure>
 						<lazy-load
 						src="/front/images/spinner.svg"
