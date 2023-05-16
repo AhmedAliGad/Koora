@@ -190,10 +190,10 @@
                 </h4>
                 <ul>
                     <li>
-                        <a class="has-text-light" href="#"> المركز الاعلامي</a>
+                        <a class="has-text-light" href="{{ route('gallery') }}">معرض الصور</a>
                     </li>
                     <li>
-                        <a class="has-text-light" href="#">المجموعة الاعلامية</a>
+                        <a class="has-text-light" href="#"> المركز الاعلامي</a>
                     </li>
                 </ul>
             </div>
@@ -204,9 +204,6 @@
                 <ul>
                     <li>
                         <a class="has-text-light" href="{{ route('blog') }}">الاخبار</a>
-                    </li>
-                    <li>
-                        <a class="has-text-light" href="#">معرض الصور</a>
                     </li>
                 </ul>
             </div>
