@@ -28,6 +28,7 @@ Route::get('/about', function () {
 Route::get('/page', function () {
     return view('front/pages/page');
 })->name('page');
+
 /*-----blog----*/
 Route::get('/blog', function () {
     return view('front/blog/index');
@@ -37,6 +38,14 @@ Route::get('/blog/view', function () {
     return view('front/blog/view');
 })->name('show-blog');
 
+/*-----gallery----*/
+Route::get('/gallery', function () {
+    return view('front/gallery/index');
+})->name('gallery');
+
+Route::get('/gallery/view', function () {
+    return view('front/gallery/view');
+})->name('show-gallery');
 // Route::view('/', 'welcome');
 Route::redirect('/home', '/dashboard');
 Route::view('privacy-policy', 'privacy-policy')->name('privacy-policy');

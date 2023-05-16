@@ -39,7 +39,7 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="{{ route('landing') }}" class="navbar-item has-text-white has-text-weight-bold">
+                                    <a href="{{ route('gallery') }}" class="navbar-item has-text-white has-text-weight-bold">
                                         معرض الصور
                                     </a>
                                 </li>
