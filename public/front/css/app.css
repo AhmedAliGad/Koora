@@ -25948,6 +25948,13 @@ a:focus {
   background: linear-gradient(90deg, rgb(105, 6, 16) 0%, rgb(218, 27, 26) 52%);
 }
 
+.gradiant-btn {
+  background: rgb(105, 6, 16);
+  background: linear-gradient(90deg, rgb(105, 6, 16) 0%, rgb(218, 27, 26) 52%);
+  color: #FFF;
+  border-radius: 2rem;
+}
+
 .has-background-gold {
   background-color: #be9750;
 }
@@ -26344,6 +26351,11 @@ p, .description {
 .has-bottom-border {
   border-bottom: 2px solid #be9750;
   padding-bottom: 0.7rem;
+}
+
+.hvr-radial-out::before {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(47, 46, 44) 36%);
 }
 
 /*------layouts-----------*/

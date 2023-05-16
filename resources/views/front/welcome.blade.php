@@ -181,237 +181,238 @@
 <!------Media Section------>
 <section class="section-padding media-section has-text-centered has-background-grey-lighter">
 	<div class="container">
-		<tabs animation="slide" :only-fade="false">
-			<!----News tab ---->
-			<tab-pane label="الأخبار">
-				<div class="show_all">
-					<a href="#" class="has-text-gold has-text-weight-bold">
-						المزيد من  الأخبار
-						<i class="fa-solid fa-circle-arrow-left has-text-secondary mr-1"></i>
-					</a>
+		<h3 data-aos="zoom-in" data-aos-delay="300" class="basic-title mb-6 has-text-centered has-text-primary mx-auto float-none d-inline-block">
+			الأخبار
+		</h3>
+		<div class="columns is-multiline">
+			<div class="column is-3">
+				<div class="card shadow-lg" data-aos="slide-up" data-aos-delay="300">
+					<div class="card-image">
+						<a href="{{ route('show-blog') }}">
+							<figure class="image">
+								<lazy-load
+								src="/front/images/spinner.svg"
+								lazy-src="/front/images/1.jpg"
+								lazy-srcset="/front/images/1.jpg"
+								background-color="transparent"
+								alt="title"
+								class="image-cover"
+								/>
+							</figure>
+						</a>
+					</div>
+					<div class="card-content">
+						<div class="content has-text-grey-light">
+							<a href="{{ route('show-blog') }}">
+								<h5>Dummy Text</h5>
+							</a>
+							<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
+							<a href="{{ route('show-blog') }}" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
+						</div>
+					</div>
 				</div>
-				<div class="columns is-multiline">
-					<div class="column is-3">
-						<div class="card shadow-lg">
-							<div class="card-image">
-								<a href="{{ route('show-blog') }}">
-									<figure class="image">
-										<lazy-load
-										src="/front/images/spinner.svg"
-										lazy-src="/front/images/1.jpg"
-										lazy-srcset="/front/images/1.jpg"
-										background-color="transparent"
-										alt="title"
-										class="image-cover"
-										/>
-									</figure>
-								</a>
-							</div>
-							<div class="card-content">
-								<div class="content has-text-grey-light">
-									<a href="{{ route('show-blog') }}">
-										<h5>Dummy Text</h5>
-									</a>
-									<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
-									<a href="{{ route('show-blog') }}" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
-								</div>
-							</div>
+			</div>
+			<div class="column is-3">
+				<div class="card shadow-lg" data-aos="slide-up" data-aos-delay="300">
+					<div class="card-image">
+						<a href="{{ route('show-blog') }}">
+							<figure class="image">
+								<lazy-load
+								src="/front/images/spinner.svg"
+								lazy-src="/front/images/2.jpg"
+								lazy-srcset="/front/images/2.jpg"
+								background-color="transparent"
+								alt="title"
+								class="image-cover"
+								/>
+							</figure>
+						</a>
+					</div>
+					<div class="card-content">
+						<div class="content has-text-grey-light">
+							<a href="{{ route('show-blog') }}">
+								<h5>Dummy Text</h5>
+							</a>
+							<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
+							<a href="{{ route('show-blog') }}" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
 						</div>
 					</div>
-					<div class="column is-3">
-						<div class="card shadow-lg">
-							<div class="card-image">
-								<a href="{{ route('show-blog') }}">
-									<figure class="image">
-										<lazy-load
-										src="/front/images/spinner.svg"
-										lazy-src="/front/images/2.jpg"
-										lazy-srcset="/front/images/2.jpg"
-										background-color="transparent"
-										alt="title"
-										class="image-cover"
-										/>
-									</figure>
-								</a>
-							</div>
-							<div class="card-content">
-								<div class="content has-text-grey-light">
-									<a href="{{ route('show-blog') }}">
-										<h5>Dummy Text</h5>
-									</a>
-									<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
-									<a href="{{ route('show-blog') }}" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
-								</div>
-							</div>
+				</div>
+			</div>
+			<div class="column is-3">
+				<div class="card shadow-lg" data-aos="slide-up" data-aos-delay="300">
+					<div class="card-image">
+						<a href="{{ route('show-blog') }}">
+							<figure class="image">
+								<lazy-load
+								src="/front/images/spinner.svg"
+								lazy-src="/front/images/1.jpg"
+								lazy-srcset="/front/images/1.jpg"
+								background-color="transparent"
+								alt="title"
+								class="image-cover"
+								/>
+							</figure>
+						</a>
+					</div>
+					<div class="card-content">
+						<div class="content has-text-grey-light">
+							<a href="{{ route('show-blog') }}">
+								<h5>Dummy Text</h5>
+							</a>
+							<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
+							<a href="{{ route('show-blog') }}" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
 						</div>
 					</div>
-					<div class="column is-3">
-						<div class="card shadow-lg">
-							<div class="card-image">
-								<a href="{{ route('show-blog') }}">
-									<figure class="image">
-										<lazy-load
-										src="/front/images/spinner.svg"
-										lazy-src="/front/images/1.jpg"
-										lazy-srcset="/front/images/1.jpg"
-										background-color="transparent"
-										alt="title"
-										class="image-cover"
-										/>
-									</figure>
-								</a>
-							</div>
-							<div class="card-content">
-								<div class="content has-text-grey-light">
-									<a href="{{ route('show-blog') }}">
-										<h5>Dummy Text</h5>
-									</a>
-									<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
-									<a href="{{ route('show-blog') }}" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
-								</div>
-							</div>
+				</div>
+			</div>
+			<div class="column is-3">
+				<div class="card shadow-lg" data-aos="slide-up" data-aos-delay="300">
+					<div class="card-image">
+						<a href="{{ route('show-blog') }}">
+							<figure class="image">
+								<lazy-load
+								src="/front/images/spinner.svg"
+								lazy-src="/front/images/2.jpg"
+								lazy-srcset="/front/images/2.jpg"
+								background-color="transparent"
+								alt="title"
+								class="image-cover"
+								/>
+							</figure>
+						</a>
+					</div>
+					<div class="card-content">
+						<div class="content has-text-grey-light">
+							<a href="{{ route('show-blog') }}">
+								<h5>Dummy Text</h5>
+							</a>
+							<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
+							<a href="{{ route('show-blog') }}" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
 						</div>
 					</div>
-					<div class="column is-3">
-						<div class="card shadow-lg">
-							<div class="card-image">
-								<a href="{{ route('show-blog') }}">
-									<figure class="image">
-										<lazy-load
-										src="/front/images/spinner.svg"
-										lazy-src="/front/images/2.jpg"
-										lazy-srcset="/front/images/2.jpg"
-										background-color="transparent"
-										alt="title"
-										class="image-cover"
-										/>
-									</figure>
-								</a>
-							</div>
-							<div class="card-content">
-								<div class="content has-text-grey-light">
-									<a href="{{ route('show-blog') }}">
-										<h5>Dummy Text</h5>
-									</a>
-									<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
-									<a href="{{ route('show-blog') }}" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="column is-3">
-						<div class="card shadow-lg">
-							<div class="card-image">
-								<a href="{{ route('show-blog') }}">
-									<figure class="image">
-										<lazy-load
-										src="/front/images/spinner.svg"
-										lazy-src="/front/images/1.jpg"
-										lazy-srcset="/front/images/1.jpg"
-										background-color="transparent"
-										alt="title"
-										class="image-cover"
-										/>
-									</figure>
+				</div>
+			</div>
+			<div class="column is-3">
+				<div class="card shadow-lg" data-aos="slide-up" data-aos-delay="300">
+					<div class="card-image">
+						<a href="{{ route('show-blog') }}">
+							<figure class="image">
+								<lazy-load
+								src="/front/images/spinner.svg"
+								lazy-src="/front/images/1.jpg"
+								lazy-srcset="/front/images/1.jpg"
+								background-color="transparent"
+								alt="title"
+								class="image-cover"
+								/>
+							</figure>
 
-								</a>
-							</div>
-							<div class="card-content">
-								<div class="content has-text-grey-light">
-									<a href="{{ route('show-blog') }}">
-										<h5>Dummy Text</h5>
-									</a>
-									<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
-									<a href="{{ route('show-blog') }}" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
-								</div>
-							</div>
-						</div>
+						</a>
 					</div>
-					<div class="column is-3">
-						<div class="card shadow-lg">
-							<div class="card-image">
-								<a href="{{ route('show-blog') }}">
-									<figure class="image">
-										<lazy-load
-										src="/front/images/spinner.svg"
-										lazy-src="/front/images/2.jpg"
-										lazy-srcset="/front/images/2.jpg"
-										background-color="transparent"
-										alt="title"
-										class="image-cover"
-										/>
-									</figure>
-								</a>
-							</div>
-							<div class="card-content">
-								<div class="content has-text-grey-light">
-									<a href="{{ route('show-blog') }}">
-										<h5>Dummy Text</h5>
-									</a>
-									<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
-									<a href="{{ route('show-blog') }}" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="column is-3">
-						<div class="card shadow-lg">
-							<div class="card-image">
-								<a href="{{ route('show-blog') }}">
-									<figure class="image">
-										<lazy-load
-										src="/front/images/spinner.svg"
-										lazy-src="/front/images/1.jpg"
-										lazy-srcset="/front/images/1.jpg"
-										background-color="transparent"
-										alt="title"
-										class="image-cover"
-										/>
-									</figure>
-								</a>
-							</div>
-							<div class="card-content">
-								<div class="content has-text-grey-light">
-									<a href="{{ route('show-blog') }}">
-										<h5>Dummy Text</h5>
-									</a>
-									<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
-									<a href="{{ route('show-blog') }}" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="column is-3">
-						<div class="card shadow-lg">
-							<div class="card-image">
-								<a href="{{ route('show-blog') }}">
-									<figure class="image">
-										<lazy-load
-										src="/front/images/spinner.svg"
-										lazy-src="/front/images/2.jpg"
-										lazy-srcset="/front/images/2.jpg"
-										background-color="transparent"
-										alt="title"
-										class="image-cover"
-										/>
-									</figure>
-								</a>
-							</div>
-							<div class="card-content">
-								<div class="content has-text-grey-light">
-									<a href="{{ route('show-blog') }}">
-										<h5>Dummy Text</h5>
-									</a>
-									<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
-									<a href="{{ route('show-blog') }}" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
-								</div>
-							</div>
+					<div class="card-content">
+						<div class="content has-text-grey-light">
+							<a href="{{ route('show-blog') }}">
+								<h5>Dummy Text</h5>
+							</a>
+							<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
+							<a href="{{ route('show-blog') }}" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
 						</div>
 					</div>
 				</div>
-			</tab-pane>
+			</div>
+			<div class="column is-3">
+				<div class="card shadow-lg" data-aos="slide-up" data-aos-delay="300">
+					<div class="card-image">
+						<a href="{{ route('show-blog') }}">
+							<figure class="image">
+								<lazy-load
+								src="/front/images/spinner.svg"
+								lazy-src="/front/images/2.jpg"
+								lazy-srcset="/front/images/2.jpg"
+								background-color="transparent"
+								alt="title"
+								class="image-cover"
+								/>
+							</figure>
+						</a>
+					</div>
+					<div class="card-content">
+						<div class="content has-text-grey-light">
+							<a href="{{ route('show-blog') }}">
+								<h5>Dummy Text</h5>
+							</a>
+							<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
+							<a href="{{ route('show-blog') }}" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="column is-3">
+				<div class="card shadow-lg" data-aos="slide-up" data-aos-delay="300">
+					<div class="card-image">
+						<a href="{{ route('show-blog') }}">
+							<figure class="image">
+								<lazy-load
+								src="/front/images/spinner.svg"
+								lazy-src="/front/images/1.jpg"
+								lazy-srcset="/front/images/1.jpg"
+								background-color="transparent"
+								alt="title"
+								class="image-cover"
+								/>
+							</figure>
+						</a>
+					</div>
+					<div class="card-content">
+						<div class="content has-text-grey-light">
+							<a href="{{ route('show-blog') }}">
+								<h5>Dummy Text</h5>
+							</a>
+							<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
+							<a href="{{ route('show-blog') }}" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="column is-3">
+				<div class="card shadow-lg" data-aos="slide-up" data-aos-delay="300">
+					<div class="card-image">
+						<a href="{{ route('show-blog') }}">
+							<figure class="image">
+								<lazy-load
+								src="/front/images/spinner.svg"
+								lazy-src="/front/images/2.jpg"
+								lazy-srcset="/front/images/2.jpg"
+								background-color="transparent"
+								alt="title"
+								class="image-cover"
+								/>
+							</figure>
+						</a>
+					</div>
+					<div class="card-content">
+						<div class="content has-text-grey-light">
+							<a href="{{ route('show-blog') }}">
+								<h5>Dummy Text</h5>
+							</a>
+							<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
+							<a href="{{ route('show-blog') }}" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mt-4" data-aos="zoom-in" data-aos-delay="300">
+			<a href="#" class="hvr-radial-out gradiant-btn button has-text-weight-bold">
+				المزيد من  الأخبار
+				<i class="fa-solid fa-circle-arrow-left has-text-light mr-2"></i>
+			</a>
+		</div>
+		<tabs animation="slide" :only-fade="false">
+			
 			<!----Gallery tab ---->
-			<tab-pane label="معرض الصور">
+			{{-- <tab-pane label="معرض الصور">
 				<div class="show_all">
 					<a href="#" class="has-text-gold has-text-weight-bold">
 						جميع الصور
@@ -644,7 +645,7 @@
 						</div>
 					</div>
 				</div>
-			</tab-pane>
+			</tab-pane> --}}
 		</tabs>
 	</div>
 </section>

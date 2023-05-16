@@ -62,6 +62,12 @@ a{
 	background: rgb(105,6,16);
 	background: linear-gradient(90deg, rgba(105,6,16,1) 0%, rgba(218,27,26,1) 52%);
 }
+.gradiant-btn{
+	background: rgb(105,6,16);
+	background: linear-gradient(90deg, rgba(105,6,16,1) 0%, rgba(218,27,26,1) 52%);
+	color: #FFF;
+	border-radius: 2rem;
+}
 .has-background-gold{
 	background-color: $gold;
 }
@@ -459,4 +465,9 @@ table td:not([align]), table th:not([align]){
  .has-bottom-border{
  	border-bottom:2px solid $gold;
  	padding-bottom: .7rem;
+ }
+
+ .hvr-radial-out::before{
+ 	background: rgb(0,0,0);
+ 	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(47,46,44,1) 36%);
  }
