@@ -170,67 +170,43 @@
         <div class="columns">
             <div class="column is-4">
                 <h4 class="title">
-                    الدوري المصري
+                    رابطة الأندية
                 </h4>
                 <ul>
                     <li>
-                        <a class="has-text-light" href="#">عن الدوري</a>
+                        <a class="has-text-light" href="{{ route('landing') }}">الرئيسة</a>
                     </li>
                     <li>
-                        <a class="has-text-light" href="#">سجل الأبطال</a>
+                        <a class="has-text-light" href="#"> كأس الرابطة</a>
                     </li>
                     <li>
-                        <a class="has-text-light" href="#">تذاكر المباريات</a>
-                    </li>
-                    <li>
-                        <a class="has-text-light" href="#"> الملاعب</a>
-                    </li>
-                    <li>
-                        <a class="has-text-light" href="#"> الرعاة</a>
+                        <a class="has-text-light" href="{{ route('about') }}">عن الرابطة</a>
                     </li>
                 </ul>
             </div>
             <div class="column is-4">
                 <h4 class="title">
-                    المؤسسة
+                    الاعلام
                 </h4>
                 <ul>
                     <li>
-                        <a class="has-text-light" href="#">عن الدوري</a>
+                        <a class="has-text-light" href="#"> المركز الاعلامي</a>
                     </li>
                     <li>
-                        <a class="has-text-light" href="#">سجل الأبطال</a>
-                    </li>
-                    <li>
-                        <a class="has-text-light" href="#">تذاكر المباريات</a>
-                    </li>
-                    <li>
-                        <a class="has-text-light" href="#"> الملاعب</a>
-                    </li>
-                    <li>
-                        <a class="has-text-light" href="#"> الرعاة</a>
+                        <a class="has-text-light" href="#">المجموعة الاعلامية</a>
                     </li>
                 </ul>
             </div>
             <div class="column is-4">
                 <h4 class="title">
-                    الدعم
+                    الميديا
                 </h4>
                 <ul>
                     <li>
-                        <a class="has-text-light" href="#">عن الدوري</a>
+                        <a class="has-text-light" href="{{ route('blog') }}">الاخبار</a>
                     </li>
                     <li>
-                        <a class="has-text-light" href="#">سجل الأبطال</a>
-                    </li>
-                    <li>
-                        <a class="has-text-light" href="#">تذاكر المباريات</a>
-                    </li>
-                    <li>
-                        <a class="has-text-light" href="#"> الملاعب</a>
-                    </li>
-                    <li>
-                        <a class="has-text-light" href="#"> الرعاة</a>
+                        <a class="has-text-light" href="#">معرض الصور</a>
                     </li>
                 </ul>
             </div>
