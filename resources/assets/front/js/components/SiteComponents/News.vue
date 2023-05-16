@@ -16,7 +16,6 @@
 									class="image-cover"
 									/>
 								</figure>
-								<span class="is-size-6 p-2 px-3 has-background-primary has-text-white is-absolute is-tr-1 is-rounded">الأسبوع 22</span>
 							</a>
 						</div>
 						<div class="card-content">
@@ -44,7 +43,6 @@
 									class="image-cover"
 									/>
 								</figure>
-								<span class="is-size-6 p-2 px-3 has-background-primary has-text-white is-absolute is-tr-1 is-rounded">الأسبوع 22</span>
 							</a>
 						</div>
 						<div class="card-content">
@@ -72,7 +70,6 @@
 									class="image-cover"
 									/>
 								</figure>
-								<span class="is-size-6 p-2 px-3 has-background-primary has-text-white is-absolute is-tr-1 is-rounded">الأسبوع 22</span>
 							</a>
 						</div>
 						<div class="card-content">
@@ -100,7 +97,6 @@
 									class="image-cover"
 									/>
 								</figure>
-								<span class="is-size-6 p-2 px-3 has-background-primary has-text-white is-absolute is-tr-1 is-rounded">الأسبوع 22</span>
 							</a>
 						</div>
 						<div class="card-content">
@@ -127,8 +123,7 @@
 									alt="title"
 									class="image-cover"
 									/>										
-								</figure>
-								<span class="is-size-6 p-2 px-3 has-background-primary has-text-white is-absolute is-tr-1 is-rounded">الأسبوع 22</span>						
+								</figure>						
 							</a>
 						</div>
 						<div class="card-content">
@@ -156,7 +151,6 @@
 									class="image-cover"
 									/>
 								</figure>
-								<span class="is-size-6 p-2 px-3 has-background-primary has-text-white is-absolute is-tr-1 is-rounded">الأسبوع 22</span>
 							</a>
 						</div>
 						<div class="card-content">
@@ -184,7 +178,6 @@
 									class="image-cover"
 									/>
 								</figure>
-								<span class="is-size-6 p-2 px-3 has-background-primary has-text-white is-absolute is-tr-1 is-rounded">الأسبوع 22</span>
 							</a>
 						</div>
 						<div class="card-content">
@@ -212,7 +205,6 @@
 									class="image-cover"
 									/>
 								</figure>
-								<span class="is-size-6 p-2 px-3 has-background-primary has-text-white is-absolute is-tr-1 is-rounded">الأسبوع 22</span>
 							</a>
 						</div>
 						<div class="card-content">
