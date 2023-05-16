@@ -417,7 +417,7 @@ a.has-text-white:hover, a.has-text-white:focus{
 	margin-bottom: 0px;
 }
 /*------tour section---------*/
-.tour-section{
+.tour-section, .gallery-page{
 	position: relative;
 	&::after{
 		position: absolute;
@@ -432,6 +432,8 @@ a.has-text-white:hover, a.has-text-white:focus{
 		background-size: contain;
 		animation: slide_left_right 2s ease-in-out infinite alternate both;
 	}
+}
+.tour-section{
 	.card{
 		border-bottom:2px solid $secondary;
 		border-top:0px;
@@ -529,6 +531,6 @@ a.has-text-white:hover, a.has-text-white:focus{
 			transform: scale(1.1) rotate(-5deg);
 			transition: .4s ease-in-out;
 		}
-		
+
 	}
 }
