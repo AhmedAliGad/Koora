@@ -479,9 +479,31 @@ a.has-text-white:hover, a.has-text-white:focus{
 		right: 0;
 		left: 0;
 		background: rgb(0,0,0);
-		background: linear-gradient(90deg, rgba(0,0,0,.7) 0%, rgba(47,46,44,.7) 36%);
+		background: linear-gradient(90deg, rgba(0, 0, 0, 0.43) 0%, rgba(123, 123, 119, 0.65) 36%);
 	}
 	.card{
+		position: relative;
+		z-index: 1;
+		overflow:visible;
+		&::after, &::before{
+			position: absolute;
+			content: '';
+			width: 100%;
+			height: 100%;
+			border-radius: 15px;
+			z-index: -1;
+			box-shadow:0 10px 15px 10px rgba(0, 0, 0, 0.2), 0 4px 6px -5px rgba(0, 0, 0, 0.05) !important;
+		}
+		&::after{
+			top: 8px;
+			right: -8px;
+			background-color: #FFF;
+		}
+		&::before{
+			top: 18px;
+			right: -18px;
+			background-color: #eceaea;
+		}
 		.card-image{
 			overflow:hidden;
 			.image{

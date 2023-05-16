@@ -1106,18 +1106,40 @@
 				معرض الصور
 			</h3>
 			<div class="columns is-multiline">
-				<div class="column is-4">
+				<div class="p-5 column is-4">
 					<div data-aos="fade-up" data-aos-delay="300" class="card shadow-lg">
-						<div class="card-image">
+						<div class="card-image radius-15">
 							<a href="#">
-								<figure class="image">
+								<figure class="image radius-15">
 									<lazy-load
 									src="/front/images/spinner.svg"
 									lazy-src="/front/images/1.jpg"
 									lazy-srcset="/front/images/1.jpg"
 									background-color="transparent"
 									alt="title"
-									class="image-cover"
+									class="image-cover radius-15"
+									/>
+								</figure>
+								<div class="is-overlay radius-15">
+									<i class="fa-regular fa-eye text-light"></i>
+									<h5 class="has-text-light mt-4">عنوان معرض الصور</h5>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="p-5 column is-4">
+					<div data-aos="fade-up" data-aos-delay="300" class="card shadow-lg">
+						<div class="card-image radius-15">
+							<a href="#">
+								<figure class="image radius-15">
+									<lazy-load
+									src="/front/images/spinner.svg"
+									lazy-src="/front/images/1.jpg"
+									lazy-srcset="/front/images/1.jpg"
+									background-color="transparent"
+									alt="title"
+									class="image-cover radius-15"
 									/>
 								</figure>
 								<div class="is-overlay">
@@ -1128,21 +1150,21 @@
 						</div>
 					</div>
 				</div>
-				<div class="column is-4">
+				<div class="p-5 column is-4">
 					<div data-aos="fade-up" data-aos-delay="300" class="card shadow-lg">
-						<div class="card-image">
+						<div class="card-image radius-15">
 							<a href="#">
-								<figure class="image">
+								<figure class="image radius-15">
 									<lazy-load
 									src="/front/images/spinner.svg"
 									lazy-src="/front/images/1.jpg"
 									lazy-srcset="/front/images/1.jpg"
 									background-color="transparent"
 									alt="title"
-									class="image-cover"
+									class="image-cover radius-15"
 									/>
 								</figure>
-								<div class="is-overlay">
+								<div class="is-overlay radius-15">
 									<i class="fa-regular fa-eye text-light"></i>
 									<h5 class="has-text-light mt-4">عنوان معرض الصور</h5>
 								</div>
@@ -1150,21 +1172,21 @@
 						</div>
 					</div>
 				</div>
-				<div class="column is-4">
+				<div class="p-5 column is-4">
 					<div data-aos="fade-up" data-aos-delay="300" class="card shadow-lg">
-						<div class="card-image">
+						<div class="card-image radius-15">
 							<a href="#">
-								<figure class="image">
+								<figure class="image radius-15">
 									<lazy-load
 									src="/front/images/spinner.svg"
 									lazy-src="/front/images/1.jpg"
 									lazy-srcset="/front/images/1.jpg"
 									background-color="transparent"
 									alt="title"
-									class="image-cover"
+									class="image-cover radius-15"
 									/>
 								</figure>
-								<div class="is-overlay">
+								<div class="is-overlay radius-15">
 									<i class="fa-regular fa-eye text-light"></i>
 									<h5 class="has-text-light mt-4">عنوان معرض الصور</h5>
 								</div>
@@ -1172,21 +1194,21 @@
 						</div>
 					</div>
 				</div>
-				<div class="column is-4">
+				<div class="p-5 column is-4">
 					<div data-aos="fade-up" data-aos-delay="300" class="card shadow-lg">
-						<div class="card-image">
+						<div class="card-image radius-15">
 							<a href="#">
-								<figure class="image">
+								<figure class="image radius-15">
 									<lazy-load
 									src="/front/images/spinner.svg"
 									lazy-src="/front/images/1.jpg"
 									lazy-srcset="/front/images/1.jpg"
 									background-color="transparent"
 									alt="title"
-									class="image-cover"
+									class="image-cover radius-15"
 									/>
 								</figure>
-								<div class="is-overlay">
+								<div class="is-overlay radius-15">
 									<i class="fa-regular fa-eye text-light"></i>
 									<h5 class="has-text-light mt-4">عنوان معرض الصور</h5>
 								</div>
@@ -1194,43 +1216,21 @@
 						</div>
 					</div>
 				</div>
-				<div class="column is-4">
+				<div class="p-5 column is-4">
 					<div data-aos="fade-up" data-aos-delay="300" class="card shadow-lg">
-						<div class="card-image">
+						<div class="card-image radius-15">
 							<a href="#">
-								<figure class="image">
+								<figure class="image radius-15">
 									<lazy-load
 									src="/front/images/spinner.svg"
 									lazy-src="/front/images/1.jpg"
 									lazy-srcset="/front/images/1.jpg"
 									background-color="transparent"
 									alt="title"
-									class="image-cover"
+									class="image-cover radius-15"
 									/>
 								</figure>
-								<div class="is-overlay">
-									<i class="fa-regular fa-eye text-light"></i>
-									<h5 class="has-text-light mt-4">عنوان معرض الصور</h5>
-								</div>
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="column is-4">
-					<div data-aos="fade-up" data-aos-delay="300" class="card shadow-lg">
-						<div class="card-image">
-							<a href="#">
-								<figure class="image">
-									<lazy-load
-									src="/front/images/spinner.svg"
-									lazy-src="/front/images/1.jpg"
-									lazy-srcset="/front/images/1.jpg"
-									background-color="transparent"
-									alt="title"
-									class="image-cover"
-									/>
-								</figure>
-								<div class="is-overlay">
+								<div class="is-overlay radius-15">
 									<i class="fa-regular fa-eye text-light"></i>
 									<h5 class="has-text-light mt-4">عنوان معرض الصور</h5>
 								</div>
