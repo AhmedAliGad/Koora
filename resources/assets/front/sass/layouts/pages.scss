@@ -58,3 +58,42 @@
 		}
 	}
 }
+/*------------show blog----------*/
+.show-blog{
+	.card-image{
+		border:2px solid $secondary;
+		figure.blur{
+			overflow:hidden;
+			position: relative;
+			border-radius: 15px;
+			img{
+				filter: blur(6px);
+				object-fit: cover;
+			}
+		}
+		figure.non-blur{
+			position: absolute;
+			top: 0;
+			right: 0;
+			left: 0;
+			z-index: 1;
+			img{
+				object-fit: contain;
+			}
+		}
+		figure{
+			position: relative;
+			padding-top: 35%;
+			width: 100%;
+			img{
+				height: 100%;
+				width: 100%;
+				position: absolute;
+				top: 0;
+				right: 0;
+				left:0;
+				margin:auto;
+			}
+		}
+	}
+}

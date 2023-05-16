@@ -197,7 +197,7 @@
 					<div class="column is-3">
 						<div class="card shadow-lg">
 							<div class="card-image">
-								<a href="#">
+								<a href="{{ route('show-blog') }}">
 									<figure class="image">
 										<lazy-load
 										src="/front/images/spinner.svg"
@@ -212,11 +212,11 @@
 							</div>
 							<div class="card-content">
 								<div class="content has-text-grey-light">
-									<a href="#">
+									<a href="{{ route('show-blog') }}">
 										<h5>Dummy Text</h5>
 									</a>
 									<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
-									<a href="#" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
+									<a href="{{ route('show-blog') }}" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
 								</div>
 							</div>
 						</div>
@@ -224,7 +224,7 @@
 					<div class="column is-3">
 						<div class="card shadow-lg">
 							<div class="card-image">
-								<a href="#">
+								<a href="{{ route('show-blog') }}">
 									<figure class="image">
 										<lazy-load
 										src="/front/images/spinner.svg"
@@ -239,11 +239,11 @@
 							</div>
 							<div class="card-content">
 								<div class="content has-text-grey-light">
-									<a href="#">
+									<a href="{{ route('show-blog') }}">
 										<h5>Dummy Text</h5>
 									</a>
 									<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
-									<a href="#" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
+									<a href="{{ route('show-blog') }}" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
 								</div>
 							</div>
 						</div>
@@ -251,7 +251,7 @@
 					<div class="column is-3">
 						<div class="card shadow-lg">
 							<div class="card-image">
-								<a href="#">
+								<a href="{{ route('show-blog') }}">
 									<figure class="image">
 										<lazy-load
 										src="/front/images/spinner.svg"
@@ -266,11 +266,11 @@
 							</div>
 							<div class="card-content">
 								<div class="content has-text-grey-light">
-									<a href="#">
+									<a href="{{ route('show-blog') }}">
 										<h5>Dummy Text</h5>
 									</a>
 									<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
-									<a href="#" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
+									<a href="{{ route('show-blog') }}" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
 								</div>
 							</div>
 						</div>
@@ -278,7 +278,7 @@
 					<div class="column is-3">
 						<div class="card shadow-lg">
 							<div class="card-image">
-								<a href="#">
+								<a href="{{ route('show-blog') }}">
 									<figure class="image">
 										<lazy-load
 										src="/front/images/spinner.svg"
@@ -293,11 +293,11 @@
 							</div>
 							<div class="card-content">
 								<div class="content has-text-grey-light">
-									<a href="#">
+									<a href="{{ route('show-blog') }}">
 										<h5>Dummy Text</h5>
 									</a>
 									<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
-									<a href="#" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
+									<a href="{{ route('show-blog') }}" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
 								</div>
 							</div>
 						</div>
@@ -305,7 +305,7 @@
 					<div class="column is-3">
 						<div class="card shadow-lg">
 							<div class="card-image">
-								<a href="#">
+								<a href="{{ route('show-blog') }}">
 									<figure class="image">
 										<lazy-load
 										src="/front/images/spinner.svg"
@@ -321,11 +321,11 @@
 							</div>
 							<div class="card-content">
 								<div class="content has-text-grey-light">
-									<a href="#">
+									<a href="{{ route('show-blog') }}">
 										<h5>Dummy Text</h5>
 									</a>
 									<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
-									<a href="#" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
+									<a href="{{ route('show-blog') }}" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
 								</div>
 							</div>
 						</div>
@@ -333,7 +333,7 @@
 					<div class="column is-3">
 						<div class="card shadow-lg">
 							<div class="card-image">
-								<a href="#">
+								<a href="{{ route('show-blog') }}">
 									<figure class="image">
 										<lazy-load
 										src="/front/images/spinner.svg"
@@ -348,11 +348,11 @@
 							</div>
 							<div class="card-content">
 								<div class="content has-text-grey-light">
-									<a href="#">
+									<a href="{{ route('show-blog') }}">
 										<h5>Dummy Text</h5>
 									</a>
 									<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
-									<a href="#" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
+									<a href="{{ route('show-blog') }}" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
 								</div>
 							</div>
 						</div>
@@ -360,7 +360,7 @@
 					<div class="column is-3">
 						<div class="card shadow-lg">
 							<div class="card-image">
-								<a href="#">
+								<a href="{{ route('show-blog') }}">
 									<figure class="image">
 										<lazy-load
 										src="/front/images/spinner.svg"
@@ -375,11 +375,11 @@
 							</div>
 							<div class="card-content">
 								<div class="content has-text-grey-light">
-									<a href="#">
+									<a href="{{ route('show-blog') }}">
 										<h5>Dummy Text</h5>
 									</a>
 									<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
-									<a href="#" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
+									<a href="{{ route('show-blog') }}" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
 								</div>
 							</div>
 						</div>
@@ -387,7 +387,7 @@
 					<div class="column is-3">
 						<div class="card shadow-lg">
 							<div class="card-image">
-								<a href="#">
+								<a href="{{ route('show-blog') }}">
 									<figure class="image">
 										<lazy-load
 										src="/front/images/spinner.svg"
@@ -402,11 +402,11 @@
 							</div>
 							<div class="card-content">
 								<div class="content has-text-grey-light">
-									<a href="#">
+									<a href="{{ route('show-blog') }}">
 										<h5>Dummy Text</h5>
 									</a>
 									<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
-									<a href="#" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
+									<a href="{{ route('show-blog') }}" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
 								</div>
 							</div>
 						</div>

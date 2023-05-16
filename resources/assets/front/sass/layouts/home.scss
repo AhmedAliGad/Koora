@@ -141,13 +141,13 @@ a.has-text-white:hover, a.has-text-white:focus{
 	background-color: transparent!important;
 }
 /*---------Media Section-------*/
-.media-section{
+
+.media-section, .show-blog{
 	position: relative;
 	&::after{
 		position: absolute;
 		content: "";
 		top: 50px;
-		right: -59px;
 		background-image: url("/front/images/ball.svg");
 		background-repeat: no-repeat;
 		width: 120px;
@@ -157,6 +157,18 @@ a.has-text-white:hover, a.has-text-white:focus{
 		opacity: .1;
 		animation: slide_up_down 3s ease-in-out infinite alternate both;
 	}
+}
+.media-section{
+	&::after{
+		right: -59px;
+	}
+}
+.show-blog{
+	&::after{
+		left: -59px;
+	}
+}
+.media-section{
 	.card{
 		&:hover > .card-image a .image img{
 			transform: scale(1.1) rotate(-5deg);
@@ -215,16 +227,16 @@ a.has-text-white:hover, a.has-text-white:focus{
 	width: 100%;
 	position: relative;
 	&::after{
- 	position: absolute;
- 	content: '';
- 	width: 100%;
- 	height: 100%;
- 	top: 0;
- 	right: 0;
- 	left: 0;
- 	background: rgb(0,0,0);
- 	background: linear-gradient(90deg, rgba(0,0,0,.7) 0%, rgba(47,46,44,.7) 36%);
- }
+		position: absolute;
+		content: '';
+		width: 100%;
+		height: 100%;
+		top: 0;
+		right: 0;
+		left: 0;
+		background: rgb(0,0,0);
+		background: linear-gradient(90deg, rgba(0,0,0,.7) 0%, rgba(47,46,44,.7) 36%);
+	}
 	.upcomming-card{
 		border:2px solid $secondary;
 		background-color: #FFF;

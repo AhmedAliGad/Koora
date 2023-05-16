@@ -26337,6 +26337,10 @@ table td:not([align]), table th:not([align]) {
   justify-content: center;
 }
 
+p, .description {
+  line-height: 1.8rem;
+}
+
 /*------layouts-----------*/
 /*----dropdown-----------*/
 .navbar .dropdown_menu {
@@ -26479,14 +26483,13 @@ a.has-text-white:hover, a.has-text-white:focus {
 }
 
 /*---------Media Section-------*/
-.media-section {
+.media-section, .show-blog {
   position: relative;
 }
-.media-section::after {
+.media-section::after, .show-blog::after {
   position: absolute;
   content: "";
   top: 50px;
-  right: -59px;
   background-image: url("/front/images/ball.svg");
   background-repeat: no-repeat;
   width: 120px;
@@ -26496,6 +26499,15 @@ a.has-text-white:hover, a.has-text-white:focus {
   opacity: 0.1;
   animation: slide_up_down 3s ease-in-out infinite alternate both;
 }
+
+.media-section::after {
+  right: -59px;
+}
+
+.show-blog::after {
+  left: -59px;
+}
+
 .media-section .card:hover > .card-image a .image img {
   transform: scale(1.1) rotate(-5deg);
   transition: 0.4s ease-in-out;
@@ -26830,6 +26842,46 @@ a.has-text-white:hover, a.has-text-white:focus {
 }
 .media-section .name-img img {
   height: 100%;
+}
+
+/*------------show blog----------*/
+.show-blog .card-image {
+  border: 2px solid #c91a12;
+}
+.show-blog .card-image figure.blur {
+  overflow: hidden;
+  position: relative;
+  border-radius: 15px;
+}
+.show-blog .card-image figure.blur img {
+  filter: blur(6px);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.show-blog .card-image figure.non-blur {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+.show-blog .card-image figure.non-blur img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.show-blog .card-image figure {
+  position: relative;
+  padding-top: 35%;
+  width: 100%;
+}
+.show-blog .card-image figure img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
 }
 
 /*--------Direction-------*/
