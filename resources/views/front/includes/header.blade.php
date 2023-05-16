@@ -45,7 +45,7 @@
                                     </a>
                                     <ul class="dropdown_body">
                                         <li class="nav-item">
-                                            <a class="navbar-item" href="">
+                                            <a class="navbar-item" href="{{ route('page') }}">
                                                 <i class="has-text-gold fa-solid fa-caret-right ml-2"></i>
                                                 المركز الإعلامى
                                             </a>

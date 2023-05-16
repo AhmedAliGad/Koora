@@ -26279,7 +26279,7 @@ table td:not([align]), table th:not([align]) {
 }
 
 .height-630 {
-  height: 560px !important;
+  height: 570px !important;
 }
 
 .upcomming-card {
@@ -26783,6 +26783,8 @@ a.has-text-white:hover, a.has-text-white:focus {
   left: 0;
   -o-object-fit: cover;
      object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 /*-----------footer-------*/
