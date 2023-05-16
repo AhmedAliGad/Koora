@@ -24,6 +24,10 @@ Route::get('/profile', function () {
 Route::get('/about', function () {
     return view('front/pages/about');
 })->name('about');
+
+Route::get('/page', function () {
+    return view('front/pages/page');
+})->name('page');
 /*-----blog----*/
 Route::get('/blog', function () {
     return view('front/blog/index');
