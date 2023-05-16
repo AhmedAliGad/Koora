@@ -51,7 +51,7 @@
                                             </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="navbar-item" href="{{ route('page') }}">
+                                            <a class="navbar-item" href="#">
                                                 <i class="has-text-gold fa-solid fa-caret-right ml-2"></i>
                                                 المركز الإعلامى
                                             </a>
