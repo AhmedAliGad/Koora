@@ -24,6 +24,11 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
+                                    <a href="{{ route('about') }}" class="navbar-item has-text-white has-text-weight-bold">
+                                        من نحن
+                                    </a>
+                                </li>
+                                <li class="nav-item">
                                     <a href="{{ route('blog') }}" class="navbar-item has-text-white has-text-weight-bold">
                                         الاخبار
                                     </a>

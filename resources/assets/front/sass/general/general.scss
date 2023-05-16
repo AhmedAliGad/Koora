@@ -456,3 +456,7 @@ table td:not([align]), table th:not([align]){
  p,.description{
  	line-height: 1.8rem;
  }
+ .has-bottom-border{
+ 	border-bottom:2px solid $gold;
+ 	padding-bottom: .7rem;
+ }

@@ -26341,6 +26341,11 @@ p, .description {
   line-height: 1.8rem;
 }
 
+.has-bottom-border {
+  border-bottom: 2px solid #be9750;
+  padding-bottom: 0.7rem;
+}
+
 /*------layouts-----------*/
 /*----dropdown-----------*/
 .navbar .dropdown_menu {
@@ -26483,10 +26488,10 @@ a.has-text-white:hover, a.has-text-white:focus {
 }
 
 /*---------Media Section-------*/
-.media-section, .show-blog {
+.media-section, .show-blog, .about-page {
   position: relative;
 }
-.media-section::after, .show-blog::after {
+.media-section::after, .show-blog::after, .about-page::after {
   position: absolute;
   content: "";
   top: 50px;
@@ -26504,7 +26509,7 @@ a.has-text-white:hover, a.has-text-white:focus {
   right: -59px;
 }
 
-.show-blog::after {
+.show-blog::after, .about-page::after {
   left: -59px;
 }
 
@@ -26776,8 +26781,6 @@ a.has-text-white:hover, a.has-text-white:focus {
   top: 0;
   right: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -26882,6 +26885,22 @@ a.has-text-white:hover, a.has-text-white:focus {
   right: 0;
   left: 0;
   margin: auto;
+}
+
+/*----------about page-------------*/
+.about-page .card-image {
+  overflow: hidden;
+  border: 2px solid #c91a12;
+}
+.about-page .card-image figure {
+  position: relative;
+  padding-top: 70%;
+}
+.about-page .card-image figure img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
 }
 
 /*--------Direction-------*/

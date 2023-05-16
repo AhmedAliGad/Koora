@@ -8,8 +8,8 @@
 <!-----inner header---->
 <section class="hero inner-header mt-78">
 	<div class="section-padding position-relative club-section">
-		<div class="container">
-			<h1 class="pr-2 mt-6 is-size-3 has-text-secondary has-text-centered" data-aos="zoom-in" data-aos-delay="300">الأخبار</h1>
+		<div class="container has-text-centered">
+			<h1 class="pr-2 mt-6 is-size-3 has-bottom-border has-text-secondary has-text-centered d-inline-block mx-auto" data-aos="zoom-in" data-aos-delay="300">الأخبار</h1>
 		</div>
 	</div>
 </section>
