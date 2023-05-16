@@ -1107,7 +1107,7 @@
 			</h3>
 			<div class="columns is-multiline">
 				<div class="column is-4">
-					<div class="card shadow-lg">
+					<div data-aos="fade-up" data-aos-delay="300" class="card shadow-lg">
 						<div class="card-image">
 							<a href="#">
 								<figure class="image">
@@ -1129,7 +1129,7 @@
 					</div>
 				</div>
 				<div class="column is-4">
-					<div class="card shadow-lg">
+					<div data-aos="fade-up" data-aos-delay="300" class="card shadow-lg">
 						<div class="card-image">
 							<a href="#">
 								<figure class="image">
@@ -1151,7 +1151,7 @@
 					</div>
 				</div>
 				<div class="column is-4">
-					<div class="card shadow-lg">
+					<div data-aos="fade-up" data-aos-delay="300" class="card shadow-lg">
 						<div class="card-image">
 							<a href="#">
 								<figure class="image">
@@ -1173,7 +1173,7 @@
 					</div>
 				</div>
 				<div class="column is-4">
-					<div class="card shadow-lg">
+					<div data-aos="fade-up" data-aos-delay="300" class="card shadow-lg">
 						<div class="card-image">
 							<a href="#">
 								<figure class="image">
@@ -1195,7 +1195,7 @@
 					</div>
 				</div>
 				<div class="column is-4">
-					<div class="card shadow-lg">
+					<div data-aos="fade-up" data-aos-delay="300" class="card shadow-lg">
 						<div class="card-image">
 							<a href="#">
 								<figure class="image">
@@ -1217,7 +1217,7 @@
 					</div>
 				</div>
 				<div class="column is-4">
-					<div class="card shadow-lg">
+					<div data-aos="fade-up" data-aos-delay="300" class="card shadow-lg">
 						<div class="card-image">
 							<a href="#">
 								<figure class="image">

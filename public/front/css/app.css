@@ -26122,7 +26122,7 @@ h4, .h4 {
 }
 
 .is-overlay {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.4);
   text-align: center;
   transition: 0.4s ease-in-out;
   height: 100%;
