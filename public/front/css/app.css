@@ -26832,12 +26832,13 @@ a.has-text-white:hover, a.has-text-white:focus {
   background: rgb(0, 0, 0);
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.43) 0%, rgba(123, 123, 119, 0.65) 36%);
 }
-.gallery-section .card {
+
+.gallery .card {
   position: relative;
   z-index: 1;
   overflow: visible;
 }
-.gallery-section .card::after, .gallery-section .card::before {
+.gallery .card::after, .gallery .card::before {
   position: absolute;
   content: "";
   width: 100%;
@@ -26846,35 +26847,35 @@ a.has-text-white:hover, a.has-text-white:focus {
   z-index: -1;
   box-shadow: 0 10px 15px 10px rgba(0, 0, 0, 0.2), 0 4px 6px -5px rgba(0, 0, 0, 0.05) !important;
 }
-.gallery-section .card::after {
+.gallery .card::after {
   top: 8px;
   right: -8px;
   background-color: #FFF;
 }
-.gallery-section .card::before {
+.gallery .card::before {
   top: 18px;
   right: -18px;
   background-color: #eceaea;
 }
-.gallery-section .card .card-image {
+.gallery .card .card-image {
   overflow: hidden;
 }
-.gallery-section .card .card-image .image {
+.gallery .card .card-image .image {
   position: relative;
   padding-top: 77%;
 }
-.gallery-section .card .card-image .image img {
+.gallery .card .card-image .image img {
   position: absolute;
   top: 0;
   height: 100%;
   width: 100%;
   transition: 0.4s ease-in-out;
 }
-.gallery-section .card:hover > .card-image .is-overlay {
+.gallery .card:hover > .card-image .is-overlay {
   background-color: rgba(0, 0, 0, 0.2);
   transition: 0.4s ease-in-out;
 }
-.gallery-section .card:hover > .card-image a .image img {
+.gallery .card:hover > .card-image a .image img {
   transform: scale(1.1) rotate(-5deg);
   transition: 0.4s ease-in-out;
 }

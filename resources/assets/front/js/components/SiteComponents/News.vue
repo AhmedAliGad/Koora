@@ -232,7 +232,7 @@
 	import infiniteScroll from 'vue-infinite-scroll';
 	import LazyLoad from '../GeneralComponents/LazyLoad';
 	export default {
-		name: 'sub-categories',
+		name: 'News',
 		components: {
 			LazyLoad ,
 		},

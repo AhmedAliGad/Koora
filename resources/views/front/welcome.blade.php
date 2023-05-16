@@ -1100,7 +1100,7 @@
 </section>
 <!-----Gallery Section-------->
 <section class="gallery-section has-text-centered">
-	<div class="section-padding position-relative">
+	<div class="section-padding gallery position-relative">
 		<div class="container">
 			<h3 data-aos="zoom-in" data-aos-delay="300" class="basic-title mb-6 has-text-centered has-text-white mx-auto float-none d-inline-block">
 				معرض الصور
@@ -1121,7 +1121,7 @@
 									/>
 								</figure>
 								<div class="is-overlay radius-15">
-									<i class="fa-regular fa-eye text-light"></i>
+									<i class="fa-solid fa-link fa-beat text-light"></i>
 									<h5 class="has-text-light mt-4">عنوان معرض الصور</h5>
 								</div>
 							</a>
@@ -1143,7 +1143,7 @@
 									/>
 								</figure>
 								<div class="is-overlay">
-									<i class="fa-regular fa-eye text-light"></i>
+									<i class="fa-solid fa-link fa-beat text-light"></i>
 									<h5 class="has-text-light mt-4">عنوان معرض الصور</h5>
 								</div>
 							</a>
@@ -1165,7 +1165,7 @@
 									/>
 								</figure>
 								<div class="is-overlay radius-15">
-									<i class="fa-regular fa-eye text-light"></i>
+									<i class="fa-solid fa-link fa-beat text-light"></i>
 									<h5 class="has-text-light mt-4">عنوان معرض الصور</h5>
 								</div>
 							</a>
@@ -1187,7 +1187,7 @@
 									/>
 								</figure>
 								<div class="is-overlay radius-15">
-									<i class="fa-regular fa-eye text-light"></i>
+									<i class="fa-solid fa-link fa-beat text-light"></i>
 									<h5 class="has-text-light mt-4">عنوان معرض الصور</h5>
 								</div>
 							</a>
@@ -1209,7 +1209,7 @@
 									/>
 								</figure>
 								<div class="is-overlay radius-15">
-									<i class="fa-regular fa-eye text-light"></i>
+									<i class="fa-solid fa-link fa-beat text-light"></i>
 									<h5 class="has-text-light mt-4">عنوان معرض الصور</h5>
 								</div>
 							</a>
@@ -1231,7 +1231,7 @@
 									/>
 								</figure>
 								<div class="is-overlay radius-15">
-									<i class="fa-regular fa-eye text-light"></i>
+									<i class="fa-solid fa-link fa-beat text-light"></i>
 									<h5 class="has-text-light mt-4">عنوان معرض الصور</h5>
 								</div>
 							</a>

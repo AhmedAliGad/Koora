@@ -20,32 +20,33 @@
  Vue.component('lazy-load', LazyLoad);
 
  Vue.use(VueLazyload, {
-	preLoad: 100,
-	error: '',
-	loading: '/front/img/spinner.svg',
-	attempt: 1,
-	adapter: {
-		loading (listender, Init) {
-			listender.el.style.height = "100px";
-		},
-		loaded ({ bindType, el, naturalHeight, naturalWidth, $parent, src, loading, error, Init }) {
-            el.style.height= "auto";
-        },
-	}
-})
+ 	preLoad: 100,
+ 	error: '',
+ 	loading: '/front/img/spinner.svg',
+ 	attempt: 1,
+ 	adapter: {
+ 		loading (listender, Init) {
+ 			listender.el.style.height = "100px";
+ 		},
+ 		loaded ({ bindType, el, naturalHeight, naturalWidth, $parent, src, loading, error, Init }) {
+ 			el.style.height= "auto";
+ 		},
+ 	}
+ })
 
 
  /*-----------Site Components---------*/
  import Clubs from './components/SiteComponents/Clubs';
  import Sponsers from './components/SiteComponents/Sponsers';
  import News from './components/SiteComponents/News';
-
+ import Gallery from './components/SiteComponents/Gallery';
  export {
  	Slick,
  	Sponsers,
  	Clubs,
  	SlickAnimation,
- 	News
+ 	News,
+ 	Gallery
  }
  const app = new Vue({
  	el: '#app',
@@ -56,7 +57,8 @@
  		Sponsers,
  		Clubs,
  		SlickAnimation,
- 		News
+ 		News,
+ 		Gallery
  	},
 
  });

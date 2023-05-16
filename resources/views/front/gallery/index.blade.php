@@ -13,12 +13,11 @@
 		</div>
 	</div>
 </section>
-<section class="section-padding show-blog has-background-grey-lighter">
-	<div class="container">
-		<div class="card box-shadow p-6">
-			<div class="description has-text-primary mt-5 has-text-justified">
-				
-			</div>
+<!-----Gallery Section-------->
+<section class="gallery-page has-text-centered has-background-grey-lighter">
+	<div class="section-padding gallery position-relative">
+		<div class="container">
+			<gallery url="#"></gallery>
 		</div>
 	</div>
 </section>
