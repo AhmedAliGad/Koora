@@ -24,8 +24,13 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
+                                    <a href="#" class="navbar-item has-text-white has-text-weight-bold">
+                                        كأس الرابطة
+                                    </a>
+                                </li>
+                                <li class="nav-item">
                                     <a href="{{ route('about') }}" class="navbar-item has-text-white has-text-weight-bold">
-                                        من نحن
+                                        عن الرابطة
                                     </a>
                                 </li>
                                 <li class="nav-item">

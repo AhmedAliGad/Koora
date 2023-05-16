@@ -181,9 +181,6 @@
 <!------Media Section------>
 <section class="section-padding media-section has-text-centered has-background-grey-lighter">
 	<div class="container">
-		<h3 data-aos="zoom-in" data-aos-delay="300" class="basic-title has-text-centered has-text-primary mx-auto float-none d-inline-block">
-			الإعلام
-		</h3>
 		<tabs animation="slide" :only-fade="false">
 			<!----News tab ---->
 			<tab-pane label="الأخبار">
@@ -1226,14 +1223,14 @@
 								<span class="has-text-secondary has-text-weight-bold">
 									إسم اللاعب:
 								</span>
-								<span class="has-text-primary has-text-weight-bold">الرئيس: السيد/ عبد الله يوسف الملا</span>
+								<span class="has-text-primary has-text-weight-bold"> عبد الله يوسف الملا</span>
 							</p>
 							<p class="mb-3">
 								<i class="is-size-4 fa-brands fa-playstation fa-bounce ml-2 has-text-gold"></i>
 								<span class="has-text-secondary has-text-weight-bold">
 									النادى:
 								</span>
-								<span class="has-text-primary has-text-weight-bold">الرئيس: السيد/ عبد الله يوسف الملا</span>
+								<span class="has-text-primary has-text-weight-bold">اسم النادي</span>
 							</p>
 						</div>
 					</div>
