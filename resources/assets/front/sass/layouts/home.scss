@@ -200,11 +200,6 @@ a.has-text-white:hover, a.has-text-white:focus{
 				}
 			}
 		}
-		&:hover > .card-image .is-overlay{
-			opacity: 1;
-			height: 100%;
-			transition: .4s ease-in-out;
-		}
 	}
 	.tab-content{
 		overflow:visible!important;
@@ -464,5 +459,52 @@ a.has-text-white:hover, a.has-text-white:focus{
 		li{
 			margin-bottom: .8rem;
 		}
+	}
+}
+/*-------gallery-section----*/
+.gallery-section{
+	background-image: url('/front/images/order4-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	&::after{
+		position: absolute;
+		content: '';
+		width: 100%;
+		height: 100%;
+		top: 0;
+		right: 0;
+		left: 0;
+		background: rgb(0,0,0);
+		background: linear-gradient(90deg, rgba(0,0,0,.7) 0%, rgba(47,46,44,.7) 36%);
+	}
+	.card{
+		.card-image{
+			overflow:hidden;
+			.image{
+				position: relative;
+				padding-top: 77%;
+				img{
+					position: absolute;
+					top: 0;
+					height: 100%;
+					width: 100%;
+					transition: .4s ease-in-out;
+				}
+			}
+		}
+
+		&:hover > .card-image .is-overlay{
+			background-color: rgba(0,0,0,.2);
+			transition: .4s ease-in-out;
+		}
+		&:hover > .card-image a .image img{
+			transform: scale(1.1) rotate(-5deg);
+			transition: .4s ease-in-out;
+		}
+		
 	}
 }

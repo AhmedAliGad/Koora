@@ -409,244 +409,6 @@
 				<i class="fa-solid fa-circle-arrow-left has-text-light mr-2"></i>
 			</a>
 		</div>
-		<tabs animation="slide" :only-fade="false">
-			
-			<!----Gallery tab ---->
-			{{-- <tab-pane label="معرض الصور">
-				<div class="show_all">
-					<a href="#" class="has-text-gold has-text-weight-bold">
-						جميع الصور
-						<i class="fa-solid fa-circle-arrow-left has-text-secondary mr-1"></i>
-					</a>
-				</div>
-				<div class="columns is-multiline">
-					<div class="column is-3">
-						<div class="card shadow-lg">
-							<div class="card-image">
-								<a href="#">
-									<figure class="image">
-										<lazy-load
-										src="/front/images/spinner.svg"
-										lazy-src="/front/images/1.jpg"
-										lazy-srcset="/front/images/1.jpg"
-										background-color="transparent"
-										alt="title"
-										class="image-cover"
-										/>
-									</figure>
-									<div class="is-overlay">
-										<i class="fa-regular fa-eye text-light"></i>
-									</div>
-								</a>
-							</div>
-							<div class="card-content">
-								<div class="content has-text-grey-light">
-									<a href="#">
-										<h5 class="mb-0">عنوان معرض الصور</h5>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="column is-3">
-						<div class="card shadow-lg">
-							<div class="card-image">
-								<a href="#">
-									<figure class="image">
-										<lazy-load
-										src="/front/images/spinner.svg"
-										lazy-src="/front/images/1.jpg"
-										lazy-srcset="/front/images/1.jpg"
-										background-color="transparent"
-										alt="title"
-										class="image-cover"
-										/>
-									</figure>
-									<div class="is-overlay">
-										<i class="fa-regular fa-eye text-light"></i>
-									</div>
-								</a>
-							</div>
-							<div class="card-content">
-								<div class="content has-text-grey-light">
-									<a href="#">
-										<h5 class="mb-0">عنوان معرض الصور</h5>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="column is-3">
-						<div class="card shadow-lg">
-							<div class="card-image">
-								<a href="#">
-									<figure class="image">
-										<lazy-load
-										src="/front/images/spinner.svg"
-										lazy-src="/front/images/1.jpg"
-										lazy-srcset="/front/images/1.jpg"
-										background-color="transparent"
-										alt="title"
-										class="image-cover"
-										/>
-									</figure>
-									<div class="is-overlay">
-										<i class="fa-regular fa-eye text-light"></i>
-									</div>
-								</a>
-							</div>
-							<div class="card-content">
-								<div class="content has-text-grey-light">
-									<a href="#">
-										<h5 class="mb-0">عنوان معرض الصور</h5>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="column is-3">
-						<div class="card shadow-lg">
-							<div class="card-image">
-								<a href="#">
-									<figure class="image">
-										<lazy-load
-										src="/front/images/spinner.svg"
-										lazy-src="/front/images/1.jpg"
-										lazy-srcset="/front/images/1.jpg"
-										background-color="transparent"
-										alt="title"
-										class="image-cover"
-										/>
-									</figure>
-									<div class="is-overlay">
-										<i class="fa-regular fa-eye text-light"></i>
-									</div>
-								</a>
-							</div>
-							<div class="card-content">
-								<div class="content has-text-grey-light">
-									<a href="#">
-										<h5 class="mb-0">عنوان معرض الصور</h5>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="column is-3">
-						<div class="card shadow-lg">
-							<div class="card-image">
-								<a href="#">
-									<figure class="image">
-										<lazy-load
-										src="/front/images/spinner.svg"
-										lazy-src="/front/images/1.jpg"
-										lazy-srcset="/front/images/1.jpg"
-										background-color="transparent"
-										alt="title"
-										class="image-cover"
-										/>
-									</figure>
-									<div class="is-overlay">
-										<i class="fa-regular fa-eye text-light"></i>
-									</div>
-								</a>
-							</div>
-							<div class="card-content">
-								<div class="content has-text-grey-light">
-									<a href="#">
-										<h5 class="mb-0">عنوان معرض الصور</h5>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="column is-3">
-						<div class="card shadow-lg">
-							<div class="card-image">
-								<a href="#">
-									<figure class="image">
-										<lazy-load
-										src="/front/images/spinner.svg"
-										lazy-src="/front/images/1.jpg"
-										lazy-srcset="/front/images/1.jpg"
-										background-color="transparent"
-										alt="title"
-										class="image-cover"
-										/>
-									</figure>
-									<div class="is-overlay">
-										<i class="fa-regular fa-eye text-light"></i>
-									</div>
-								</a>
-							</div>
-							<div class="card-content">
-								<div class="content has-text-grey-light">
-									<a href="#">
-										<h5 class="mb-0">عنوان معرض الصور</h5>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="column is-3">
-						<div class="card shadow-lg">
-							<div class="card-image">
-								<a href="#">
-									<figure class="image">
-										<lazy-load
-										src="/front/images/spinner.svg"
-										lazy-src="/front/images/1.jpg"
-										lazy-srcset="/front/images/1.jpg"
-										background-color="transparent"
-										alt="title"
-										class="image-cover"
-										/>
-									</figure>
-									<div class="is-overlay">
-										<i class="fa-regular fa-eye text-light"></i>
-									</div>
-								</a>
-							</div>
-							<div class="card-content">
-								<div class="content has-text-grey-light">
-									<a href="#">
-										<h5 class="mb-0">عنوان معرض الصور</h5>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="column is-3">
-						<div class="card shadow-lg">
-							<div class="card-image">
-								<a href="#">
-									<figure class="image">
-										<lazy-load
-										src="/front/images/spinner.svg"
-										lazy-src="/front/images/1.jpg"
-										lazy-srcset="/front/images/1.jpg"
-										background-color="transparent"
-										alt="title"
-										class="image-cover"
-										/>
-									</figure>
-									<div class="is-overlay">
-										<i class="fa-regular fa-eye text-light"></i>
-									</div>
-								</a>
-							</div>
-							<div class="card-content">
-								<div class="content has-text-grey-light">
-									<a href="#">
-										<h5 class="mb-0">عنوان معرض الصور</h5>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</tab-pane> --}}
-		</tabs>
 	</div>
 </section>
 <!-----order---->
@@ -1336,6 +1098,155 @@
 		</div>
 	</div>
 </section>
-
+<!-----Gallery Section-------->
+<section class="gallery-section has-text-centered">
+	<div class="section-padding position-relative">
+		<div class="container">
+			<h3 data-aos="zoom-in" data-aos-delay="300" class="basic-title mb-6 has-text-centered has-text-white mx-auto float-none d-inline-block">
+				معرض الصور
+			</h3>
+			<div class="columns is-multiline">
+				<div class="column is-4">
+					<div class="card shadow-lg">
+						<div class="card-image">
+							<a href="#">
+								<figure class="image">
+									<lazy-load
+									src="/front/images/spinner.svg"
+									lazy-src="/front/images/1.jpg"
+									lazy-srcset="/front/images/1.jpg"
+									background-color="transparent"
+									alt="title"
+									class="image-cover"
+									/>
+								</figure>
+								<div class="is-overlay">
+									<i class="fa-regular fa-eye text-light"></i>
+									<h5 class="has-text-light mt-4">عنوان معرض الصور</h5>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="column is-4">
+					<div class="card shadow-lg">
+						<div class="card-image">
+							<a href="#">
+								<figure class="image">
+									<lazy-load
+									src="/front/images/spinner.svg"
+									lazy-src="/front/images/1.jpg"
+									lazy-srcset="/front/images/1.jpg"
+									background-color="transparent"
+									alt="title"
+									class="image-cover"
+									/>
+								</figure>
+								<div class="is-overlay">
+									<i class="fa-regular fa-eye text-light"></i>
+									<h5 class="has-text-light mt-4">عنوان معرض الصور</h5>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="column is-4">
+					<div class="card shadow-lg">
+						<div class="card-image">
+							<a href="#">
+								<figure class="image">
+									<lazy-load
+									src="/front/images/spinner.svg"
+									lazy-src="/front/images/1.jpg"
+									lazy-srcset="/front/images/1.jpg"
+									background-color="transparent"
+									alt="title"
+									class="image-cover"
+									/>
+								</figure>
+								<div class="is-overlay">
+									<i class="fa-regular fa-eye text-light"></i>
+									<h5 class="has-text-light mt-4">عنوان معرض الصور</h5>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="column is-4">
+					<div class="card shadow-lg">
+						<div class="card-image">
+							<a href="#">
+								<figure class="image">
+									<lazy-load
+									src="/front/images/spinner.svg"
+									lazy-src="/front/images/1.jpg"
+									lazy-srcset="/front/images/1.jpg"
+									background-color="transparent"
+									alt="title"
+									class="image-cover"
+									/>
+								</figure>
+								<div class="is-overlay">
+									<i class="fa-regular fa-eye text-light"></i>
+									<h5 class="has-text-light mt-4">عنوان معرض الصور</h5>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="column is-4">
+					<div class="card shadow-lg">
+						<div class="card-image">
+							<a href="#">
+								<figure class="image">
+									<lazy-load
+									src="/front/images/spinner.svg"
+									lazy-src="/front/images/1.jpg"
+									lazy-srcset="/front/images/1.jpg"
+									background-color="transparent"
+									alt="title"
+									class="image-cover"
+									/>
+								</figure>
+								<div class="is-overlay">
+									<i class="fa-regular fa-eye text-light"></i>
+									<h5 class="has-text-light mt-4">عنوان معرض الصور</h5>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="column is-4">
+					<div class="card shadow-lg">
+						<div class="card-image">
+							<a href="#">
+								<figure class="image">
+									<lazy-load
+									src="/front/images/spinner.svg"
+									lazy-src="/front/images/1.jpg"
+									lazy-srcset="/front/images/1.jpg"
+									background-color="transparent"
+									alt="title"
+									class="image-cover"
+									/>
+								</figure>
+								<div class="is-overlay">
+									<i class="fa-regular fa-eye text-light"></i>
+									<h5 class="has-text-light mt-4">عنوان معرض الصور</h5>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="mt-4" data-aos="zoom-in" data-aos-delay="300">
+				<a href="#" class="hvr-radial-out light-btn button has-text-weight-bold">
+					المزيد من  الصور
+					<i class="fa-solid fa-circle-arrow-left has-text-gold mr-2"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
 @endsection
 
