@@ -190,6 +190,16 @@ a.has-text-white:hover, a.has-text-white:focus{
 		}
 		.card-content{
 			.content{
+				p{
+					margin-bottom: .5rem;
+				}
+				h5{
+					font-size: 1em;
+					margin-bottom: 0.8888em;
+					line-height: 1.5rem;
+					height: 3rem;
+					overflow: hidden;
+				}
 				a{
 					&:hover > h5{
 						color: $gold;

@@ -27205,6 +27205,10 @@ p, .description {
   background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(47, 46, 44) 36%);
 }
 
+.has-opacity {
+  opacity: 0.4;
+}
+
 /*------layouts-----------*/
 /*----dropdown-----------*/
 .navbar .dropdown_menu {
@@ -27389,6 +27393,16 @@ a.has-text-white:hover, a.has-text-white:focus {
   height: 100%;
   width: 100%;
   transition: 0.4s ease-in-out;
+}
+.media-section .card .card-content .content p {
+  margin-bottom: 0.5rem;
+}
+.media-section .card .card-content .content h5 {
+  font-size: 1em;
+  margin-bottom: 0.8888em;
+  line-height: 1.5rem;
+  height: 3rem;
+  overflow: hidden;
 }
 .media-section .card .card-content .content a:hover > h5 {
   color: #be9750;

@@ -178,7 +178,7 @@
 		</clubs>
 	</div>
 </section>
-<!------Media Section------>
+<!------blog Section------>
 <section class="section-padding media-section has-text-centered has-background-grey-lighter">
 	<div class="container">
 		<h3 data-aos="zoom-in" data-aos-delay="300" class="basic-title mb-6 has-text-centered has-text-primary mx-auto float-none d-inline-block">
@@ -199,14 +199,21 @@
 								class="image-cover"
 								/>
 							</figure>
+							{{-- <p class="p-2 px-3 has-background-primary has-text-white is-absolute is-tr-1 is-rounded has-opacity">
+								<span class="is-size-6 position-relative">17 مايو 2023</span>
+							</p> --}}
 						</a>
 					</div>
 					<div class="card-content">
 						<div class="content has-text-grey-light">
+							<p class="has-text-weight-bold">
+								<i class="fa-regular fa-calendar-days has-text-gold"></i>
+								<span class="is-size-6 has-text-gold">17 مايو 2023</span>
+							</p>
 							<a href="{{ route('show-blog') }}">
-								<h5>Dummy Text</h5>
+								<h5>هنا يكتب عنوان الخبر  نا يكتب عنوان الخبر نا يكتب عنوان الخبر </h5>
 							</a>
-							<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
+				 
 							<a href="{{ route('show-blog') }}" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
 						</div>
 					</div>
@@ -230,10 +237,13 @@
 					</div>
 					<div class="card-content">
 						<div class="content has-text-grey-light">
+							<p class="has-text-weight-bold">
+								<i class="fa-regular fa-calendar-days has-text-gold"></i>
+								<span class="is-size-6 has-text-gold">17 مايو 2023</span>
+							</p>
 							<a href="{{ route('show-blog') }}">
-								<h5>Dummy Text</h5>
+								<h5>هنا يكتب عنوان الخبر  نا يكتب عنوان الخبر نا يكتب عنوان الخبر </h5>
 							</a>
-							<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
 							<a href="{{ route('show-blog') }}" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
 						</div>
 					</div>
@@ -257,10 +267,13 @@
 					</div>
 					<div class="card-content">
 						<div class="content has-text-grey-light">
+							<p class="has-text-weight-bold">
+								<i class="fa-regular fa-calendar-days has-text-gold"></i>
+								<span class="is-size-6 has-text-gold">17 مايو 2023</span>
+							</p>
 							<a href="{{ route('show-blog') }}">
-								<h5>Dummy Text</h5>
+								<h5>هنا يكتب عنوان الخبر  نا يكتب عنوان الخبر نا يكتب عنوان الخبر </h5>
 							</a>
-							<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
 							<a href="{{ route('show-blog') }}" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
 						</div>
 					</div>
@@ -284,65 +297,13 @@
 					</div>
 					<div class="card-content">
 						<div class="content has-text-grey-light">
+							<p class="has-text-weight-bold">
+								<i class="fa-regular fa-calendar-days has-text-gold"></i>
+								<span class="is-size-6 has-text-gold">17 مايو 2023</span>
+							</p>
 							<a href="{{ route('show-blog') }}">
-								<h5>Dummy Text</h5>
+								<h5>هنا يكتب عنوان الخبر  نا يكتب عنوان الخبر نا يكتب عنوان الخبر </h5>
 							</a>
-							<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
-							<a href="{{ route('show-blog') }}" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="column is-3">
-				<div class="card shadow-lg" data-aos="slide-up" data-aos-delay="300">
-					<div class="card-image">
-						<a href="{{ route('show-blog') }}">
-							<figure class="image">
-								<lazy-load
-								src="/front/images/spinner.svg"
-								lazy-src="/front/images/1.jpg"
-								lazy-srcset="/front/images/1.jpg"
-								background-color="transparent"
-								alt="title"
-								class="image-cover"
-								/>
-							</figure>
-
-						</a>
-					</div>
-					<div class="card-content">
-						<div class="content has-text-grey-light">
-							<a href="{{ route('show-blog') }}">
-								<h5>Dummy Text</h5>
-							</a>
-							<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
-							<a href="{{ route('show-blog') }}" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="column is-3">
-				<div class="card shadow-lg" data-aos="slide-up" data-aos-delay="300">
-					<div class="card-image">
-						<a href="{{ route('show-blog') }}">
-							<figure class="image">
-								<lazy-load
-								src="/front/images/spinner.svg"
-								lazy-src="/front/images/2.jpg"
-								lazy-srcset="/front/images/2.jpg"
-								background-color="transparent"
-								alt="title"
-								class="image-cover"
-								/>
-							</figure>
-						</a>
-					</div>
-					<div class="card-content">
-						<div class="content has-text-grey-light">
-							<a href="{{ route('show-blog') }}">
-								<h5>Dummy Text</h5>
-							</a>
-							<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
 							<a href="{{ route('show-blog') }}" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
 						</div>
 					</div>
@@ -366,10 +327,13 @@
 					</div>
 					<div class="card-content">
 						<div class="content has-text-grey-light">
+							<p class="has-text-weight-bold">
+								<i class="fa-regular fa-calendar-days has-text-gold"></i>
+								<span class="is-size-6 has-text-gold">17 مايو 2023</span>
+							</p>
 							<a href="{{ route('show-blog') }}">
-								<h5>Dummy Text</h5>
+								<h5>هنا يكتب عنوان الخبر  نا يكتب عنوان الخبر نا يكتب عنوان الخبر </h5>
 							</a>
-							<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
 							<a href="{{ route('show-blog') }}" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
 						</div>
 					</div>
@@ -393,10 +357,73 @@
 					</div>
 					<div class="card-content">
 						<div class="content has-text-grey-light">
+							<p class="has-text-weight-bold">
+								<i class="fa-regular fa-calendar-days has-text-gold"></i>
+								<span class="is-size-6 has-text-gold">17 مايو 2023</span>
+							</p>
 							<a href="{{ route('show-blog') }}">
 								<h5>Dummy Text</h5>
 							</a>
-							<p class="has-text-grey-dark">Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non miy</p>
+							<a href="{{ route('show-blog') }}" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="column is-3">
+				<div class="card shadow-lg" data-aos="slide-up" data-aos-delay="300">
+					<div class="card-image">
+						<a href="{{ route('show-blog') }}">
+							<figure class="image">
+								<lazy-load
+								src="/front/images/spinner.svg"
+								lazy-src="/front/images/1.jpg"
+								lazy-srcset="/front/images/1.jpg"
+								background-color="transparent"
+								alt="title"
+								class="image-cover"
+								/>
+							</figure>
+						</a>
+					</div>
+					<div class="card-content">
+						<div class="content has-text-grey-light">
+							<p class="has-text-weight-bold">
+								<i class="fa-regular fa-calendar-days has-text-gold"></i>
+								<span class="is-size-6 has-text-gold">17 مايو 2023</span>
+							</p>
+							<a href="{{ route('show-blog') }}">
+								<h5>Dummy Text</h5>
+							</a>
+							<a href="{{ route('show-blog') }}" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="column is-3">
+				<div class="card shadow-lg" data-aos="slide-up" data-aos-delay="300">
+					<div class="card-image">
+						<a href="{{ route('show-blog') }}">
+							<figure class="image">
+								<lazy-load
+								src="/front/images/spinner.svg"
+								lazy-src="/front/images/2.jpg"
+								lazy-srcset="/front/images/2.jpg"
+								background-color="transparent"
+								alt="title"
+								class="image-cover"
+								/>
+							</figure>
+						</a>
+					</div>
+					<div class="card-content">
+						<div class="content has-text-grey-light">
+							<p class="has-text-weight-bold">
+								<i class="fa-regular fa-calendar-days has-text-gold"></i>
+								<span class="is-size-6 has-text-gold">17 مايو 2023</span>
+							</p>
+							<a href="{{ route('show-blog') }}">
+								<h5>Dummy Text</h5>
+							</a>
 							<a href="{{ route('show-blog') }}" class="has-text-secondary has-text-left has-text-weight-bold">إقرأ المزيد  <i class="fa-regular fa-arrow-left has-text-gold mr-1"></i></a>
 						</div>
 					</div>
