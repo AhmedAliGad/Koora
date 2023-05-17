@@ -23,18 +23,18 @@ import 'aos/dist/aos.js';
 window.aos = require('aos');
 aos.init();
 
-//light gallery
-// require(['lightgallery'], function() {
-//     require(["lg-zoom", "lg-thumbnail", "lg-share"], function(){
-//         $("#lightgallery").lightGallery({
-//         	nextHtml:'<i class="fas fa-chevron-right"></i>',
-//         	prevHtml:'<i class="fas fa-chevron-left"></i>',
-//         	selector:'.product-page .lightselect',
-//         	subHtmlSelectorRelative: true,
-//         	showAfterLoad:true
-//         }); 
-//     });
-// });
+// //light gallery
+require(['lightgallery'], function() {
+    require(["lg-zoom", "lg-thumbnail", "lg-share"], function(){
+        $("#lightgallery").lightGallery({
+        	// nextHtml:'<i class="fas fa-chevron-right"></i>',
+        	// prevHtml:'<i class="fas fa-chevron-left"></i>',
+        	selector:'.gallery-page .lightselect',
+        	subHtmlSelectorRelative: true,
+        	showAfterLoad:true
+        }); 
+    });
+});
 
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests

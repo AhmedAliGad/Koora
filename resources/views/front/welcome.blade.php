@@ -404,7 +404,7 @@
 			</div>
 		</div>
 		<div class="mt-4" data-aos="zoom-in" data-aos-delay="300">
-			<a href="#" class="hvr-radial-out gradiant-btn button has-text-weight-bold">
+			<a href="{{ route('blog') }}" class="hvr-radial-out gradiant-btn button has-text-weight-bold">
 				المزيد من  الأخبار
 				<i class="fa-solid fa-circle-arrow-left has-text-light mr-2"></i>
 			</a>
@@ -1109,7 +1109,7 @@
 				<div class="p-5 column is-4">
 					<div data-aos="fade-up" data-aos-delay="300" class="card shadow-lg">
 						<div class="card-image radius-15">
-							<a href="#">
+							<a href="{{ route('show-gallery') }}">
 								<figure class="image radius-15">
 									<lazy-load
 									src="/front/images/spinner.svg"
@@ -1131,7 +1131,7 @@
 				<div class="p-5 column is-4">
 					<div data-aos="fade-up" data-aos-delay="300" class="card shadow-lg">
 						<div class="card-image radius-15">
-							<a href="#">
+							<a href="{{ route('show-gallery') }}">
 								<figure class="image radius-15">
 									<lazy-load
 									src="/front/images/spinner.svg"
@@ -1153,7 +1153,7 @@
 				<div class="p-5 column is-4">
 					<div data-aos="fade-up" data-aos-delay="300" class="card shadow-lg">
 						<div class="card-image radius-15">
-							<a href="#">
+							<a href="{{ route('show-gallery') }}">
 								<figure class="image radius-15">
 									<lazy-load
 									src="/front/images/spinner.svg"
@@ -1175,7 +1175,7 @@
 				<div class="p-5 column is-4">
 					<div data-aos="fade-up" data-aos-delay="300" class="card shadow-lg">
 						<div class="card-image radius-15">
-							<a href="#">
+							<a href="{{ route('show-gallery') }}">
 								<figure class="image radius-15">
 									<lazy-load
 									src="/front/images/spinner.svg"
@@ -1197,7 +1197,7 @@
 				<div class="p-5 column is-4">
 					<div data-aos="fade-up" data-aos-delay="300" class="card shadow-lg">
 						<div class="card-image radius-15">
-							<a href="#">
+							<a href="{{ route('show-gallery') }}">
 								<figure class="image radius-15">
 									<lazy-load
 									src="/front/images/spinner.svg"
@@ -1219,7 +1219,7 @@
 				<div class="p-5 column is-4">
 					<div data-aos="fade-up" data-aos-delay="300" class="card shadow-lg">
 						<div class="card-image radius-15">
-							<a href="#">
+							<a href="{{ route('show-gallery') }}">
 								<figure class="image radius-15">
 									<lazy-load
 									src="/front/images/spinner.svg"
@@ -1239,8 +1239,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="mt-4" data-aos="zoom-in" data-aos-delay="300">
-				<a href="#" class="hvr-radial-out light-btn button has-text-weight-bold">
+			<div class="mt-5" data-aos="zoom-in" data-aos-delay="300">
+				<a href="{{ route('gallery') }}" class="hvr-radial-out light-btn button has-text-weight-bold">
 					المزيد من  الصور
 					<i class="fa-solid fa-circle-arrow-left has-text-gold mr-2"></i>
 				</a>

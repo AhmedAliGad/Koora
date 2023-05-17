@@ -27,7 +27,7 @@
     <meta name="twitter:site" content="">
     <meta name="twitter:creator" content="">
     @yield('head.twitterTags')
-    <link rel="icon" type="image/png" href="/front/img/favicon.ico" />
+    <link rel="icon" type="image/png" href="/front/images/logo.png" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!--<meta name="locale" content="{{ config('app.locale') }}">-->

@@ -154,7 +154,7 @@ a.has-text-white:hover, a.has-text-white:focus{
 		height: 141px;
 		z-index: 100;
 		background-size: contain;
-		opacity: .1;
+		opacity: .2;
 		animation: slide_up_down 3s ease-in-out infinite alternate both;
 	}
 }
@@ -299,7 +299,7 @@ a.has-text-white:hover, a.has-text-white:focus{
 		height: 100px;
 		background-size: contain;
 		background-image: url('/front/images/champion.png');
-		opacity: .1;
+		opacity: .2;
 		transform: rotate(16deg);
 		/*animation: slide_up_down 2s ease-in-out infinite alternate both;*/
 

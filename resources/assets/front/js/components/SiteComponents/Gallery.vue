@@ -5,7 +5,7 @@
 				<div class="p-5 column is-4">
 					<div data-aos="fade-up" data-aos-delay="300" class="card shadow-lg">
 						<div class="card-image radius-15">
-							<a href="#">
+							<a href="gallery/show">
 								<figure class="image radius-15">
 									<lazy-load
 									src="/front/images/spinner.svg"
@@ -27,7 +27,7 @@
 				<div class="p-5 column is-4">
 					<div data-aos="fade-up" data-aos-delay="300" class="card shadow-lg">
 						<div class="card-image radius-15">
-							<a href="#">
+							<a href="gallery/show">
 								<figure class="image radius-15">
 									<lazy-load
 									src="/front/images/spinner.svg"
@@ -49,7 +49,7 @@
 				<div class="p-5 column is-4">
 					<div data-aos="fade-up" data-aos-delay="300" class="card shadow-lg">
 						<div class="card-image radius-15">
-							<a href="#">
+							<a href="gallery/show">
 								<figure class="image radius-15">
 									<lazy-load
 									src="/front/images/spinner.svg"
@@ -71,7 +71,7 @@
 				<div class="p-5 column is-4">
 					<div data-aos="fade-up" data-aos-delay="300" class="card shadow-lg">
 						<div class="card-image radius-15">
-							<a href="#">
+							<a href="gallery/show">
 								<figure class="image radius-15">
 									<lazy-load
 									src="/front/images/spinner.svg"
@@ -93,7 +93,7 @@
 				<div class="p-5 column is-4">
 					<div data-aos="fade-up" data-aos-delay="300" class="card shadow-lg">
 						<div class="card-image radius-15">
-							<a href="#">
+							<a href="gallery/show">
 								<figure class="image radius-15">
 									<lazy-load
 									src="/front/images/spinner.svg"
@@ -115,7 +115,7 @@
 				<div class="p-5 column is-4">
 					<div data-aos="fade-up" data-aos-delay="300" class="card shadow-lg">
 						<div class="card-image radius-15">
-							<a href="#">
+							<a href="gallery/show">
 								<figure class="image radius-15">
 									<lazy-load
 									src="/front/images/spinner.svg"

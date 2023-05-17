@@ -1,7 +1,3 @@
-$( document ).ready(function() {
-     
-
-});
 window.onscroll = function() {myFunction()};
 
 function myFunction() {
@@ -34,11 +30,5 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     });
   };
-  // setTimeout(function(){ 
-  //   $("#myloader").removeClass('is-active');
-  //   $("body").removeClass('loading-body');
-  // }, 1000);
 
-
-  // $('.with-placeholder option:first').attr('disabled', 'disabled');
 });

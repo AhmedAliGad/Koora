@@ -43,8 +43,8 @@ Route::get('/gallery', function () {
     return view('front/gallery/index');
 })->name('gallery');
 
-Route::get('/gallery/view', function () {
-    return view('front/gallery/view');
+Route::get('/gallery/show', function () {
+    return view('front/gallery/show');
 })->name('show-gallery');
 // Route::view('/', 'welcome');
 Route::redirect('/home', '/dashboard');
