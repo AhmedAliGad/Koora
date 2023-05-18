@@ -27901,6 +27901,9 @@ a.has-text-white:hover, a.has-text-white:focus {
   direction: ltr;
 }
 
+.gallery-nav {
+  padding-right: 10px;
+}
 .gallery-nav .slick-slide {
   padding: 3px;
   border: 1px solid transparent;
