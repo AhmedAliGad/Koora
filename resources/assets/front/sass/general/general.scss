@@ -24,6 +24,8 @@ body{
 	direction: rtl;
 	text-align: right;
 	font-family: 'Cairo', sans-serif;
+	overflow-x: hidden;
+	max-width: 100%;
 }
 a{
 	&:focus{
