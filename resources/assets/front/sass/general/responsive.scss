@@ -84,6 +84,7 @@
 			ul{
 				background-color: #FFF;
 				border-radius: 0 0 10px 10px;
+				overflow-y: scroll;
 			}
 		}
 		.mt-78{
@@ -104,25 +105,54 @@
 		.media-section::after{
 			right: 0;
 		}
+		.height-80vh{
+			height: 50vh;
+		}
+		.media-section .card .card-image .image{
+			padding-top:65%;
+		}
+		.gallery .card .card-image .image{
+			padding-top: 65%;
+		}
+		.navbar .dropdown_menu .dropdown_body{
+			position: relative;
+			opacity: 1;
+			box-shadow: none;
+		}
 	}
 	@media (max-width: 640px) {
 
 	}
 	@media screen and (max-width: 520px){
-
+		.media-section .card .card-image .image{
+			padding-top:55%;
+		}
 	}
 	@media (max-width: 480px) {
 
 
 	}
 	@media (max-width: 420px){
-
+		.vue-bulma-tabs .tab-content .tab-pane{
+			padding:1rem;
+		}
+		.navbar .navbar-burger{
+			left: -20px;
+		}
+		.tabs ul li a{
+			padding:0.5em 2em;
+		}
+		.media-section .tab-content .show_all{
+			top: -34px;
+		}
 	}
 	@media (max-width: 414px){
 
 	}
 	@media (max-width: 375px){
-
+		.tabs ul li a{
+			padding:0.5em 1em;
+		}
 	}
 	@media (max-width: 360px){
 

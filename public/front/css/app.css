@@ -27208,7 +27208,11 @@ p, .description {
 }
 
 .has-opacity {
-  opacity: 0.4;
+  opacity: 0.7;
+}
+
+.z-index {
+  z-index: 1;
 }
 
 /*------layouts-----------*/
@@ -27847,49 +27851,6 @@ a.has-text-white:hover, a.has-text-white:focus {
 }
 
 /*---------gallery page---------*/
-.lg-outer .lg-inner {
-  direction: ltr;
-}
-
-.gallery-page #lightgallery .gallery-item {
-  float: right;
-  height: 250px;
-}
-.gallery-page #lightgallery .gallery-item:hover > a .image img {
-  opacity: 1;
-  transition: 0.4s ease-in-out;
-  border: 5px solid #c91a12;
-}
-.gallery-page #lightgallery .gallery-item a {
-  padding: 0.3rem;
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-.gallery-page #lightgallery .gallery-item a figure {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-.gallery-page #lightgallery .gallery-item a figure img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  display: block;
-  border-radius: 15px;
-  opacity: 0.8;
-  transition: 0.4s ease-in-out;
-}
-
-.card #lightgallery .gallery-item:nth-child(1n), .card #lightgallery .gallery-item:nth-child(2n) {
-  width: 50%;
-}
-
-.card #lightgallery .gallery-item:nth-child(6n), .card #lightgallery .gallery-item:nth-child(5n), .card #lightgallery .gallery-item:nth-child(3n), .card #lightgallery .gallery-item:nth-child(4n) {
-  width: 25%;
-}
-
 .show-icon {
   position: absolute;
   top: 43%;
@@ -27898,10 +27859,6 @@ a.has-text-white:hover, a.has-text-white:focus {
   right: 0;
   left: 0;
   margin: auto;
-}
-
-.lg-outer .lg-thumb-outer {
-  direction: ltr;
 }
 
 .gallery-nav {
@@ -28034,6 +27991,7 @@ a.has-text-white:hover, a.has-text-white:focus {
   .navbar-menu ul {
     background-color: #FFF;
     border-radius: 0 0 10px 10px;
+    overflow-y: scroll;
   }
   .mt-78 {
     margin-top: 65px;
@@ -28052,5 +28010,43 @@ a.has-text-white:hover, a.has-text-white:focus {
   }
   .media-section::after {
     right: 0;
+  }
+  .height-80vh {
+    height: 50vh;
+  }
+  .media-section .card .card-image .image {
+    padding-top: 65%;
+  }
+  .gallery .card .card-image .image {
+    padding-top: 65%;
+  }
+  .navbar .dropdown_menu .dropdown_body {
+    position: relative;
+    opacity: 1;
+    box-shadow: none;
+  }
+}
+@media screen and (max-width: 520px) {
+  .media-section .card .card-image .image {
+    padding-top: 55%;
+  }
+}
+@media (max-width: 420px) {
+  .vue-bulma-tabs .tab-content .tab-pane {
+    padding: 1rem;
+  }
+  .navbar .navbar-burger {
+    left: -20px;
+  }
+  .tabs ul li a {
+    padding: 0.5em 2em;
+  }
+  .media-section .tab-content .show_all {
+    top: -34px;
+  }
+}
+@media (max-width: 375px) {
+  .tabs ul li a {
+    padding: 0.5em 1em;
   }
 }

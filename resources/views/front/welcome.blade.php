@@ -199,17 +199,13 @@
 								class="image-cover"
 								/>
 							</figure>
-							{{-- <p class="p-2 px-3 has-background-primary has-text-white is-absolute is-tr-1 is-rounded has-opacity">
+							<p class="p-1 px-2 has-background-primary has-text-white is-absolute is-tr-1 is-rounded has-opacity has-text-weight-bold">
 								<span class="is-size-6 position-relative">17 مايو 2023</span>
-							</p> --}}
+							</p>
 						</a>
 					</div>
 					<div class="card-content">
 						<div class="content has-text-grey-light">
-							<p class="has-text-weight-bold">
-								<i class="fa-regular fa-calendar-days has-text-gold"></i>
-								<span class="is-size-6 has-text-gold">17 مايو 2023</span>
-							</p>
 							<a href="{{ route('show-blog') }}">
 								<h5>هنا يكتب عنوان الخبر  نا يكتب عنوان الخبر نا يكتب عنوان الخبر </h5>
 							</a>
@@ -233,14 +229,13 @@
 								class="image-cover"
 								/>
 							</figure>
+							<p class="p-1 px-2 has-background-primary has-text-white is-absolute is-tr-1 is-rounded has-opacity has-text-weight-bold">
+								<span class="is-size-6 position-relative">17 مايو 2023</span>
+							</p>
 						</a>
 					</div>
 					<div class="card-content">
 						<div class="content has-text-grey-light">
-							<p class="has-text-weight-bold">
-								<i class="fa-regular fa-calendar-days has-text-gold"></i>
-								<span class="is-size-6 has-text-gold">17 مايو 2023</span>
-							</p>
 							<a href="{{ route('show-blog') }}">
 								<h5>هنا يكتب عنوان الخبر  نا يكتب عنوان الخبر نا يكتب عنوان الخبر </h5>
 							</a>
@@ -263,14 +258,14 @@
 								class="image-cover"
 								/>
 							</figure>
+							<p class="p-1 px-2 has-background-primary has-text-white is-absolute is-tr-1 is-rounded has-opacity has-text-weight-bold">
+								<span class="is-size-6 position-relative">17 مايو 2023</span>
+							</p>
+
 						</a>
 					</div>
 					<div class="card-content">
 						<div class="content has-text-grey-light">
-							<p class="has-text-weight-bold">
-								<i class="fa-regular fa-calendar-days has-text-gold"></i>
-								<span class="is-size-6 has-text-gold">17 مايو 2023</span>
-							</p>
 							<a href="{{ route('show-blog') }}">
 								<h5>هنا يكتب عنوان الخبر  نا يكتب عنوان الخبر نا يكتب عنوان الخبر </h5>
 							</a>
@@ -293,14 +288,14 @@
 								class="image-cover"
 								/>
 							</figure>
+							<p class="p-1 px-2 has-background-primary has-text-white is-absolute is-tr-1 is-rounded has-opacity has-text-weight-bold">
+								<span class="is-size-6 position-relative">17 مايو 2023</span>
+							</p>
+
 						</a>
 					</div>
 					<div class="card-content">
 						<div class="content has-text-grey-light">
-							<p class="has-text-weight-bold">
-								<i class="fa-regular fa-calendar-days has-text-gold"></i>
-								<span class="is-size-6 has-text-gold">17 مايو 2023</span>
-							</p>
 							<a href="{{ route('show-blog') }}">
 								<h5>هنا يكتب عنوان الخبر  نا يكتب عنوان الخبر نا يكتب عنوان الخبر </h5>
 							</a>
@@ -323,14 +318,14 @@
 								class="image-cover"
 								/>
 							</figure>
+							<p class="p-1 px-2 has-background-primary has-text-white is-absolute is-tr-1 is-rounded has-opacity has-text-weight-bold">
+								<span class="is-size-6 position-relative">17 مايو 2023</span>
+							</p>
+
 						</a>
 					</div>
 					<div class="card-content">
 						<div class="content has-text-grey-light">
-							<p class="has-text-weight-bold">
-								<i class="fa-regular fa-calendar-days has-text-gold"></i>
-								<span class="is-size-6 has-text-gold">17 مايو 2023</span>
-							</p>
 							<a href="{{ route('show-blog') }}">
 								<h5>هنا يكتب عنوان الخبر  نا يكتب عنوان الخبر نا يكتب عنوان الخبر </h5>
 							</a>
@@ -353,14 +348,14 @@
 								class="image-cover"
 								/>
 							</figure>
+							<p class="p-1 px-2 has-background-primary has-text-white is-absolute is-tr-1 is-rounded has-opacity has-text-weight-bold">
+								<span class="is-size-6 position-relative">17 مايو 2023</span>
+							</p>
+
 						</a>
 					</div>
 					<div class="card-content">
 						<div class="content has-text-grey-light">
-							<p class="has-text-weight-bold">
-								<i class="fa-regular fa-calendar-days has-text-gold"></i>
-								<span class="is-size-6 has-text-gold">17 مايو 2023</span>
-							</p>
 							<a href="{{ route('show-blog') }}">
 								<h5>Dummy Text</h5>
 							</a>
@@ -383,14 +378,14 @@
 								class="image-cover"
 								/>
 							</figure>
+							<p class="p-1 px-2 has-background-primary has-text-white is-absolute is-tr-1 is-rounded has-opacity has-text-weight-bold">
+								<span class="is-size-6 position-relative">17 مايو 2023</span>
+							</p>
+
 						</a>
 					</div>
 					<div class="card-content">
 						<div class="content has-text-grey-light">
-							<p class="has-text-weight-bold">
-								<i class="fa-regular fa-calendar-days has-text-gold"></i>
-								<span class="is-size-6 has-text-gold">17 مايو 2023</span>
-							</p>
 							<a href="{{ route('show-blog') }}">
 								<h5>Dummy Text</h5>
 							</a>
@@ -413,14 +408,14 @@
 								class="image-cover"
 								/>
 							</figure>
+							<p class="p-1 px-2 has-background-primary has-text-white is-absolute is-tr-1 is-rounded has-opacity has-text-weight-bold">
+								<span class="is-size-6 position-relative">17 مايو 2023</span>
+							</p>
+
 						</a>
 					</div>
 					<div class="card-content">
 						<div class="content has-text-grey-light">
-							<p class="has-text-weight-bold">
-								<i class="fa-regular fa-calendar-days has-text-gold"></i>
-								<span class="is-size-6 has-text-gold">17 مايو 2023</span>
-							</p>
 							<a href="{{ route('show-blog') }}">
 								<h5>Dummy Text</h5>
 							</a>

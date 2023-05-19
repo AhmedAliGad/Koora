@@ -39,59 +39,83 @@
 
 
 			}">
-			<div class="item box-shadow radius-15">
+			<div class="item box-shadow radius-15 position-relative">
 				<figure class="w-100 full-height image position-relative">
 					<img src="/front/images/1.jpg" class="box-shadow radius-15" ss="image-cover radius-15"alt="">
 				</figure>
+				<p dir="rtl" class="z-index p-1 px-2 has-background-primary has-text-white is-absolute is-tr-1 is-rounded has-opacity has-text-weight-bold">
+					<span class="is-size-6 position-relative">17 مايو 2023</span>
+				</p>
 
 			</div>
-			<div class="item box-shadow radius-15">
+			<div class="item box-shadow radius-15 position-relative">
 
 				<figure class="box-shadow radius-15 w-100 full-height image position-relative">
 					<img src="/front/images/2.jpg" class="image-cover radius-15"alt="">
 				</figure>
+				<p dir="rtl" class="z-index p-1 px-2 has-background-primary has-text-white is-absolute is-tr-1 is-rounded has-opacity has-text-weight-bold">
+					<span class="is-size-6 position-relative">17 مايو 2023</span>
+				</p>
 
 			</div>
-			<div class="item box-shadow radius-15">
+			<div class="item box-shadow radius-15 position-relative">
 
 				<figure class="box-shadow radius-15 w-100 full-height image position-relative">
 					<img src="/front/images/1.jpg" class="image-cover radius-15"alt="">
 				</figure>
+				<p dir="rtl" class="z-index p-1 px-2 has-background-primary has-text-white is-absolute is-tr-1 is-rounded has-opacity has-text-weight-bold">
+					<span class="is-size-6 position-relative">17 مايو 2023</span>
+				</p>
 
 			</div>
-			<div class="item box-shadow radius-15">
+			<div class="item box-shadow radius-15 position-relative">
 
 				<figure class="box-shadow radius-15 w-100 full-height image position-relative">
 					<img src="/front/images/2.jpg" class="image-cover radius-15"alt="">
 				</figure>
+				<p dir="rtl" class="z-index p-1 px-2 has-background-primary has-text-white is-absolute is-tr-1 is-rounded has-opacity has-text-weight-bold">
+					<span class="is-size-6 position-relative">17 مايو 2023</span>
+				</p>
 
 			</div>
-			<div class="item box-shadow radius-15">
+			<div class="item box-shadow radius-15 position-relative">
 
 				<figure class="box-shadow radius-15 w-100 full-height image position-relative">
 					<img src="/front/images/1.jpg" class="image-cover radius-15"alt="">
 				</figure>
+				<p dir="rtl" class="z-index p-1 px-2 has-background-primary has-text-white is-absolute is-tr-1 is-rounded has-opacity has-text-weight-bold">
+					<span class="is-size-6 position-relative">17 مايو 2023</span>
+				</p>
 
 			</div>
-			<div class="item box-shadow radius-15">
+			<div class="item box-shadow radius-15 position-relative">
 
 				<figure class="box-shadow radius-15 w-100 full-height image position-relative">
 					<img src="/front/images/2.jpg" class="image-cover radius-15"alt="">
 				</figure>
+				<p dir="rtl" class="z-index p-1 px-2 has-background-primary has-text-white is-absolute is-tr-1 is-rounded has-opacity has-text-weight-bold">
+					<span class="is-size-6 position-relative">17 مايو 2023</span>
+				</p>
 
 			</div>
-			<div class="item box-shadow radius-15">
+			<div class="item box-shadow radius-15 position-relative">
 
 				<figure class="box-shadow radius-15 w-100 full-height image position-relative">
 					<img src="/front/images/1.jpg" class="image-cover radius-15"alt="">
 				</figure>
+				<p dir="rtl" class="z-index p-1 px-2 has-background-primary has-text-white is-absolute is-tr-1 is-rounded has-opacity has-text-weight-bold">
+					<span class="is-size-6 position-relative">17 مايو 2023</span>
+				</p>
 
 			</div>
-			<div class="item box-shadow radius-15">
+			<div class="item box-shadow radius-15 position-relative">
 
 				<figure class="box-shadow radius-15 w-100 full-height image position-relative">
 					<img src="/front/images/2.jpg" class="image-cover radius-15"alt="">
 				</figure>
+				<p dir="rtl" class="z-index p-1 px-2 has-background-primary has-text-white is-absolute is-tr-1 is-rounded has-opacity has-text-weight-bold">
+					<span class="is-size-6 position-relative">17 مايو 2023</span>
+				</p>
 
 			</div>
 		</slick>
@@ -104,267 +128,60 @@
 			settings: {
 			slidesToShow: 3
 		}
-	},
-	{
-		breakpoint: 375,
-		settings: {
-		slidesToShow: 2
-	}
-},
-]
-}">
-<div class="item box-shadow radius-15">
-	<figure class="w-100 full-height image position-relative">
-		<img src="/front/images/1.jpg" class="box-shadow radius-15" ss="image-cover radius-15"alt="">
-	</figure>
+				},
+				{
+					breakpoint: 375,
+					settings: {
+					slidesToShow: 2
+				}
+			},
+			]
+			}">
+			<div class="item box-shadow radius-15">
+				<figure class="w-100 full-height image position-relative">
+					<img src="/front/images/1.jpg" class="box-shadow radius-15" ss="image-cover radius-15"alt="">
+				</figure>
+			</div>
+			<div class="item box-shadow radius-15">
+				
+				<figure class="box-shadow radius-15 w-100 full-height image position-relative">
+					<img src="/front/images/2.jpg" class="image-cover radius-15"alt="">
+				</figure>
+
+			</div>
+			<div class="item box-shadow radius-15">
+				<figure class="box-shadow radius-15 w-100 full-height image position-relative">
+					<img src="/front/images/1.jpg" class="image-cover radius-15"alt="">
+				</figure>
+			</div>
+			<div class="item box-shadow radius-15">
+				<figure class="box-shadow radius-15 w-100 full-height image position-relative">
+					<img src="/front/images/2.jpg" class="image-cover radius-15"alt="">
+				</figure>
+			</div>
+			<div class="item box-shadow radius-15">
+				<figure class="box-shadow radius-15 w-100 full-height image position-relative">
+					<img src="/front/images/1.jpg" class="image-cover radius-15"alt="">
+				</figure>
+			</div>
+			<div class="item box-shadow radius-15">
+				<figure class="box-shadow radius-15 w-100 full-height image position-relative">
+					<img src="/front/images/2.jpg" class="image-cover radius-15"alt="">
+				</figure>
+			</div>
+			<div class="item box-shadow radius-15">
+				<figure class="box-shadow radius-15 w-100 full-height image position-relative">
+					<img src="/front/images/1.jpg" class="image-cover radius-15"alt="">
+				</figure>
+			</div>
+			<div class="item box-shadow radius-15">
+				<figure class="box-shadow radius-15 w-100 full-height image position-relative">
+					<img src="/front/images/2.jpg" class="image-cover radius-15"alt="">
+				</figure>
+			</div>
+		</slick>
+	</div>
 </div>
-<div class="item box-shadow radius-15">
-	
-	<figure class="box-shadow radius-15 w-100 full-height image position-relative">
-		<img src="/front/images/2.jpg" class="image-cover radius-15"alt="">
-	</figure>
-
-</div>
-<div class="item box-shadow radius-15">
-	<figure class="box-shadow radius-15 w-100 full-height image position-relative">
-		<img src="/front/images/1.jpg" class="image-cover radius-15"alt="">
-	</figure>
-</div>
-<div class="item box-shadow radius-15">
-	<figure class="box-shadow radius-15 w-100 full-height image position-relative">
-		<img src="/front/images/2.jpg" class="image-cover radius-15"alt="">
-	</figure>
-</div>
-<div class="item box-shadow radius-15">
-	<figure class="box-shadow radius-15 w-100 full-height image position-relative">
-		<img src="/front/images/1.jpg" class="image-cover radius-15"alt="">
-	</figure>
-</div>
-<div class="item box-shadow radius-15">
-	<figure class="box-shadow radius-15 w-100 full-height image position-relative">
-		<img src="/front/images/2.jpg" class="image-cover radius-15"alt="">
-	</figure>
-</div>
-<div class="item box-shadow radius-15">
-	<figure class="box-shadow radius-15 w-100 full-height image position-relative">
-		<img src="/front/images/1.jpg" class="image-cover radius-15"alt="">
-	</figure>
-</div>
-<div class="item box-shadow radius-15">
-	<figure class="box-shadow radius-15 w-100 full-height image position-relative">
-		<img src="/front/images/2.jpg" class="image-cover radius-15"alt="">
-	</figure>
-</div>
-</slick>
-</div>
-</div>
-
-			{{-- <div dir="ltr" id="lightgallery">
-				<div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
-					<a href="/front/images/1.jpg" class="lightselect" data-sub-html=".caption">
-						<figure class="image">
-							<img src="/front/images/1.jpg" class="image-cover"alt="">
-						</figure>
-						<div class="caption" style="display: none;">
-							<h4>عنوان معرض الصور</h4>
-
-						</div>
-						<i class="fa-solid show-icon fa-eye fa-beat text-light"></i>
-					</a>
-				</div>
-				<div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
-					<a href="/front/images/img4.jpeg" class="lightselect" data-sub-html=".caption">
-						<figure class="image">
-							<img src="/front/images/img1.jpeg" alt="" class="image-cover">
-						</figure>
-						<div class="caption" style="display: none;">
-							<h4>عنوان معرض الصور</h4>
-
-						</div>
-						<i class="fa-solid show-icon fa-eye fa-beat text-light"></i>
-					</a>
-				</div>
-				<div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
-					<a href="/front/images/img2.jpeg" class="lightselect" data-sub-html=".caption">
-						<figure class="image">
-							<img src="/front/images/img2.jpeg" class="image-cover"alt="">
-						</figure>
-						<div class="caption" style="display: none;">
-							<h4>عنوان معرض الصور</h4>
-
-						</div>
-						<i class="fa-solid show-icon fa-eye fa-beat text-light"></i>
-					</a>
-				</div>
-				<div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
-					<a href="/front/images/img4.jpeg" class="lightselect" data-sub-html=".caption">
-						<figure class="image">
-							<img src="/front/images/img1.jpeg" alt="" class="image-cover">
-						</figure>
-						<div class="caption" style="display: none;">
-							<h4>عنوان معرض الصور</h4>
-
-						</div>
-						<i class="fa-solid show-icon fa-eye fa-beat text-light"></i>
-					</a>
-				</div>
-				<div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
-					<a href="/front/images/img2.jpeg" class="lightselect" data-sub-html=".caption">
-						<figure class="image">
-							<img src="/front/images/img2.jpeg" class="image-cover"alt="">
-						</figure>
-						<div class="caption" style="display: none;">
-							<h4>عنوان معرض الصور</h4>
-
-						</div>
-						<i class="fa-solid show-icon fa-eye fa-beat text-light"></i>
-					</a>
-				</div>
-				<div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
-					<a href="/front/images/img4.jpeg" class="lightselect" data-sub-html=".caption">
-						<figure class="image">
-							<img src="/front/images/img1.jpeg" alt="" class="image-cover">
-						</figure>
-						<div class="caption" style="display: none;">
-							<h4>عنوان معرض الصور</h4>
-
-						</div>
-						<i class="fa-solid show-icon fa-eye fa-beat text-light"></i>
-					</a>
-				</div>
-				<div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
-					<a href="/front/images/1.jpg" class="lightselect" data-sub-html=".caption">
-						<figure class="image">
-							<img src="/front/images/1.jpg" class="image-cover"alt="">
-						</figure>
-						<div class="caption" style="display: none;">
-							<h4>عنوان معرض الصور</h4>
-
-						</div>
-						<i class="fa-solid show-icon fa-eye fa-beat text-light"></i>
-					</a>
-				</div>
-				<div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
-					<a href="/front/images/img4.jpeg" class="lightselect" data-sub-html=".caption">
-						<figure class="image">
-							<img src="/front/images/img1.jpeg" alt="" class="image-cover">
-						</figure>
-						<div class="caption" style="display: none;">
-							<h4>عنوان معرض الصور</h4>
-
-						</div>
-						<i class="fa-solid show-icon fa-eye fa-beat text-light"></i>
-					</a>
-				</div>
-				<div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
-					<a href="/front/images/img2.jpeg" class="lightselect" data-sub-html=".caption">
-						<figure class="image">
-							<img src="/front/images/img2.jpeg" class="image-cover"alt="">
-						</figure>
-						<div class="caption" style="display: none;">
-							<h4>عنوان معرض الصور</h4>
-
-						</div>
-						<i class="fa-solid show-icon fa-eye fa-beat text-light"></i>
-					</a>
-				</div>
-				<div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
-					<a href="/front/images/img4.jpeg" class="lightselect" data-sub-html=".caption">
-						<figure class="image">
-							<img src="/front/images/img1.jpeg" alt="" class="image-cover">
-						</figure>
-						<div class="caption" style="display: none;">
-							<h4>عنوان معرض الصور</h4>
-
-						</div>
-						<i class="fa-solid show-icon fa-eye fa-beat text-light"></i>
-					</a>
-				</div>
-				<div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
-					<a href="/front/images/img2.jpeg" class="lightselect" data-sub-html=".caption">
-						<figure class="image">
-							<img src="/front/images/img2.jpeg" class="image-cover"alt="">
-						</figure>
-						<div class="caption" style="display: none;">
-							<h4>عنوان معرض الصور</h4>
-
-						</div>
-						<i class="fa-solid show-icon fa-eye fa-beat text-light"></i>
-					</a>
-				</div>
-				<div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
-					<a href="/front/images/img3.jpeg" class="lightselect" data-sub-html=".caption">
-						<figure class="image">
-							<img src="/front/images/img3.jpeg" class="image-cover"alt="">
-						</figure>
-						<div class="caption" style="display: none;">
-							<h4>عنوان معرض الصور</h4>
-
-						</div>
-						<i class="fa-solid show-icon fa-eye fa-beat text-light"></i>
-					</a>
-				</div>
-				<div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
-					<a href="/front/images/img4.jpeg" class="lightselect" data-sub-html=".caption">
-						<figure class="image">
-							<img src="/front/images/img1.jpeg" alt="" class="image-cover">
-						</figure>
-						<div class="caption" style="display: none;">
-							<h4>عنوان معرض الصور</h4>
-
-						</div>
-						<i class="fa-solid show-icon fa-eye fa-beat text-light"></i>
-					</a>
-				</div>
-				<div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
-					<a href="/front/images/1.jpg" class="lightselect" data-sub-html=".caption">
-						<figure class="image">
-							<img src="/front/images/1.jpg" class="image-cover"alt="">
-						</figure>
-						<div class="caption" style="display: none;">
-							<h4>عنوان معرض الصور</h4>
-
-						</div>
-						<i class="fa-solid show-icon fa-eye fa-beat text-light"></i>
-					</a>
-				</div>
-				<div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
-					<a href="/front/images/img4.jpeg" class="lightselect" data-sub-html=".caption">
-						<figure class="image">
-							<img src="/front/images/img1.jpeg" alt="" class="image-cover">
-						</figure>
-						<div class="caption" style="display: none;">
-							<h4>عنوان معرض الصور</h4>
-
-						</div>
-						<i class="fa-solid show-icon fa-eye fa-beat text-light"></i>
-					</a>
-				</div>
-				<div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
-					<a href="/front/images/1.jpg" class="lightselect" data-sub-html=".caption">
-						<figure class="image">
-							<img src="/front/images/1.jpg" class="image-cover"alt="">
-						</figure>
-						<div class="caption" style="display: none;">
-							<h4>عنوان معرض الصور</h4>
-
-						</div>
-						<i class="fa-solid show-icon fa-eye fa-beat text-light"></i>
-					</a>
-				</div>
-				<div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
-					<a href="/front/images/img4.jpeg" class="lightselect" data-sub-html=".caption">
-						<figure class="image">
-							<img src="/front/images/img1.jpeg" alt="" class="image-cover">
-						</figure>
-						<div class="caption" style="display: none;">
-							<h4>عنوان معرض الصور</h4>
-
-						</div>
-						<i class="fa-solid show-icon fa-eye fa-beat text-light"></i>
-					</a>
-				</div>
-			</div> --}}
 		</div>
 	</div>
 </section>

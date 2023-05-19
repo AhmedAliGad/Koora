@@ -16,6 +16,9 @@
 									class="image-cover"
 									/>
 								</figure>
+								<p class="p-1 px-2 has-background-primary has-text-white is-absolute is-tr-1 is-rounded has-opacity has-text-weight-bold">
+								<span class="is-size-6 position-relative">17 مايو 2023</span>
+							</p>
 							</a>
 						</div>
 						<div class="card-content">
@@ -43,6 +46,9 @@
 									class="image-cover"
 									/>
 								</figure>
+								<p class="p-1 px-2 has-background-primary has-text-white is-absolute is-tr-1 is-rounded has-opacity has-text-weight-bold">
+								<span class="is-size-6 position-relative">17 مايو 2023</span>
+							</p>
 							</a>
 						</div>
 						<div class="card-content">
@@ -70,6 +76,9 @@
 									class="image-cover"
 									/>
 								</figure>
+								<p class="p-1 px-2 has-background-primary has-text-white is-absolute is-tr-1 is-rounded has-opacity has-text-weight-bold">
+								<span class="is-size-6 position-relative">17 مايو 2023</span>
+							</p>
 							</a>
 						</div>
 						<div class="card-content">
@@ -97,6 +106,9 @@
 									class="image-cover"
 									/>
 								</figure>
+								<p class="p-1 px-2 has-background-primary has-text-white is-absolute is-tr-1 is-rounded has-opacity has-text-weight-bold">
+								<span class="is-size-6 position-relative">17 مايو 2023</span>
+							</p>
 							</a>
 						</div>
 						<div class="card-content">
@@ -123,7 +135,10 @@
 									alt="title"
 									class="image-cover"
 									/>										
-								</figure>						
+								</figure>
+								<p class="p-1 px-2 has-background-primary has-text-white is-absolute is-tr-1 is-rounded has-opacity has-text-weight-bold">
+								<span class="is-size-6 position-relative">17 مايو 2023</span>
+							</p>						
 							</a>
 						</div>
 						<div class="card-content">
@@ -151,6 +166,9 @@
 									class="image-cover"
 									/>
 								</figure>
+								<p class="p-1 px-2 has-background-primary has-text-white is-absolute is-tr-1 is-rounded has-opacity has-text-weight-bold">
+								<span class="is-size-6 position-relative">17 مايو 2023</span>
+							</p>
 							</a>
 						</div>
 						<div class="card-content">
@@ -178,6 +196,9 @@
 									class="image-cover"
 									/>
 								</figure>
+								<p class="p-1 px-2 has-background-primary has-text-white is-absolute is-tr-1 is-rounded has-opacity has-text-weight-bold">
+								<span class="is-size-6 position-relative">17 مايو 2023</span>
+							</p>
 							</a>
 						</div>
 						<div class="card-content">
@@ -205,6 +226,9 @@
 									class="image-cover"
 									/>
 								</figure>
+								<p class="p-1 px-2 has-background-primary has-text-white is-absolute is-tr-1 is-rounded has-opacity has-text-weight-bold">
+								<span class="is-size-6 position-relative">17 مايو 2023</span>
+							</p>
 							</a>
 						</div>
 						<div class="card-content">

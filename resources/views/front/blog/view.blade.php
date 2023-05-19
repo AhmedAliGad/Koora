@@ -43,6 +43,9 @@
 					class="" 
 					/>
 				</figure>
+				<p class="z-index p-1 px-2 has-background-primary has-text-white is-absolute is-tr-1 is-rounded has-opacity has-text-weight-bold">
+					<span class="is-size-6 position-relative">17 مايو 2023</span>
+				</p>
 			</div>
 			<div class="description has-text-primary mt-5 has-text-justified">
 				<p>نجح فريق سيدات سلة الأهلى في تحقيق العلامة الكاملة في البطولات التي تم خوضها خلال الموسم، حيث لم يخسر أى مباراة فى أى بطولة، بجانب التتويج بكل الألقاب ببطولات السيدات.

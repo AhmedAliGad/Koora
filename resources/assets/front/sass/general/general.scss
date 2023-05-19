@@ -481,5 +481,8 @@ table td:not([align]), table th:not([align]){
  	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(47,46,44,1) 36%);
  }
  .has-opacity{
-	opacity:.4;
+	opacity:.7;
+}
+.z-index{
+	z-index: 1;
 }
